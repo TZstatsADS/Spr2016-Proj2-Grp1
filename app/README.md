@@ -1,5 +1,5 @@
-# Project: 
-### Output folder
+# Project: NYC Open Data
+### App folder
 
-The output directory contains analysis output, processed datasets, logs, or other processed things.
+The App directory contains the app files for the Shiny App (i.e., ui.r and server.r).
 

@@ -13,7 +13,7 @@ shinyServer(function(input,output){
                 leaflet() %>%
                   addTiles(urlTemplate = "http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png") %>%  # Add default OpenStreetMap map tiles
                   addMarkers(lng=-73.985428, lat=40.748817, popup="The Starting Point")%>% 
-                  addMarkers(data = points())
+                  #addMarkers(data = points())
                 
                   
                 

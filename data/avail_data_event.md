@@ -1,6 +1,6 @@
 #Travel Data of NYC<br/>
 
-| Tables        | Source        | Ext.  |Dimension   |#of Observations|
+| Tables        | Source        | Ext.  |Dimension   |#of Obs|
 | ------------- |:-------------:| :-----:|:-----:|:---:|
 | Natural Preserves| [NYCOD](http://www.nyc.gov/html/dpr/nycbigapps/DPR_naturepreserves_001.csv) |csv|`Name`,`Borough`,`Directions`,`Description`,`Type`|51|
 | Museums and Galleries| [NYCOD](https://data.cityofnewyork.us/Recreation/Museums-and-galleries/kcrm-j9hh)|xml|`Name`,`Phone&Address`,`Closing`,`Special` |46|

@@ -1,8 +1,9 @@
 library(rgeos)
 library(sp)
 library(rgdal)
-library(dplyr)
 
+# Download nynta.zip from http://www.nyc.gov/html/dcp/html/bytes/dwn_nynta.shtml
+#and NYPD_7_Major_Felony_Incidents.csv from  https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incidents/hyij-8hr7
 
 # Shapefile Input and Coordinate Transformation
 sodo1 <- readOGR("nynta.shp",layer = "nynta", verbose = FALSE)
@@ -10,7 +11,7 @@ sodo <- spTransform(sodo1, CRS("+proj=longlat +ellps=GRS80"))
 
 # Crime Data Cleaning
 crime <- read.csv("NYPD_7_Major_Felony_Incidents.csv")
-crime=crime[1:300,]
+#crime=crime[1:300,]
 crime$aaa <-  crime$Location.1
 
 as.numeric(crime$Location.1)
@@ -38,6 +39,7 @@ for(i in 1:length(b)){
 crime$lat <- lat
 crime$lng <- lng
 
+#inspection on overlapppig
 dat <- data.frame(Longitude = -crime$lng,
                   Latitude =crime$lat)
 
@@ -46,16 +48,11 @@ coordinates(dat) <- ~ Longitude + Latitude
 proj4string(dat) <- proj4string(sodo)
 
 res=over(dat, sodo)
-#  STATE COUNTY    CITY                NAME REGIONID
-#1    WA   King Seattle Industrial District   271892
-#2  <NA>   <NA>    <NA>                <NA>       NA
-#3  <NA>   <NA>    <NA>                <NA>       NA
 
-#over(sodo, dat)
-#           names
-#122 Safeco Field
+#plot
 plot(sodo)
 points(dat$Latitude ~ dat$Longitude, col = "red", cex = 1)
 
 #count
 num_crime_neighbor=as.data.frame(table(res$NTAName))
+write.csv(num_crime_neighbor,file='num_crime_neighbor.csv')

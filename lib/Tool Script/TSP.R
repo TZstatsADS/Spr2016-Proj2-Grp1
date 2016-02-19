@@ -1,20 +1,14 @@
-library(TSP)
-library(XML)
-library(ggmap)
-
 address <- "155 Claremont Ave, New York"
 geocode <- geocode(address)
-start_lat<-geocode$lat
-start_lng<-geocode$lon
-startpoint <- c(start_lat,start_lng,address,"","")
+start_lat<-as.numeric(geocode$lat)
+start_lng<-as.numeric(geocode$lon)
+startpoint <- c(start_lat,start_lng,"startpoint","","")
 
 
+mustGo<-read.csv("Must-Go-Sights.csv")
+randomSights <- read.csv("Must-Go-Sights.csv")#take out the mustGoSights
+numberOfPlaces <- 5
 
-#input
-
-
-
-#fakedata
 neighbor <- "b"
 mustGo$neighbor <- c("a","b","a","a") #need to delete
 randomSights<-mustGo #need to delete
@@ -26,8 +20,7 @@ mustGoSelected <- mustGo[mustGo$neighbor == neighbor,]
 #sampling
 if(nrow(mustGoSelected) >= numberOfPlaces){
         mustGoSelected<-mustGoSelected[sample(1:nrow(mustGoSelected),
-                                             numberOfPlaces,replace=FALSE),]
-        
+                                              numberOfPlaces,replace=FALSE),]
 }else{
         n<-numberOfPlaces-nrow(mustGoSelected)
         extra <- randomSights[sample(1:nrow(randomSights),n,replace=FALSE),]
@@ -46,7 +39,10 @@ tour <- solve_TSP(tsp, method = "farthest_insertion")
 path <- c(1,as.vector(cut_tour(tour, 1)))
 
 sightsRanked<-mustGoSelected[path,]
-sightsRanked <- cbind(sightsRanked,1:6)
+sightsRanked <- rbind(sightsRanked,sightsRanked[1,])
+sightsRanked[,1]<-as.numeric(sightsRanked[,1])
+sightsRanked[,2]<-as.numeric(sightsRanked[,2])
+
 #plot
 plot(sightsRanked[,1:2],pch=".")
 text(sightsRanked[,1:2],labels=sightsRanked[,5])

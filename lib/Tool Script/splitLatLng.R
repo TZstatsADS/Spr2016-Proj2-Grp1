@@ -1,5 +1,4 @@
 crime <- read.csv("NYPD_7_Major_Felony_Incidents.csv")
-library("ggmap")
 
 a<-as.character(crime$Location.1)
 b<-as.numeric(unlist(strsplit(gsub("[^0-9. ]","", unlist(a)),"[^0-9.]")))

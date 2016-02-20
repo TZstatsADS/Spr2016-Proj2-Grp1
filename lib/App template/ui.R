@@ -4,12 +4,13 @@ library(fields)
 library(leaflet)
 
 type <- c(
-        "museum" = "art1",
-        "nartural" = "park",
-        "theater" = "art2",
-        "opera house" = "art3",
-        "gallery" = "art4",
-        "film" = "site"
+        "landmark" = "landmark",
+        "museum" = "museum",
+        "nartural" = "nartural",
+        "theater" = "theater",
+        "opera house" = "opera",
+        "gallery" = "gallery",
+        "film" = "film"
         
 )
 

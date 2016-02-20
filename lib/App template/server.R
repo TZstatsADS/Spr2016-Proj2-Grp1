@@ -31,8 +31,8 @@ shinyServer(function(input,output){
         shapeData$crimeRate = crimeData$count[match(mapNYC$NTAName,crimeData$nta)]
         #plot(shapeData,col=colors[colorsmatched])
         
-        
-        
+        selectedNeighbor <- sample(as.vector(shapeData$NTAName),4)
+        selectedNeighbor<-c(selectedNeighbor,"Midtown-Midtown South")
         
         ##################################################################        
         
@@ -42,32 +42,111 @@ shinyServer(function(input,output){
                 }else{
                         address <- "Columbia University in the city of New York"
                 }
+
                 geocode <- geocode(address)
                 start_lat<-as.numeric(geocode$lat)
                 start_lng<-as.numeric(geocode$lon)
                 startpoint <- c(start_lat,start_lng,paste("start point"),"0")
                 
-                mustGo<-read.csv("Must-Go-Sights.csv")
-                randomSights <- read.csv("Must-Go-Sights.csv")#take out the mustGoSights
+                #number of place input
                 numberOfPlaces <- input$number
                 
-                neighbor <- "b"
-                mustGo$neighbor <- c("a","b","a","a") #need to delete
-                randomSights<-mustGo #need to delete
-                #randomSights$NAME<-c("abc")#need to delete
-                
-                #select in neighborhood
-                mustGoSelected <- mustGo[mustGo$neighbor == neighbor,]
-                
-                #sampling
-                if(nrow(mustGoSelected) >= numberOfPlaces){
-                        mustGoSelected<-mustGoSelected[sample(1:nrow(mustGoSelected),
-                                                              numberOfPlaces,replace=FALSE),]
-                }else{
-                        n<-numberOfPlaces-nrow(mustGoSelected)
-                        extra <- randomSights[sample(1:nrow(randomSights),n,replace=FALSE),]
-                        mustGoSelected <- rbind(mustGoSelected,extra)      
+                #select category 1
+                if ( input$category1 == "landmark" ){
+                        c1<-read.csv("landmarks.csv")
+                        
+                } else if (input$category1 == "museum"){
+                        c1<-read.csv("museum.csv")
                 }
+                else if (input$category1 == "nartural"){
+                        c1<-read.csv("nartural.csv")
+                }
+                else if (input$category1 == "theater"){
+                        c1<-read.csv("theater.csv")
+                }
+                else if (input$category1 == "opera"){
+                        c1<-read.csv("opera.csv")
+                }
+                else if (input$category1 == "gallery"){
+                        c1<-read.csv("gallery.csv")
+                }
+                else if (input$category1 == "film"){
+                        c1<-read.csv("film.csv")
+                }
+                else{
+                        c1<-read.csv("landmarks.csv")
+                }
+                
+                #select category 2
+                if ( input$category2 == "landmark" ){
+                        c2<-read.csv("landmarks.csv")
+                
+                }else if (input$category2 == "museum"){
+                        c2<-read.csv("museum.csv")
+                }
+                else if (input$category2 == "nartural"){
+                        c2<-read.csv("nartural.csv")
+                }
+                else if (input$category2 == "theater"){
+                        c2<-read.csv("theater.csv")
+                }
+                else if (input$category2 == "opera"){
+                        c2<-read.csv("opera.csv")
+                }
+                else if (input$category2 == "gallery"){
+                        c2<-read.csv("gallery.csv")
+                }
+                else if (input$category2 == "film"){
+                        c2<-read.csv("film.csv")
+                }
+                else{
+                        c2<-read.csv("landmarks.csv")
+                } 
+                #select in neighborhood
+                c2<-na.omit(c2)
+                c1<-na.omit(c1)
+                c1Selected <- c1[(c1$NTAName == selectedNeighbor[1]|
+                                                  c1$NTAName ==  selectedNeighbor[2]|
+                                                  c1$NTAName ==  selectedNeighbor[3]|
+                                                  c1$NTAName ==  selectedNeighbor[4]|
+                                                  c1$NTAName ==  selectedNeighbor[5])
+                                         ,] 
+                c2Selected <- c2[(c2$NTAName == selectedNeighbor[1]|
+                                          c2$NTAName ==  selectedNeighbor[2]|
+                                          c2$NTAName ==  selectedNeighbor[3]|
+                                          c2$NTAName ==  selectedNeighbor[4]|
+                                          c2$NTAName ==  selectedNeighbor[5])
+                                 ,] 
+                
+                #first sampling
+                if(nrow(c1Selected) >= 10){
+                        c1_s1 <- c1Selected[sample(1:nrow(c1Selected),10,replace=FALSE),]
+                }else{
+                        c1_s1 <- c1Selected
+                }
+                
+                if (nrow(c2Selected) >=5){
+                        c2_s1<-c2Selected[sample(1:nrow(c2Selected),5,replace=FALSE),]
+                }else{
+                        c2_s1<-c2Selected
+                }
+                
+                mustGoPool <- rbind(c1_s1,c2_s1)
+                #fills with landmarks
+                if (nrow(mustGoPool)<15){
+                        n<-15-nrow(mustGoPool)
+                        landmarks <- read.csv("landmarks.csv")
+                        landmarksSelected<-landmarks[sample(1:nrow(landmarks),
+                                         n,replace=FALSE),]
+                        mustGoPool <- rbind(mustGoPool,landmarksSelected)
+                }
+                
+                #2nd sampling
+                mustGoPoolSelected<-mustGoPool[sample(1:nrow(mustGoPool),
+                                        numberOfPlaces,replace=FALSE),]
+                
+                mustGoSelected <- mustGoPoolSelected[,c(3,4,2,5)]
+                        
                 #add start-end point
                 mustGoSelected <- rbind(startpoint,mustGoSelected)
                 

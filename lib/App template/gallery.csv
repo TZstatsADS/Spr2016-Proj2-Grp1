@@ -1,0 +1,918 @@
+,NAME,lat,lng,NTAName,spot_type
+1,O'reilly William & Co Ltd,40.77380087,-73.96273075,Upper East Side-Carnegie Hill,art_gallery
+2,Organization of Independent Artists - Gallery 402,40.71646851,-74.00938579,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+3,Owen Gallery,40.77400085,-73.96435178,Upper East Side-Carnegie Hill,art_gallery
+4,P P O W Gallerie,40.7495854,-74.00389261,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+5,P P O W Inc,40.72290743,-74.0017639,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+6,P S 122 Gallery,40.72816774,-73.98437148,East Village,art_gallery
+7,Pace Editions,40.73920195,-73.99437671,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+8,Pace MacGill Gallery,40.76194965,-73.97202175,Midtown-Midtown South,art_gallery
+9,Pace Prints & Primitive Gallery,40.76183647,-73.97211462,Midtown-Midtown South,art_gallery
+10,Pace Wildenstein,40.74944828,-74.00495118,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+11,Pace Wildenstein,40.76188607,-73.97207692,Midtown-Midtown South,art_gallery
+12,Paige's Art Gallery,40.8150007,-73.95927393,Morningside Heights,art_gallery
+13,PaineWebber Gallery,40.76118894,-73.98058387,Midtown-Midtown South,art_gallery
+14,Paint Can Studios,40.75515787,-73.92794008,Queensbridge-Ravenswood-Long Island City,art_gallery
+15,Paley Barbara K,40.76637002,-73.98148007,Midtown-Midtown South,art_gallery
+16,Pall William Inc,40.76450874,-73.96481234,Upper East Side-Carnegie Hill,art_gallery
+17,Palmer Meredith Gallery,40.78563342,-73.95482249,Upper East Side-Carnegie Hill,art_gallery
+18,Pandora Old Masters,40.76789235,-73.96081641,Lenox Hill-Roosevelt Island,art_gallery
+19,Pardo Sheenan Galleries Ltd,40.7448961,-73.98156102,Murray Hill-Kips Bay,art_gallery
+20,Parker's Box,40.71430916,-73.96044471,North Side-South Side,art_gallery
+21,Parsons Galleries,40.73539495,-73.99478186,West Village,art_gallery
+22,Patricia Laligant Photographs,40.74676021,-73.99282055,Midtown-Midtown South,art_gallery
+23,Patrick's Gallery,40.74186878,-73.99851017,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+24,Paul Kasmin Gallery,40.75019275,-74.00272286,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+25,Paula Cooper Gallery,40.7469199,-74.00689773,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+26,Peck Ian Fine Paintings Ltd,40.77476053,-73.96365013,Upper East Side-Carnegie Hill,art_gallery
+27,Peder Bonnier Inc,40.74405995,-73.99623914,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+28,Perimeter Gallery,40.74938125,-74.00389939,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+29,Perlow Rich Katharina Gallery Inc,40.76236541,-73.97163996,Midtown-Midtown South,art_gallery
+30,Peter L Villa Fine Art,40.7611697,-73.97029437,Turtle Bay-East Midtown,art_gallery
+31,Peter Rose Gallery,40.76057555,-73.96690495,Turtle Bay-East Midtown,art_gallery
+32,Peters Gerald Gallery,40.77566356,-73.96316937,Upper East Side-Carnegie Hill,art_gallery
+33,Phoenix Design Ltd,40.76366855,-73.77059062,Bayside-Bayside Hills,art_gallery
+34,Phoenix Gallery,40.74977525,-74.00599167,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+35,Phoneup,40.71651672,-73.99502605,Chinatown,art_gallery
+36,Photo & Art Gallery,40.6029621,-73.75339447,Far Rockaway-Bayswater,art_gallery
+37,Photo Collection Gagliardi,40.74063767,-73.99269647,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+38,Photo District Gallery,40.74080485,-73.99310574,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+39,Phyllis Lucas Gallery Inc,40.75614508,-73.96795086,Turtle Bay-East Midtown,art_gallery
+40,Picture This Corporate Art,40.68324194,-73.9926035,Carroll Gardens-Columbia Street-Red Hook,art_gallery
+41,Pierogi 2000,40.71875035,-73.9557816,North Side-South Side,art_gallery
+42,Place Des Vosges,40.73276122,-73.99094408,West Village,art_gallery
+43,Plane Space,40.73439963,-74.00518363,West Village,art_gallery
+44,Plaster Palace,40.62575957,-73.98315035,Borough Park,art_gallery
+45,Plaza Holding Inc,40.76215882,-73.97575362,Midtown-Midtown South,art_gallery
+46,Plaza Holding Inc,40.76226036,-73.97568006,Midtown-Midtown South,art_gallery
+47,Plaza Watch & Jewelry Exchange,40.76526144,-73.97867414,Midtown-Midtown South,art_gallery
+48,Pleiades Gallery,40.74937493,-74.00477069,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+49,Plum Blossom Gallery,40.75017633,-74.00537358,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+50,Polizzi Fine Art,40.62887622,-74.02860202,Bay Ridge,art_gallery
+51,Poller Leah,40.72417671,-73.99973976,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+52,Portara Gallery,40.75653978,-73.76753264,Bayside-Bayside Hills,art_gallery
+53,Portico Fine Art,40.72425932,-74.00082666,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+54,Portrait Gallery,40.60993574,-73.92228135,Georgetown-Marine Park-Bergen Beach-Mill Basin,art_gallery
+55,Postmasters Gallery,40.74520243,-74.0053466,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+56,Praxis International Art,40.77277684,-73.96513542,Upper East Side-Carnegie Hill,art_gallery
+57,Prieto International Attorney In Fact Johnpoll,40.71024984,-74.00723565,Battery Park City-Lower Manhattan,art_gallery
+58,Prince Street Gallery,40.7493379,-74.0046948,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+59,Professional Fine Arts Svces Inc,40.74191723,-73.9957317,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+60,Proposition the,40.7482054,-74.00714842,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+61,Public Art Fund,40.76037548,-73.97518754,Midtown-Midtown South,art_gallery
+62,Puerto Rican Work Shop Inc,40.79269985,-73.94672759,East Harlem South,art_gallery
+63,Pushman Gallery Inc,40.76499909,-73.97991308,Midtown-Midtown South,art_gallery
+64,Pytlak Art Studio,40.71427613,-73.94988527,East Williamsburg,art_gallery
+65,Queen Art Publishers Inc,40.72549195,-74.00979549,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+66,Questroyal Fine Art,40.7757238,-73.96001774,Upper East Side-Carnegie Hill,art_gallery
+67,Rabenou Yris Ancient Arts,40.76222398,-73.9638362,Lenox Hill-Roosevelt Island,art_gallery
+68,Radio House Gallery,40.75178267,-74.00698523,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+69,Rafael Gallery,40.76106891,-73.96484847,Lenox Hill-Roosevelt Island,art_gallery
+70,Rainbow Fine Art Inc,40.77866481,-73.96108478,Upper East Side-Carnegie Hill,art_gallery
+71,Ralph Chait Galleries Inc,40.76269799,-73.97472467,Midtown-Midtown South,art_gallery
+72,Randel Gallery Inc,40.77557044,-73.96194182,Upper East Side-Carnegie Hill,art_gallery
+73,Randolph & Tate Assocs,40.74435684,-73.9880468,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+74,Raphael Fodde Editions,40.7020874,-73.98997736,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+75,Rare art Gallery,40.75021573,-74.00368999,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+76,Raydon Gallery,40.77833721,-73.96032668,Upper East Side-Carnegie Hill,art_gallery
+77,Red Dot,40.74274458,-73.9950592,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+78,Reece Galleries Inc The,40.76335607,-73.97570996,Midtown-Midtown South,art_gallery
+79,Reeves Contemporary Inc,40.74928258,-74.00518821,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+80,Regina's Art Center,40.60337998,-74.00172859,Bensonhurst West,art_gallery
+81,Rehs Galleries Inc,40.762974,-73.97311044,Midtown-Midtown South,art_gallery
+82,Reinhold Brown Gallery,40.77864024,-73.96068894,Upper East Side-Carnegie Hill,art_gallery
+83,Renaissance Gallery,40.82412358,-73.94134747,Central Harlem North-Polo Grounds,art_gallery
+84,Resnick Ira Inc,40.76189453,-73.96881061,Turtle Bay-East Midtown,art_gallery
+85,Ricco Maresca Gallery,40.74661225,-74.00684653,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+86,Richard Gray Gallery,40.77603512,-73.96268744,Upper East Side-Carnegie Hill,art_gallery
+87,Richard Solomon,40.75490203,-73.96796822,Turtle Bay-East Midtown,art_gallery
+88,Richard York Gallery,40.76764185,-73.96884242,Upper East Side-Carnegie Hill,art_gallery
+89,Rienzo Gallery,40.7698308,-73.96715177,Upper East Side-Carnegie Hill,art_gallery
+90,Ritter-Antik Inc,40.73250427,-73.99270194,West Village,art_gallery
+91,Rivington Bar & Art Gallery,40.71908748,-73.98443866,Lower East Side,art_gallery
+92,Robert Lee Morris Inc,40.72440709,-74.00236651,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+93,Robert Mann Gallery,40.74974338,-74.00591124,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+94,Robert Miller Gallery Inc,40.74998086,-74.00423399,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+95,Robert Steele Gallery,40.74942346,-74.00398548,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+96,Robertson African Arts,40.74150835,-73.99212377,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+97,Rogallerycom,40.7697075,-73.95726809,Lenox Hill-Roosevelt Island,art_gallery
+98,Ronald Feldman Fine Arts,40.72116039,-74.00185591,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+99,Roosevelt Island Visual Arts Assoc,40.75359867,-73.9564351,Lenox Hill-Roosevelt Island,art_gallery
+100,Rosen Andrea Gallery Inc,40.74904372,-74.00493762,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+101,Rosenberg & Kaufman Fine Art,40.72502497,-74.00070941,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+102,Rosenberg Paul & Co,40.77623796,-73.96251599,Upper East Side-Carnegie Hill,art_gallery
+103,Ross Luise Gallery,40.74945792,-74.00391752,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+104,Roth,40.76883963,-73.96253716,Upper East Side-Carnegie Hill,art_gallery
+105,Rotunda Gallery,40.69515734,-73.99146799,Brooklyn Heights-Cobble Hill,art_gallery
+106,Royal Fine Art,40.77550889,-73.95868741,Upper East Side-Carnegie Hill,art_gallery
+107,Royal-Athena Galleries,40.76078611,-73.96804937,Turtle Bay-East Midtown,art_gallery
+108,Rudolph De Paola Art Gallery,40.6179935,-74.02172407,Dyker Heights,art_gallery
+109,Ruesch Jeffrey Fine Arts,40.72382475,-74.00107131,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+110,Russeck Gallery,40.72679316,-74.00056532,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+111,Russian World,40.76192574,-73.97604749,Midtown-Midtown South,art_gallery
+112,S & A Art Gallery Inc,40.77844643,-73.95658935,Upper East Side-Carnegie Hill,art_gallery
+113,S 2 Editions Ltd,40.72529481,-74.00479226,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+114,S E Art & Design Inc,40.76074545,-73.96523801,Turtle Bay-East Midtown,art_gallery
+115,Sabarsky Serge Gallery,40.77589273,-73.96160397,Upper East Side-Carnegie Hill,art_gallery
+116,Sabbatique Ltd,40.73684452,-73.97398004,Murray Hill-Kips Bay,art_gallery
+117,Sabrina Enterprise.Com Artworks Sales and Rprdctns,40.75905864,-73.86790725,East Elmhurst,art_gallery
+118,Sacks Fine Art,40.76182789,-73.96475381,Lenox Hill-Roosevelt Island,art_gallery
+119,Safani Gallery Inc,40.77483294,-73.96369841,Upper East Side-Carnegie Hill,art_gallery
+120,Salz Trager Janet,40.76954041,-73.96550966,Upper East Side-Carnegie Hill,art_gallery
+121,Sam's Souk,40.76945601,-73.96253151,Upper East Side-Carnegie Hill,art_gallery
+122,Sanada Ikkanart Intl,40.78007652,-73.95977784,Upper East Side-Carnegie Hill,art_gallery
+123,Sands & Company Inc Fine Art At Madison Av,40.7741378,-73.96342194,Upper East Side-Carnegie Hill,art_gallery
+124,Sara Meltzer On View,40.72470086,-73.99709363,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+125,Sarafina Inc,40.69329479,-73.96937268,Fort Greene,art_gallery
+126,Sarajo Inc,40.72527107,-73.99880177,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+127,Sarina Tang Fine Art,40.74841076,-74.00525478,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+128,Savacou Galleries,40.73178218,-73.98626836,East Village,art_gallery
+129,Sayn-Wittgenstein,40.77036691,-73.96141027,Upper East Side-Carnegie Hill,art_gallery
+130,Schellmann Editions,40.74982694,-74.00585462,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+131,Schickler Howard Fine Art,40.70287472,-73.98992302,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+132,Schillay Fine Art,40.76613926,-73.95267538,Lenox Hill-Roosevelt Island,art_gallery
+133,Schiller & Bodo Fine Art,40.76612067,-73.96628743,Upper East Side-Carnegie Hill,art_gallery
+134,Schlesinger Gallery,40.77245892,-73.96547437,Upper East Side-Carnegie Hill,art_gallery
+135,Scholten Japanese Art,40.76771754,-73.96707156,Upper East Side-Carnegie Hill,art_gallery
+136,Schonfeld R D & Co Inc,40.75363538,-73.96698518,Turtle Bay-East Midtown,art_gallery
+137,Sculpture Center,40.74692133,-73.94081427,Hunters Point-Sunnyside-West Maspeth,art_gallery
+138,Sean Kelly Inc,40.75188382,-74.00306879,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+139,Sears-Peyton Gallery,40.74991739,-74.00579913,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+140,Seaside Summer Concert Series Inc,40.65968268,-73.96089004,Prospect Lefferts Gardens-Wingate,art_gallery
+141,Second Ave Art Expo,40.75583142,-73.96741088,Turtle Bay-East Midtown,art_gallery
+142,Seibold Eleanor,40.77506696,-73.94807967,Yorkville,art_gallery
+143,Senior & Shopmaker,40.7432733,-73.98681735,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+144,Sepia International Inc the,40.74425013,-73.9945027,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+145,Serbin Inna,40.77111187,-73.95440567,Lenox Hill-Roosevelt Island,art_gallery
+146,Serger Helen La Boetie,40.77875555,-73.96122592,Upper East Side-Carnegie Hill,art_gallery
+147,Seven Colors,40.75567804,-73.97882344,Midtown-Midtown South,art_gallery
+148,Shades of Art,40.68753305,-73.97949384,Fort Greene,art_gallery
+149,Shainman Jack Gallery,40.74636555,-74.0062634,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+150,Shapolsky Anita Gallery,40.76539575,-73.96455977,Upper East Side-Carnegie Hill,art_gallery
+151,Shawn Dulaney Studio,40.74147187,-73.99205567,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+152,Shepherd & Derom Galleries,40.77579399,-73.96166653,Upper East Side-Carnegie Hill,art_gallery
+153,Shickman H Gallery,40.76901768,-73.95972631,Lenox Hill-Roosevelt Island,art_gallery
+154,Shulman B & M Inc,40.60027352,-73.94506548,Madison,art_gallery
+155,Sigrid Freundorfer Fine Art,40.76848323,-73.96809593,Upper East Side-Carnegie Hill,art_gallery
+156,Silverstein Gallery Inc,40.7465867,-74.00610392,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+157,Simply Marvelous Art,40.70412221,-73.79975655,Jamaica,art_gallery
+158,Skoto Gallery,40.74667658,-74.0068503,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+159,Sloan McGill Collection,40.65961513,-73.95565084,Prospect Lefferts Gardens-Wingate,art_gallery
+160,Smack Mellon Studios,40.70375074,-73.98985972,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+161,Smith Gallery,40.74814601,-74.00265775,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+162,Society For Renewal of Christian Art,40.76564703,-73.96219073,Lenox Hill-Roosevelt Island,art_gallery
+163,Soho 20,40.74948118,-74.00383257,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+164,Soho Photo Gallery,40.71896419,-74.00555633,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+165,Soldwedel Kipp,40.76224192,-73.970742,Midtown-Midtown South,art_gallery
+166,Soloman & Co Fine Art Gallerie,40.77383485,-73.96352461,Upper East Side-Carnegie Hill,art_gallery
+167,Sonnabend Gallery Inc,40.74753287,-74.00640433,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+168,Soufer Gallery,40.77578491,-73.96219093,Upper East Side-Carnegie Hill,art_gallery
+169,Spencer Brownstone Gallery,40.72259291,-74.00285195,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+170,Sperone Westwater,40.72544341,-73.9992624,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+171,Spring,40.70224828,-73.98739581,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+172,Sragow Ellen Ltd,40.74652176,-73.9930249,Midtown-Midtown South,art_gallery
+173,St Etienne Galerie,40.76331815,-73.9756284,Midtown-Midtown South,art_gallery
+174,Staley-Wise Gallery,40.72388325,-73.99767009,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+175,Start,40.72198834,-74.00158103,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+176,State of Art,40.73022122,-73.95791517,Greenpoint,art_gallery
+177,Steigrad Lawrence Fine Arts,40.76982013,-73.96622596,Upper East Side-Carnegie Hill,art_gallery
+178,Stein Gertrude Gallery,40.76544489,-73.98049754,Midtown-Midtown South,art_gallery
+179,Stephen Downes Gallery,40.72012487,-73.99647297,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+180,Stewart Waltzer Co,40.72871353,-74.0039409,West Village,art_gallery
+181,Storefront For Art and Architecture,40.72147743,-73.9970683,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+182,"Stricoff Fine Art, Ltd.",40.74989328,-74.00571078,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+183,Studio Gallery,40.78933483,-73.97428548,Upper West Side,art_gallery
+184,Studio Tamar,40.73821552,-73.98429766,Gramercy,art_gallery
+185,Stux Gallery,40.74932239,-74.0048092,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+186,Sugarhill Arts Center,40.8302204,-73.94709267,Hamilton Heights,art_gallery
+187,Suite 106,40.72359612,-73.99892431,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+188,Sun Yi Jun,40.71676282,-73.99534581,Chinatown,art_gallery
+189,Susan Aberbach Fine Art,40.76228905,-73.97168389,Midtown-Midtown South,art_gallery
+190,Susan Megson Gallery,40.7262492,-74.00081321,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+191,Susan Rolfe Associates Fine Arts Ltd,40.7644843,-73.97111034,Upper East Side-Carnegie Hill,art_gallery
+192,Susan Sheehan Gallery,40.74791171,-74.00605482,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+193,Sutherland M,40.76696025,-73.96722779,Upper East Side-Carnegie Hill,art_gallery
+194,Swiss Institute,40.72224748,-74.00006289,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+195,Taglialatella Dominic J,40.7495251,-74.00394584,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+196,Takako Tsuji Gallery,40.76221205,-73.97173794,Midtown-Midtown South,art_gallery
+197,Talwar Gallery,40.73545815,-73.98882749,Gramercy,art_gallery
+198,Tambaran Gallery,40.77879669,-73.96139899,Upper East Side-Carnegie Hill,art_gallery
+199,Tang Sarina,40.77499081,-73.96443414,Upper East Side-Carnegie Hill,art_gallery
+200,Tanya Bonakdar Galery,40.74717188,-74.00619628,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+201,Tate,40.74160877,-74.00618826,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+202,Tatistcheff Gallery Inc,40.74659365,-74.00694992,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+203,Team Gallery,40.75021954,-74.0039373,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+204,Teller Susan Gallery,40.72429066,-73.99746436,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+205,Tenri Cultural Institute,40.73640267,-73.99609362,West Village,art_gallery
+206,Thaw E V & Co,40.77042623,-73.96487148,Upper East Side-Carnegie Hill,art_gallery
+207,The Affordable Art Fair Llc,40.74128145,-73.99907019,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+208,The Axa Gallery,40.76169418,-73.9817828,Midtown-Midtown South,art_gallery
+209,The Bohen Foundation,40.74080796,-74.00650281,West Village,art_gallery
+210,The Chinese Art Gallery,40.75795522,-73.96565695,Turtle Bay-East Midtown,art_gallery
+211,The Dollhaus Art Gallery,40.71090184,-73.96728726,North Side-South Side,art_gallery
+212,The Gallery 172,40.8315804,-73.8749194,West Farms-Bronx River,art_gallery
+213,The Old Print Shop Inc,40.74374126,-73.98210768,Murray Hill-Kips Bay,art_gallery
+214,The Phatory Llc,40.72572166,-73.97947469,Lower East Side,art_gallery
+215,The Q Department,40.71966311,-74.00036768,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+216,The Scene Gallery,40.72106206,-73.99097517,Chinatown,art_gallery
+217,Thicket,40.71858122,-74.00824905,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+218,Think Art Gallery,40.75466722,-73.99403189,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+219,Thomas & Hirsch,40.72343124,-74.0022847,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+220,Thomas Erben Gallery,40.74989644,-74.00429401,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+221,Thomson C Art,40.77400673,-73.9643099,Upper East Side-Carnegie Hill,art_gallery
+222,Three East Third St Corp,40.72631717,-73.99127036,East Village,art_gallery
+223,Throckmorton Fine Arts,40.76094893,-73.9684469,Turtle Bay-East Midtown,art_gallery
+224,Tilton Jack Gallery,40.72225087,-74.00200058,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+225,Time Is Always Now,40.72303601,-74.00165246,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+226,Tk Oriental Antiques,40.76234556,-73.97182904,Midtown-Midtown South,art_gallery
+227,Tobey Fine Art,40.72443535,-73.99703668,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+228,Ton Ying & Co,40.75808113,-73.96571788,Turtle Bay-East Midtown,art_gallery
+229,Tonal Motion Inc,40.75245457,-73.98546139,Midtown-Midtown South,art_gallery
+230,Tonkonow Leslie,40.74795822,-74.00615109,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+231,Tower Art Gallery,40.70983828,-74.00950849,Battery Park City-Lower Manhattan,art_gallery
+232,Traditional Art Gallery Inc,40.75803479,-73.96585513,Turtle Bay-East Midtown,art_gallery
+233,Triangle Editions,40.76471075,-73.96777316,Upper East Side-Carnegie Hill,art_gallery
+234,Tribes Gallery,40.72155551,-73.97988408,Lower East Side,art_gallery
+235,Triple Candie,40.81374658,-73.95506322,Manhattanville,art_gallery
+236,Triton Collection the,40.75257912,-74.00704894,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+237,Troubetzkoy Paintings,40.72422992,-73.97777959,Lower East Side,art_gallery
+238,Tunick David,40.76833078,-73.96849023,Upper East Side-Carnegie Hill,art_gallery
+239,Turkana Gallery,40.70976778,-74.01245255,Battery Park City-Lower Manhattan,art_gallery
+240,Ubu Gallery,40.75904778,-73.9612439,Turtle Bay-East Midtown,art_gallery
+241,Under Minerva,40.66242445,-73.99264059,Park Slope-Gowanus,art_gallery
+242,Up & Co,40.71803596,-74.00525334,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+243,Uptown Gallery the,40.78195083,-73.95834181,Upper East Side-Carnegie Hill,art_gallery
+244,Urban Architecture Gallery of Applied Arts Inc,40.73872,-73.9556829,Greenpoint,art_gallery
+245,"Ursus Books & Prints, Ltd.",40.77455057,-73.96314948,Upper East Side-Carnegie Hill,art_gallery
+246,Valenzi Gallery & Framing,40.76975797,-73.92609137,Old Astoria,art_gallery
+247,Van De Weghe Fine Art,40.74829506,-74.00485832,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+248,Vance Jordan Fine Art,40.77407623,-73.96412402,Upper East Side-Carnegie Hill,art_gallery
+249,Veranda Design,40.78627113,-73.97719259,Upper West Side,art_gallery
+250,Verona Arts Ltd,40.7574937,-73.97755224,Midtown-Midtown South,art_gallery
+251,Viart Corporation,40.76043004,-73.970647,Turtle Bay-East Midtown,art_gallery
+252,Vick Corporate Art Advisors,40.74980455,-74.00577307,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+253,Vieille Russie Inc Antiqs & Jwlry,40.76431012,-73.97253002,Upper East Side-Carnegie Hill,art_gallery
+254,Vietnam Art Design,40.71840386,-74.0101257,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+255,Viewpoint Gallery,40.73711799,-73.99068945,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+256,Vincent Fremont Enterprises,40.73550087,-73.99187771,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+257,Viridian Artists Inc,40.74929138,-74.00472764,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+258,Visage Studios,40.75055103,-73.98424841,Midtown-Midtown South,art_gallery
+259,Visual Arts Gallery,40.7259206,-74.00014431,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+260,Volpe Organization,40.77482589,-73.98809617,Lincoln Square,art_gallery
+261,Wada Takashi Gallery,40.76290655,-73.98849961,Clinton,art_gallery
+262,Wade Maxx Art Gallery,40.7752092,-73.98013755,Lincoln Square,art_gallery
+263,Wally Findlay Galleries,40.76088973,-73.96978732,Turtle Bay-East Midtown,art_gallery
+264,Ward-Nasse Gallery,40.72612435,-74.00206949,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+265,Washburn Galleries,40.76329173,-73.9754894,Midtown-Midtown South,art_gallery
+266,Washington Sq Outdoor Art Exhibit Inc,40.73055351,-73.98955957,East Village,art_gallery
+267,Webster David,40.74255494,-74.00604994,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+268,Weisbrod Chinese Art Ltd,40.76183606,-73.97195658,Midtown-Midtown South,art_gallery
+269,Wellesley the,40.76937887,-73.96043137,Lenox Hill-Roosevelt Island,art_gallery
+270,Wessel & O'Connor,40.74658362,-73.99604272,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+271,Westbeth Gallery,40.73681609,-74.00892207,West Village,art_gallery
+272,Western Art Collectors Society,40.5952498,-74.09740511,Old Town-Dongan Hills-South Beach,art_gallery
+273,Westwood Gallery,40.72442296,-73.99734434,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+274,Weybridge Fine Art,40.77737493,-73.96097806,Upper East Side-Carnegie Hill,art_gallery
+275,Whas Cultural Art Center Inc,40.85624733,-73.93249803,Washington Heights North,art_gallery
+276,White Box,40.75032291,-74.00398261,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+277,White Columns Inc,40.73907339,-74.00412299,West Village,art_gallery
+278,Whitfield James Fine Art,40.73415172,-73.99223345,West Village,art_gallery
+279,Wickiser Walter Gallery Inc,40.74970893,-74.00583422,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+280,Willow Woodstock Artistic Enterprises,40.72731799,-73.98503774,East Village,art_gallery
+281,Wilmer Jenning Gallery,40.72158811,-73.98297564,Lower East Side,art_gallery
+282,Winston Wachter Mayer Fine Art,40.74947055,-74.00469934,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+283,Winter Works On Paper,40.71884386,-73.95596899,North Side-South Side,art_gallery
+284,Wolf Daniel Inc,40.77515497,-73.96208739,Upper East Side-Carnegie Hill,art_gallery
+285,Woodward Gallery,40.71901344,-73.99181719,Chinatown,art_gallery
+286,WORLD AFRICA,40.83514504,-73.94753651,Washington Heights South,art_gallery
+287,World Art Center,40.71059949,-74.00717582,Battery Park City-Lower Manhattan,art_gallery
+288,Yancey Richardson Gallery,40.74799009,-74.00606502,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+289,Yasuda Fine Arts Inc,40.76154759,-73.9776035,Midtown-Midtown South,art_gallery
+290,Yorks Shona Gallery,40.72346095,-73.99930952,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+291,Yorkville Art Gallery & Framing,40.78412567,-73.94977563,Yorkville,art_gallery
+292,Yoshii Gallery,40.77472916,-73.96353645,Upper East Side-Carnegie Hill,art_gallery
+293,Yung Hee Kim,40.77480195,-73.9650305,Upper East Side-Carnegie Hill,art_gallery
+294,Zabriskie Gallery,40.76417706,-73.97608678,Midtown-Midtown South,art_gallery
+295,Zarre Andre Gallery,40.74665656,-74.00694053,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+296,Zetterquist Galleries,40.76855091,-73.96909886,Upper East Side-Carnegie Hill,art_gallery
+297,Zito Studio Gallery,40.71959638,-73.98835222,Chinatown,art_gallery
+298,Zwirner & Wirth,40.76947535,-73.96656358,Upper East Side-Carnegie Hill,art_gallery
+299,Zwirner David Gallery,40.74589496,-74.00696818,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+300,Priska C. Juschka Fine Art Inc,40.7512663,-74.00436441,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+301,1 2 3 Watts Gallery,40.72385717,-74.00902349,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+302,12 Below,40.73460139,-73.99106783,West Village,art_gallery
+303,14 Sculptors Gallery,40.72525532,-73.99752291,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+304,1405 Art Gallery,40.76974722,-73.95798347,Lenox Hill-Roosevelt Island,art_gallery
+305,2 Welancora Gallery,40.6840779,-73.94151974,Bedford,art_gallery
+306,280 Modern,40.70924363,-73.91448247,Ridgewood,art_gallery
+307,3 Costantino Fioratti Helen C,40.77217101,-73.96468514,Upper East Side-Carnegie Hill,art_gallery
+308,303 Gallery,40.74748973,-74.00709988,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+309,33rd St Galleria,40.74998474,-73.99086173,Midtown-Midtown South,art_gallery
+310,33rd Street Galleria,40.74995773,-73.98967644,Midtown-Midtown South,art_gallery
+311,4 Chambers Fine Art,40.74548098,-74.00711819,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+312,5 Robin Rice Gallery,40.8060391,-73.95513651,Central Harlem South,art_gallery
+313,531 Artspace,40.72132182,-73.94713438,Greenpoint,art_gallery
+314,73 St Farmers Market,40.76730472,-73.95301546,Lenox Hill-Roosevelt Island,art_gallery
+315,A Clean Well Lighted Place Inc,40.73453611,-74.00455563,West Village,art_gallery
+316,A J ARTS LTD,40.61860965,-73.91691325,Georgetown-Marine Park-Bergen Beach-Mill Basin,art_gallery
+317,A.I.R. Gallery,40.72220574,-74.00247724,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+318,AAA-Abbey Mdsng Co Inc,40.64223849,-73.96993064,Kensington-Ocean Parkway,art_gallery
+319,Abada Felix Inc,40.77982819,-73.95369907,Upper East Side-Carnegie Hill,art_gallery
+320,Aberbach Fine Art,40.76234165,-73.97156739,Midtown-Midtown South,art_gallery
+321,Aca Galleries,40.74666372,-74.00671307,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+322,Ace Gallery,40.72518059,-74.0080057,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+323,Acquavella Galleries Inc,40.776242,-73.96264903,Upper East Side-Carnegie Hill,art_gallery
+324,Adam Baumgold Fine Art,40.77566375,-73.9610758,Upper East Side-Carnegie Hill,art_gallery
+325,Adam Williams Fine Art Ltd,40.77696724,-73.96206754,Upper East Side-Carnegie Hill,art_gallery
+326,Adams Fund Art Buyers,40.78013539,-73.98593597,Lincoln Square,art_gallery
+327,Adams George Gallery,40.76409153,-73.97614893,Midtown-Midtown South,art_gallery
+328,Adelson Galleries,40.77602747,-73.95485348,Yorkville,art_gallery
+329,Adler & Conkright Fine Art Llc,40.77097524,-73.96624092,Upper East Side-Carnegie Hill,art_gallery
+330,African Arts Center Inc,40.75191958,-74.00566649,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+331,Africart Motherland Inc,40.81484874,-73.94739591,Central Harlem North-Polo Grounds,art_gallery
+332,Agora Gallery,40.74943954,-74.00462798,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+333,Akira Ikeda Gallery,40.73159806,-74.0019872,West Village,art_gallery
+334,Alan Brasington Inc,40.73792128,-74.00465112,West Village,art_gallery
+335,Alaska on Madison,40.77729595,-73.96107281,Upper East Side-Carnegie Hill,art_gallery
+336,Alexander and Bonin,40.7446874,-74.00599211,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+337,Alexander's Sculptural Svce,40.74998353,-73.97794942,Murray Hill-Kips Bay,art_gallery
+338,Alexandre Gallery,40.76226849,-73.97161806,Midtown-Midtown South,art_gallery
+339,Alliance of Queens Artists,40.71066978,-73.85334629,Forest Hills,art_gallery
+340,Blum Peter-Blum Arts,40.7245907,-74.00107688,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+341,Alter Silver Gallery Corp,40.75820702,-73.96574831,Turtle Bay-East Midtown,art_gallery
+342,American European Fine Art Inc,40.78188518,-73.95473278,Upper East Side-Carnegie Hill,art_gallery
+343,American Fine Arts Co,40.74749327,-74.0061075,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+344,American Folk Art Museum - Eva and Morris Feld Gallery,40.77314532,-73.98142236,Lincoln Square,art_gallery
+345,Ameringer & Yohe Fine Arts,40.7476769,-74.00570231,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+346,Amos Eno Gallery,40.70283986,-73.98909224,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+347,An American Space,40.78347688,-73.95373195,Upper East Side-Carnegie Hill,art_gallery
+348,Ancient Art of the New World Inc,40.76900976,-73.95334299,Lenox Hill-Roosevelt Island,art_gallery
+349,Andover Gallery,40.72083117,-73.99023923,Chinatown,art_gallery
+350,Andrew Edlin Gallery,40.74469818,-74.00584416,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+351,Andy Warhol Authentication Board Inc,40.74649764,-74.00657819,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+352,Angel Orensanz Foundation,40.72114259,-73.98566579,Chinatown,art_gallery
+353,Anita Friedman Fine Arts,40.77479505,-73.96348525,Upper East Side-Carnegie Hill,art_gallery
+354,Annex the,40.75175124,-74.00726919,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+355,Annie Yau Gallery,40.78882752,-73.97318629,Upper West Side,art_gallery
+356,Annina Nosei Gallery,40.74745711,-74.00603307,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+357,Anthony Grant Inc,40.76403092,-73.97595129,Midtown-Midtown South,art_gallery
+358,Antik,40.71861368,-74.00559643,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+359,Antiquarium Fine Ancient Arts Gallery Ltd,40.7737083,-73.96448584,Upper East Side-Carnegie Hill,art_gallery
+360,Anton Kern Gallery Inc,40.74626699,-74.00716258,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+361,Apex Art,40.71902942,-74.00442891,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+362,April's Gallery,40.82550711,-73.94779848,Hamilton Heights,art_gallery
+363,Arader W Graham Gallery,40.77191981,-73.96506781,Upper East Side-Carnegie Hill,art_gallery
+364,Arash Gallery,40.75835498,-73.96632495,Turtle Bay-East Midtown,art_gallery
+365,Arcadia Fine Arts,40.72233561,-74.00191255,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+366,Archibald Arts,40.76045676,-73.99447222,Clinton,art_gallery
+367,Archive Consulting & Management Services,40.74945619,-74.00406816,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+368,Ariel Meyerowitz Gallery,40.74562272,-73.9572054,Hunters Point-Sunnyside-West Maspeth,art_gallery
+369,Ariston Development Group,40.73863045,-74.00720672,West Village,art_gallery
+370,Arleen G Becker Gallery Inc,40.74557328,-73.98078712,Murray Hill-Kips Bay,art_gallery
+371,Art & Interiors Inc,40.76095558,-73.96625646,Turtle Bay-East Midtown,art_gallery
+372,Art Advice Corporate Art Consultants,40.74457207,-73.97844633,Murray Hill-Kips Bay,art_gallery
+373,Art Advisory Svces Inc,40.76400119,-73.96938236,Upper East Side-Carnegie Hill,art_gallery
+374,Art Asap,40.76416275,-73.99102179,Clinton,art_gallery
+375,Art Auction Advisory Svces,40.76406092,-73.96934511,Upper East Side-Carnegie Hill,art_gallery
+376,Art Avenues Inc,40.77886825,-73.98484183,Lincoln Square,art_gallery
+377,Art Finds,40.79017492,-73.97973389,Upper West Side,art_gallery
+378,Blumka Gallery,40.76968728,-73.95986032,Lenox Hill-Roosevelt Island,art_gallery
+379,Art Gallery & Custom Framing,40.73243385,-73.99179293,West Village,art_gallery
+380,Art In General,40.7180947,-74.00187734,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+381,Art Loft Gallery,40.72119226,-73.99773834,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+382,Art Merchandising and Media Inc,40.76668459,-73.96958163,Upper East Side-Carnegie Hill,art_gallery
+383,Art Metaphysics Education,40.75606799,-73.99233661,Clinton,art_gallery
+384,Art Placement International,40.77733033,-73.95878267,Upper East Side-Carnegie Hill,art_gallery
+385,Art Projects International Inc,40.72229804,-74.00940343,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+386,Art Resources Transfer Inc,40.74998457,-74.00595091,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+387,Art Student Showcase Inc,40.72310856,-73.99720726,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+388,Art Vue,40.67152952,-73.98009836,Park Slope-Gowanus,art_gallery
+389,Art Wise,40.74498904,-73.993242,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+390,Arte Primitivo-Howard S Rose Gallery,40.76784299,-73.9692938,Upper East Side-Carnegie Hill,art_gallery
+391,Artefina International Inc,40.59654737,-73.97523366,Gravesend,art_gallery
+392,Artemis Fine Arts Inc,40.7727904,-73.96520339,Upper East Side-Carnegie Hill,art_gallery
+393,Artenova Ltd,40.76647975,-73.98126403,Midtown-Midtown South,art_gallery
+394,Arterres,40.72287262,-73.99715508,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+395,Artique-the Art of Framing Inc,40.79532709,-73.97067461,Upper West Side,art_gallery
+396,Artist Prod Gallery,40.72034082,-74.0008502,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+397,Artists Space,40.72169943,-74.0018757,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+398,Artlife Gallery,40.725415,-74.00476655,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+399,Art-Lore Inc,40.73806576,-73.95578569,Greenpoint,art_gallery
+400,Artrepreneur,40.77469948,-73.96511389,Upper East Side-Carnegie Hill,art_gallery
+401,Arts Action Research,40.68664178,-73.98338749,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+402,Arts at University Settlement/Speyer Hall,40.72068015,-73.9911973,Chinatown,art_gallery
+403,Arts Du Monde,40.74358397,-73.99092836,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+404,Arts India,40.74320506,-73.98879876,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+405,Arts Proper International Inc,40.76346975,-73.97562042,Midtown-Midtown South,art_gallery
+406,Artscope Inc,40.76325412,-73.97009199,Upper East Side-Carnegie Hill,art_gallery
+407,Ash Fine Art,40.77553584,-73.96183533,Upper East Side-Carnegie Hill,art_gallery
+408,Asher Gallant Gallery,40.7606796,-73.97259126,Midtown-Midtown South,art_gallery
+409,Ashione Art Gallery,40.7357165,-74.00280458,West Village,art_gallery
+410,Ashoka Crafts,40.78157133,-73.97994523,Upper West Side,art_gallery
+411,Atelier A-E Ent,40.74237389,-73.99087594,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+412,Atelier International Art Group Inc,40.72480609,-73.99671188,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+413,Atlantic Gallery,40.74746646,-73.99143108,Midtown-Midtown South,art_gallery
+414,Atmosphere Galleries Inc,40.74476247,-74.00600863,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+415,Audiello Fine Art Inc,40.75009455,-74.00442202,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+416,Audrey C Art & Jewels,40.76324997,-73.9657204,Upper East Side-Carnegie Hill,art_gallery
+417,Australian Aboriginal Fine Art Gallery Of New York,40.79501691,-73.95015416,East Harlem South,art_gallery
+418,Av Art Gallery & Custom Framing Inc,40.74461575,-73.99938014,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+419,Available Art Llc,40.68530879,-73.98529286,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+420,AVC Contemporary Arts Gallery,40.76218379,-73.97167803,Midtown-Midtown South,art_gallery
+421,Avshalom Eitan Fine Arts,40.85075794,-73.93866148,Washington Heights South,art_gallery
+422,Axelle Fine Art,40.68807778,-73.98851198,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+423,Axelle Fine Arts Gallery Ltd,40.724118,-74.00149048,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+424,Aztec Marketing Co,40.70789857,-74.00648309,Battery Park City-Lower Manhattan,art_gallery
+425,Back To Africa Imports,40.74347151,-73.98868277,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+426,Back To Roots Inc,40.66731504,-73.87589511,East New York,art_gallery
+427,Bag One Arts,40.78195248,-73.97606172,Upper West Side,art_gallery
+428,Balalaika Arts & Crafts From Russia & Former Ussr,40.78336845,-73.94657506,Yorkville,art_gallery
+429,BALMAR REALTY,40.75945091,-73.96906466,Turtle Bay-East Midtown,art_gallery
+430,Barbara Gladstone Gallery,40.7488804,-74.00450715,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+431,Baron Boisante Editions,40.72988711,-74.00725575,West Village,art_gallery
+432,Barrington Gallery of London Ltd,40.75650243,-73.97908152,Midtown-Midtown South,art_gallery
+433,Bayo Studios,40.70365264,-73.93513086,Bushwick South,art_gallery
+434,Beadleston Gallery,40.76260577,-73.97451739,Midtown-Midtown South,art_gallery
+435,Behr Thyssen Ltd,40.7221639,-74.00854193,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+436,Belanthi,40.68920182,-73.9929238,Carroll Gardens-Columbia Street-Red Hook,art_gallery
+437,Bellwether Gallery,40.74473102,-74.00592594,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+438,Bench Dogs,40.71032151,-73.96628258,North Side-South Side,art_gallery
+439,Benedetti Gallery Inc,40.72326204,-73.99603744,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+440,Bernarducci Meisel Gallery,40.764065,-73.97603744,Midtown-Midtown South,art_gallery
+441,Bernstein David Primitive Art,40.77042906,-73.96377491,Upper East Side-Carnegie Hill,art_gallery
+442,Berry-Hill Galleries Inc,40.77084483,-73.96674309,Upper East Side-Carnegie Hill,art_gallery
+443,Beverly Sacks Fine Art,40.76175802,-73.96480041,Lenox Hill-Roosevelt Island,art_gallery
+444,Beyond the Wall,40.75443328,-73.97967537,Midtown-Midtown South,art_gallery
+445,BICYCLE PAINTINGS.COM,40.71868692,-73.98314703,Lower East Side,art_gallery
+446,Big Cat Gallery,40.72079933,-73.98866228,Chinatown,art_gallery
+447,Bill Bace Gallery,40.72252117,-74.00271112,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+448,Bill Hodges Gallery,40.763437,-73.97553999,Midtown-Midtown South,art_gallery
+449,Bitforms,40.74649787,-74.0068296,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+450,Black & Black Art Gallery,40.7054239,-73.79336576,Jamaica,art_gallery
+451,Black & White Gallery Inc,40.71844238,-73.95464223,North Side-South Side,art_gallery
+452,Bleier Milton A Corp,40.75960676,-73.97287193,Midtown-Midtown South,art_gallery
+453,Blue Mountain Gallery Inc,40.74923625,-74.00476842,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+454,Bodanna Inc,40.72652721,-73.98411975,East Village,art_gallery
+455,Bolivar Arellano Gallery,40.72761183,-73.98391618,East Village,art_gallery
+456,Bonakdar Jancou Gallery,40.74700169,-74.00611786,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+457,BORDEN JANET INC,40.7240463,-73.99768478,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+458,Bose Pacia Modern,40.74976022,-74.00359349,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+459,Bound and Unbound,40.75159814,-74.00687162,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+460,Bowery Gallery,40.74926984,-74.00484544,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+461,Brenda Taylor Gallery,40.74935025,-74.00382577,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+462,Bridgewater Gallery of Fine Arts Inc,40.72292592,-73.98412586,East Village,art_gallery
+463,Bronx River Art Center,40.84059709,-73.87815507,East Tremont,art_gallery
+464,Brooke Alexander Gallery,40.72320925,-74.00226166,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+465,Brooklyn Arts Exchange,40.66976942,-73.98543282,Park Slope-Gowanus,art_gallery
+466,Brooklyn Fireproof,40.70788793,-73.92918028,Bushwick North,art_gallery
+467,Broome Street Gallery the,40.72338629,-74.00262453,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+468,Bruce Palmer Galleries,40.79219979,-73.97712674,Upper West Side,art_gallery
+469,Bruce Silverstein Gallery,40.74712573,-74.00514719,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+470,Bruton Gallery Inc,40.76431098,-73.96984506,Upper East Side-Carnegie Hill,art_gallery
+471,Buzzco Assoc Inc,40.72583067,-73.99375529,West Village,art_gallery
+472,C & M Arts,40.77561747,-73.96202951,Upper East Side-Carnegie Hill,art_gallery
+473,Caelum Gallery,40.75002305,-74.00446732,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+474,Caldwell Snyder Gallery,40.72589116,-74.00041761,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+475,Candyland Films,40.72028153,-74.00091722,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+476,Caravan International Co,40.77813815,-73.95350252,Yorkville,art_gallery
+477,Carboni Inc,40.75545955,-73.98021698,Midtown-Midtown South,art_gallery
+478,Carley Ann M Atty,40.72263369,-73.99736114,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+479,Carlton Rochell,40.76238725,-73.97170664,Midtown-Midtown South,art_gallery
+480,Carnegie Frame Inc,40.76385541,-73.98077112,Midtown-Midtown South,art_gallery
+481,Cartoon Gallery,40.72038139,-73.84605039,Forest Hills,art_gallery
+482,Cartoonews Gallery,40.76231329,-73.97410777,Midtown-Midtown South,art_gallery
+483,Casa Linda Galleries Inc,40.78335247,-73.947383,Yorkville,art_gallery
+484,Casey M Kaplan Inc,40.7411325,-74.00652923,West Village,art_gallery
+485,Catherine Conway Inc,40.73684463,-73.9982052,West Village,art_gallery
+486,Cavaliero Fine Arts,40.75282327,-73.99156926,Midtown-Midtown South,art_gallery
+487,Cavin-Morris,40.72389909,-73.99779868,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+488,Cds Gallery,40.77570414,-73.96117092,Upper East Side-Carnegie Hill,art_gallery
+489,Celtic Art,40.74640143,-73.94476783,Hunters Point-Sunnyside-West Maspeth,art_gallery
+490,Century Artists Inc,40.74941973,-74.00473558,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+491,Ceres Gallery,40.75132406,-74.00452369,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+492,Ceres Gallery,40.72479496,-73.99703729,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+493,Cfm Gallery,40.72457191,-73.9994251,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+494,Chappell Gallery,40.75015743,-74.00446166,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+495,Chat Noir Design,40.85929737,-73.93207459,Washington Heights North,art_gallery
+496,Cheim & Read,40.75001941,-74.00513583,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+497,Chelsea Ceramic Guild,40.7423876,-73.99869441,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+498,China 2000,40.76285383,-73.97319627,Midtown-Midtown South,art_gallery
+499,China 2000 Fine Arts,40.76900976,-73.95334299,Lenox Hill-Roosevelt Island,art_gallery
+500,Chinatown Frame & Art Inc,40.71670513,-73.99658768,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+501,Chinoh Art Gallery,40.73615406,-73.99315956,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+502,Chowder Inc,40.73915341,-73.99281171,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+503,Christiane Nienaber Contemporary Art,40.72199731,-73.99227383,Chinatown,art_gallery
+504,Christine Burgin Gallery,40.74199886,-73.99954508,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+505,Cinque Gallery,40.72397735,-73.99759294,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+506,Claire Oliver Fine Arts Inc,40.75008883,-74.00338485,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+507,Clampart,40.74977518,-74.0046388,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+508,Clementine Gallery,40.75209329,-74.00610794,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+509,Clinton Hill Simply Art & Framing,40.69419974,-73.96081859,Clinton Hill,art_gallery
+510,Coda Gallery,40.72289524,-74.00156429,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+511,Cole Sylvan Gallery,40.7646577,-73.9773564,Midtown-Midtown South,art_gallery
+512,College of Staten Island - Center for the Arts,40.59966212,-74.14969499,New Springville-Bloomfield-Travis,art_gallery
+513,Columbia University - Miriam and Ira D.Wallach Art Gallery,40.80854103,-73.9604169,Morningside Heights,art_gallery
+514,Columbus Art Gallery Inc,40.78831274,-73.97130508,Upper West Side,art_gallery
+515,Columbus Circle Gallery,40.7673376,-73.98122765,Midtown-Midtown South,art_gallery
+516,Commerce Graphics Ltd Inc,40.76774168,-73.95232973,Lenox Hill-Roosevelt Island,art_gallery
+517,Common Ground,40.73868808,-73.99533453,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+518,Conner Rosenkranz,40.77346566,-73.96490959,Upper East Side-Carnegie Hill,art_gallery
+519,Contemporary African Art,40.80321374,-73.96880032,Morningside Heights,art_gallery
+520,Contemporary art gallery in Chelsea. Wooster Gardens,40.72367259,-73.9975943,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+521,Cook Fine Art,40.77724264,-73.96110243,Upper East Side-Carnegie Hill,art_gallery
+522,Coploff Gallery,40.75002047,-74.00455453,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+523,Cordier & Ekstrom Inc,40.76951266,-73.95352973,Lenox Hill-Roosevelt Island,art_gallery
+524,"Corning Gallery at Steuben, The",40.76449625,-73.97028166,Upper East Side-Carnegie Hill,art_gallery
+525,Cowles Charles Gallery Inc,40.74933736,-74.00542084,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+526,Creative Art USA Inc,40.72615456,-74.00497462,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+527,Crg Art Gallery,40.74779197,-74.00613862,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+528,Criswick Assoc,40.74901948,-73.97180489,Turtle Bay-East Midtown,art_gallery
+529,Crown Art Gallery Inc,40.76062954,-73.98510259,Midtown-Midtown South,art_gallery
+530,Crystal Art Gallery,40.74413705,-73.98844468,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+531,Cuban Art Space,40.74865954,-73.99422633,Midtown-Midtown South,art_gallery
+532,Cuchifritos,40.71913487,-73.98763036,Chinatown,art_gallery
+533,Culture Art Gallery Llc,40.72477529,-74.00137305,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+534,Culture Crossing Inc,40.78558211,-73.9546693,Upper East Side-Carnegie Hill,art_gallery
+535,Curatorial Art Advisory Service,40.73721434,-73.99183911,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+536,Cypher Editions,40.72152348,-74.00306023,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+537,Czech Center,40.76912229,-73.956422,Lenox Hill-Roosevelt Island,art_gallery
+538,Dactyl Foundation for the Arts,40.72232072,-74.00318448,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+539,Dai Ichi Arts,40.75395456,-73.96959312,Turtle Bay-East Midtown,art_gallery
+540,Dalva Brothers Inc,40.77466685,-73.96290104,Upper East Side-Carnegie Hill,art_gallery
+541,D'amelio-Terras,40.74761065,-74.00555202,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+542,Damp Frog Productions Inc,40.71457046,-73.99227136,Chinatown,art_gallery
+543,Danese,40.74917263,-74.00526783,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+544,Danette Koke Fine Art,40.73679551,-74.00855042,West Village,art_gallery
+545,Daniel H Roberts Studio,40.7232345,-74.00910863,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+546,David Killen Fine Arts,40.78201539,-73.95066796,Yorkville,art_gallery
+547,David Nolan New York,40.75221446,-74.00267818,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+548,Davis Leron Galries,40.76723679,-73.96910832,Upper East Side-Carnegie Hill,art_gallery
+549,DC Moore Gallery,40.76266951,-73.97447205,Midtown-Midtown South,art_gallery
+550,Dca Gallery,40.74755765,-74.00542352,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+551,De Nagy Tibor Art Gallery,40.76270743,-73.97457853,Midtown-Midtown South,art_gallery
+552,Dean Andree M,40.77982311,-73.95706273,Upper East Side-Carnegie Hill,art_gallery
+553,Debs & Co,40.75017475,-74.00385234,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+554,Greer Gallery Inc,40.72393891,-74.00186315,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+555,Grimm Jay Gallery,40.75105951,-74.00212168,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+556,Guggenheim Asher Assocs Inc,40.73724886,-73.99906221,West Village,art_gallery
+557,Guggenheim Asher Assocs Inc,40.73718458,-73.99910998,West Village,art_gallery
+558,Guy Regal Ltd,40.76188644,-73.96495627,Lenox Hill-Roosevelt Island,art_gallery
+559,Hall & Knight U S A Ltd,40.76891016,-73.96794455,Upper East Side-Carnegie Hill,art_gallery
+560,Hammer Galleries,40.7640147,-73.97573457,Midtown-Midtown South,art_gallery
+561,Hanover Sq Gallery,40.67698834,-73.97128381,Prospect Heights,art_gallery
+562,Harari & Johns Inc,40.77810558,-73.95977553,Upper East Side-Carnegie Hill,art_gallery
+563,Harlan & Weaver Intaglio,40.71550208,-73.99305509,Chinatown,art_gallery
+564,Harlem Art Gallery,40.80361809,-73.94805169,Central Harlem South,art_gallery
+565,Hazlitt Gooden & Fox,40.77471647,-73.96400124,Upper East Side-Carnegie Hill,art_gallery
+566,Healing Arts,40.71967845,-73.96002002,North Side-South Side,art_gallery
+567,Heilman Phillip Douglas,40.69848967,-73.924937,Bushwick South,art_gallery
+568,Heller Gallery,40.74120765,-74.00672064,West Village,art_gallery
+569,Helly Nahmad Gallery Inc,40.77441643,-73.96323779,Upper East Side-Carnegie Hill,art_gallery
+570,Hemingway African Gallery,40.75812414,-73.96554577,Turtle Bay-East Midtown,art_gallery
+571,Henoch Gallery,40.75002819,-74.00531476,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+572,Hirschl & Adler Galleries,40.77076084,-73.96647641,Upper East Side-Carnegie Hill,art_gallery
+573,Historical Design Collection Inc,40.76138938,-73.96284773,Lenox Hill-Roosevelt Island,art_gallery
+574,Hochman Irena Fine Art Ltd,40.77848561,-73.96078341,Upper East Side-Carnegie Hill,art_gallery
+575,HOFFELD JEFFREY & CO,40.77816244,-73.9489083,Yorkville,art_gallery
+576,Holmberg I,40.75150285,-73.98065902,Murray Hill-Kips Bay,art_gallery
+577,Honda Fine Art,40.72642838,-73.9924632,West Village,art_gallery
+578,Hoorn-Ashby Gallery,40.76788288,-73.96860379,Upper East Side-Carnegie Hill,art_gallery
+579,Horan Vivian Fine Art,40.76853707,-73.96707384,Upper East Side-Carnegie Hill,art_gallery
+580,Horus Art Enterprises,40.76480382,-73.96351076,Lenox Hill-Roosevelt Island,art_gallery
+581,Howard Greenberg Gallery,40.76244505,-73.97186783,Midtown-Midtown South,art_gallery
+582,Howard Nowes Ancient Art,40.7469112,-73.98814827,Midtown-Midtown South,art_gallery
+583,Howard Scott Gallery,40.7746112,-73.95345448,Yorkville,art_gallery
+584,Hubert Gallery,40.77694751,-73.96187638,Upper East Side-Carnegie Hill,art_gallery
+585,Hubert Gallery North,40.77687206,-73.96193403,Upper East Side-Carnegie Hill,art_gallery
+586,Hut Gallery the,40.68807177,-73.98698066,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+587,Hutton Leonard Galleries,40.7623751,-73.97191597,Midtown-Midtown South,art_gallery
+588,Hutton Leonard Galleries Facs,40.76231286,-73.97196242,Midtown-Midtown South,art_gallery
+589,Hw Gerst,40.77531718,-73.96458036,Upper East Side-Carnegie Hill,art_gallery
+590,I & L Image Corp,40.74654219,-74.00694992,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+591,I C Editions,40.74877351,-74.00516169,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+592,I Perry,40.72561867,-74.00978327,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+593,Illustration House Inc,40.74424858,-73.99252245,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+594,Images Corporate Art Services,40.7570848,-73.96308722,Turtle Bay-East Midtown,art_gallery
+595,Incredibleart.Com Inc,40.72091221,-74.00204405,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+596,Indians On Columbus,40.78373479,-73.97464955,Upper West Side,art_gallery
+597,Infinity Fine Arts Inc,40.7495165,-74.00371025,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+598,Inner City Art Gallery Inc,40.8135293,-73.94456809,Central Harlem North-Polo Grounds,art_gallery
+599,Innovative Art Gallery Inc,40.73816931,-73.99954514,West Village,art_gallery
+600,Inter Art Gallery,40.74805554,-74.00418891,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+601,International Print Center New York,40.75004718,-74.00429062,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+602,Irit Baniel Studio,40.71640453,-73.95735398,North Side-South Side,art_gallery
+603,Ise Art Foundation,40.72392227,-73.99864412,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+604,Isselbacher Gallery Inc,40.78033057,-73.95822258,Upper East Side-Carnegie Hill,art_gallery
+605,J Cacciola Galleries,40.75206092,-74.00583688,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+606,J M Art Gallery,40.76582551,-73.98154615,Midtown-Midtown South,art_gallery
+607,Jadite Galleries,40.76396461,-73.98967473,Clinton,art_gallery
+608,Jain Marunouchi Gallery,40.76343013,-73.97565215,Midtown-Midtown South,art_gallery
+609,James Cohan Gallery,40.7503964,-74.0040987,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+610,James Graham & Sons Gallery,40.77588116,-73.96267507,Upper East Side-Carnegie Hill,art_gallery
+611,Jane St Lifer Fine Art Inc,40.7770141,-73.98862442,Lincoln Square,art_gallery
+612,Janoray Charles Llc,40.77484441,-73.96416054,Upper East Side-Carnegie Hill,art_gallery
+613,Japanese Art Dealers Assoc of Ny,40.77479192,-73.96394359,Upper East Side-Carnegie Hill,art_gallery
+614,Jbpa Llc,40.73683276,-73.99677783,West Village,art_gallery
+615,Jeff Lewis Studio,40.72321298,-74.00896057,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+616,Jeffrey Coploff Fine Art Ltd,40.74985463,-74.00382219,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+617,Jimmy's Art Gallery,40.7781549,-73.98122671,Lincoln Square,art_gallery
+618,Joan Peck Limited Art Gallery,40.77350104,-73.97885635,Lincoln Square,art_gallery
+619,Joan Whalen Fine Art,40.76338705,-73.97556494,Midtown-Midtown South,art_gallery
+620,John Elder Gallery,40.74664084,-74.00677134,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+621,John McEnroe Gallery,40.72208699,-74.00213616,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+622,John Stevenson Gallery,40.74572696,-74.00007742,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+623,Jonathan Shorr Gallery,40.72411875,-73.99657105,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+624,Judaica Illuminations,40.61677558,-73.96395886,Ocean Parkway South,art_gallery
+625,Julie Artisans Gallery,40.7677819,-73.9686677,Upper East Side-Carnegie Hill,art_gallery
+626,Julie Saul Gallery,40.74789792,-74.00619866,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+627,JUNE BATEMAN FINE  GALLERY,40.74367565,-73.9893707,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+628,K S Art,40.71764124,-74.00518748,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+629,Kahan Fine Art Galleries Ltd,40.76682971,-73.95504393,Lenox Hill-Roosevelt Island,art_gallery
+630,Kaller-Kimche R Inc,40.77345637,-73.96473207,Upper East Side-Carnegie Hill,art_gallery
+631,Kang Byung,40.77867171,-73.96128971,Upper East Side-Carnegie Hill,art_gallery
+632,Kapoor Galleries Inc,40.7752396,-73.96257907,Upper East Side-Carnegie Hill,art_gallery
+633,Kashya Hildebrand,40.74968946,-74.00443297,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+634,Katherine Blackburne Studios,40.72325271,-74.00924361,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+635,Kathryn Markel Fine Arts Inc,40.74671947,-74.00693866,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+636,Katz Steven,40.73552236,-73.98920391,Gramercy,art_gallery
+637,Keats R Stuart,40.74776391,-73.97949841,Murray Hill-Kips Bay,art_gallery
+638,Keith Copley Gallery,40.75569251,-74.00074259,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+639,Keith de Lellis Gallery,40.77664162,-73.96155652,Upper East Side-Carnegie Hill,art_gallery
+640,Kelly June Gallery,40.72507391,-73.99753865,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+641,Kem Art Studio,40.73593099,-73.99409339,West Village,art_gallery
+642,Kempner Jim Fine Art,40.74796363,-74.00425507,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+643,Kenkeleba Gallery,40.72203677,-73.98286541,Lower East Side,art_gallery
+644,Kent Gallery,40.74986992,-74.00473858,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+645,Kentler International Drawing Space,40.67694141,-74.01299286,Carroll Gardens-Columbia Street-Red Hook,art_gallery
+646,Keogh & Riehlman Fine Art,40.77253251,-73.96541796,Upper East Side-Carnegie Hill,art_gallery
+647,Keya Gallery,40.70762945,-74.01076961,Battery Park City-Lower Manhattan,art_gallery
+648,Kim Foster Gallery,40.74654934,-74.00686533,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+649,Kind Phylis Gallery,40.74652399,-73.99586876,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+650,King David Art Gallery,40.74315985,-73.99400408,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+651,"Kinz, Tillou + Feigen",40.7466394,-74.00701008,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+652,Klagsbrun Nicole Gallery,40.7499731,-74.00433593,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+653,Klotz Sirmon Gallery,40.74962416,-74.00395717,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+654,Kokon Inc,40.76744319,-73.9674822,Upper East Side-Carnegie Hill,art_gallery
+655,Kraus Carole Ltd,40.7552543,-73.9935019,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+656,Kraushaar Galleries,40.77564019,-73.96115441,Upper East Side-Carnegie Hill,art_gallery
+657,Kravets Wehby,40.74710853,-74.00604109,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+658,Kravets Wehby Gallery,40.74707249,-74.00627468,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+659,Krienke Kendra,40.78367572,-73.97094199,Upper West Side,art_gallery
+660,L A Cotton,40.76390488,-73.97082633,Upper East Side-Carnegie Hill,art_gallery
+661,La Belle Epoque Vintage Posters Inc,40.77838511,-73.97835368,Lincoln Square,art_gallery
+662,Lally J J & Co,40.76247459,-73.97193281,Midtown-Midtown South,art_gallery
+663,Lamontage,40.74995615,-74.00587275,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+664,Landy Fine Art,40.71492376,-73.98517984,Lower East Side,art_gallery
+665,Langotsky Gamba,40.7270818,-74.00861745,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+666,Lehman College - Art Gallery,40.87458975,-73.89291006,Van Cortlandt Village,art_gallery
+667,Lehmann Maupin,40.75019805,-74.00481382,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+668,Lelong Galerie,40.75004374,-74.00419548,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+669,Lemmons Durham Contemporary Art,40.74986484,-74.00593617,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+670,Lennon Weinberg Inc,40.74911049,-74.00412151,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+671,Leo Castelli Gallery,40.7750123,-73.96371065,Upper East Side-Carnegie Hill,art_gallery
+672,Leo Kaplan Modern Ltd,40.76109138,-73.97007752,Turtle Bay-East Midtown,art_gallery
+673,Leo Koenig Inc,40.74887767,-74.00588392,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+674,Leon Tovar Gallery,40.77112199,-73.96652982,Upper East Side-Carnegie Hill,art_gallery
+675,Leslie-Lohman Gay Art Foundation,40.72565728,-74.0002743,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+676,Levin Betty,40.76240336,-73.97198517,Midtown-Midtown South,art_gallery
+677,Levine Elizabeth & Assocs,40.78986636,-73.97752234,Upper West Side,art_gallery
+678,Lewitt Fine Art Gallery,40.77635843,-73.96271301,Upper East Side-Carnegie Hill,art_gallery
+679,Lexington Art & Frame Co,40.76517409,-73.96626234,Upper East Side-Carnegie Hill,art_gallery
+680,Limner Gallery,40.74758822,-73.98905874,Midtown-Midtown South,art_gallery
+681,Decor Art Gallery,40.74722503,-73.9766441,Murray Hill-Kips Bay,art_gallery
+682,Decor Art Gallery Inc,40.74042555,-73.98154386,Murray Hill-Kips Bay,art_gallery
+683,Decor Art Gallery Inc,40.74199628,-73.99753555,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+684,Decor Art Gallery VII+,40.73636204,-73.98527373,Gramercy,art_gallery
+685,Deitch Projects,40.72203364,-74.00256827,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+686,Demirjian Torkom,40.77424074,-73.96384991,Upper East Side-Carnegie Hill,art_gallery
+687,Demu Gallery,40.68639582,-73.9740749,Fort Greene,art_gallery
+688,Denise Bibro Fine Art,40.74677236,-74.00695182,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+689,Dennis De Lorenzo Gallery,40.76581474,-73.97027929,Upper East Side-Carnegie Hill,art_gallery
+690,Derek Eller Gallery,40.74450714,-73.98825307,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+691,Dickinson Roundell Inc,40.7682544,-73.96854541,Upper East Side-Carnegie Hill,art_gallery
+692,Dollhaus,40.71084128,-73.96730076,North Side-South Side,art_gallery
+693,Donson Theodore B Ltd,40.76332076,-73.97573603,Midtown-Midtown South,art_gallery
+694,Dorfman Projects,40.74671947,-74.00682775,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+695,Dorsky Carol,40.77303693,-73.9649229,Upper East Side-Carnegie Hill,art_gallery
+696,Doug Meyer Fine Art,40.61278272,-73.93693176,Georgetown-Marine Park-Bergen Beach-Mill Basin,art_gallery
+697,Downtown Arts Festival,40.70981333,-74.00737811,Battery Park City-Lower Manhattan,art_gallery
+698,Downtown Music Gallery,40.71165385,-73.99592592,Chinatown,art_gallery
+699,Dranoff Fine Art,40.72499658,-73.99738556,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+700,Dresden Art Galries,40.74975506,-73.99099244,Midtown-Midtown South,art_gallery
+701,DUMBO Arts Center,40.7034732,-73.98981275,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+702,Duncan Ligoa,40.77169855,-73.96590831,Upper East Side-Carnegie Hill,art_gallery
+703,E Art Group,40.74883453,-73.99390782,Midtown-Midtown South,art_gallery
+704,Eastern Arts Inc,40.73799489,-74.00670811,West Village,art_gallery
+705,Edward Thorp Gallery,40.74981056,-74.00608115,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+706,Edwynn Houk Gallery,40.76341083,-73.97334239,Midtown-Midtown South,art_gallery
+707,Eileen Walters Gallery,40.78498335,-73.98109485,Upper West Side,art_gallery
+708,Elga Wimmer,40.75010231,-74.00432687,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+709,Elizabeth Dee Gallery,40.7468852,-74.00753313,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+710,Elizabeth Harris Gallery,40.74657937,-74.00677134,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+711,Elizabeth Mayer Fine Art,40.77222815,-73.96383795,Upper East Side-Carnegie Hill,art_gallery
+712,Elizabeth Moore Fine Art,40.76910952,-73.96285621,Upper East Side-Carnegie Hill,art_gallery
+713,Elizabeth Wang Gallery,40.76559751,-73.97162703,Upper East Side-Carnegie Hill,art_gallery
+714,Elkon Gallery Inc,40.7777238,-73.96186682,Upper East Side-Carnegie Hill,art_gallery
+715,Elliot Stevens Ltd,40.7565026,-73.97334597,Turtle Bay-East Midtown,art_gallery
+716,Emily Harvey Gallery,40.72350584,-73.99900175,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+717,Environment Home Furnshngs Inc,40.76208203,-73.96555408,Lenox Hill-Roosevelt Island,art_gallery
+718,Equatorial America Inc,40.7557595,-73.96424712,Turtle Bay-East Midtown,art_gallery
+719,Equitable Appraisal Co Inc,40.77397695,-73.96428936,Upper East Side-Carnegie Hill,art_gallery
+720,Equity Art Brokers,40.75528418,-73.9661194,Turtle Bay-East Midtown,art_gallery
+721,Equity Art Brokers,40.74367716,-73.99114641,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+722,Erotics Gallery,40.73707046,-73.99057186,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+723,Esso Gallery,40.75024969,-74.00381837,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+724,Exhibit A,40.72505669,-73.99769215,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+725,Exit Art,40.75624293,-73.99850449,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+726,Exotiqa II,40.84660712,-73.78597885,Pelham Bay-Country Club-City Island,art_gallery
+727,Eye Jammie Fine Arts Gallery,40.74926699,-74.00430836,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+728,Eyebeam Atelier,40.74698648,-74.0070564,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+729,Ezair Gallery,40.77214609,-73.96488957,Upper East Side-Carnegie Hill,art_gallery
+730,Faith Art Gallery Corp,40.69145797,-73.98502184,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,art_gallery
+731,Feature Inc,40.74938528,-74.00465743,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+732,Fields Walter,40.72434453,-73.97999416,Lower East Side,art_gallery
+733,Fifty-Five Mercer Gallery,40.72199019,-74.00122059,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+734,Findlay David Galleries,40.77671113,-73.95786468,Upper East Side-Carnegie Hill,art_gallery
+735,Findlay David Jr Fine Art,40.76231666,-73.97174887,Midtown-Midtown South,art_gallery
+736,Findlay Peter Gallery,40.76223773,-73.97180039,Midtown-Midtown South,art_gallery
+737,Fine Art Acquisitions,40.72359332,-74.00029974,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+738,Fine Art Alacarte,40.70636686,-74.00380156,Battery Park City-Lower Manhattan,art_gallery
+739,Fine Art Services & Transport,40.73823239,-73.92883941,Hunters Point-Sunnyside-West Maspeth,art_gallery
+740,First Street Gallery,40.74996793,-74.00443447,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+741,Fischbach Gallery,40.74989671,-74.00602113,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+742,Flushing Art Gallery,40.76141732,-73.83041138,Flushing,art_gallery
+743,Focal Point Gallery,40.84756078,-73.78685976,Pelham Bay-Country Club-City Island,art_gallery
+744,Folin Riva Inc,40.74660509,-74.00707399,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+745,Folklorica,40.75983435,-73.97503919,Midtown-Midtown South,art_gallery
+746,Forbes Magazine Galleries,40.73502191,-73.99479483,West Village,art_gallery
+747,Forrest Scott Group,40.72397526,-73.99647309,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+748,Fortress Fae Worldwide,40.74335663,-73.95653685,Hunters Point-Sunnyside-West Maspeth,art_gallery
+749,Fortress Ny,40.74338983,-73.95672413,Hunters Point-Sunnyside-West Maspeth,art_gallery
+750,Fortuna Fine Arts Ltd,40.77485986,-73.96344115,Upper East Side-Carnegie Hill,art_gallery
+751,Forum Gallery,40.76329345,-73.97342331,Midtown-Midtown South,art_gallery
+752,Fowa Enterprises Corp,40.71331565,-73.99701259,Chinatown,art_gallery
+753,Franklin Bowles Galleries,40.72526683,-74.00094987,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+754,Franklin Parrasch Gallery,40.76337208,-73.97543422,Midtown-Midtown South,art_gallery
+755,Frederick Schultz Ancient Art,40.78690228,-73.98069884,Upper West Side,art_gallery
+756,Fredericks Freiser Gallery,40.74706889,-74.00519619,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+757,Frederieke Taylor Gallery,40.74784537,-74.0062383,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+758,Frei-Nathan Susan Fine Works On Paper Llc,40.77433136,-73.95473116,Yorkville,art_gallery
+759,Friedman Vallois Llc,40.7685893,-73.96744386,Upper East Side-Carnegie Hill,art_gallery
+760,Friedrich Petzel Gallery,40.74785399,-74.00609559,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+761,Frielich Bros-Deutsch Bros,40.72722478,-73.99481412,West Village,art_gallery
+762,Friends of Bezalel Academy,40.75313967,-73.98073127,Murray Hill-Kips Bay,art_gallery
+763,Fulton Plaza,40.70958977,-74.00704683,Battery Park City-Lower Manhattan,art_gallery
+764,Fulton St Art Gallery,40.70746874,-74.00589066,Battery Park City-Lower Manhattan,art_gallery
+765,G P L Promotions Ltd,40.74955564,-73.98207161,Murray Hill-Kips Bay,art_gallery
+766,Gagosian Gallery Chelsea,40.74908344,-74.00539201,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+767,Gagosian Gallery Uptown,40.77483506,-73.96358045,Upper East Side-Carnegie Hill,art_gallery
+768,Galerie Des Arts Ltd,40.77441872,-73.96420493,Upper East Side-Carnegie Hill,art_gallery
+769,Galerie Thomas,40.73581223,-74.00283704,West Village,art_gallery
+770,Galleria On Third,40.74640198,-73.97718802,Murray Hill-Kips Bay,art_gallery
+771,Galleria Ramis Barquet Ny Ltd,40.76241422,-73.97179188,Midtown-Midtown South,art_gallery
+772,Gallery 151,40.72674329,-73.99204714,West Village,art_gallery
+773,Gallery 292,40.72505116,-74.00008646,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+774,Gallery 49,40.76183839,-73.98751492,Clinton,art_gallery
+775,Gallery 71 Inc,40.76963622,-73.96299599,Upper East Side-Carnegie Hill,art_gallery
+776,Gallery 91,40.72140577,-74.00215738,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+777,Gallery at the American Bible Society,40.77025398,-73.98273876,Lincoln Square,art_gallery
+778,Gallery at the New York School of Interior Design,40.76856417,-73.96246363,Upper East Side-Carnegie Hill,art_gallery
+779,Gallery Bai Inc,40.76059646,-73.99627932,Clinton,art_gallery
+780,Gallery Henoch,40.75012695,-74.00526086,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+781,Gallery of Ireland,40.74795987,-73.91369901,Hunters Point-Sunnyside-West Maspeth,art_gallery
+782,Gardner & Barr Inc,40.76174806,-73.96278276,Lenox Hill-Roosevelt Island,art_gallery
+783,Garth Clark Gallery,40.76328542,-73.97564541,Midtown-Midtown South,art_gallery
+784,Garth Clark Gallery's Project Space,40.74618054,-73.94831899,Hunters Point-Sunnyside-West Maspeth,art_gallery
+785,Gasser & Grunert,40.74558378,-74.0073622,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+786,Gavin Brown's Enterprise Corp,40.73054991,-74.00859302,West Village,art_gallery
+787,Generous Miracles Space Ltd,40.74669373,-74.00701009,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+788,George Adams Gallery,40.75025399,-74.00402678,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+789,George Billis Gallery,40.75007756,-74.00542748,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+790,Geos Art Gallery and Tuxedos,40.69203361,-73.7506114,St. Albans,art_gallery
+791,Gerold Wunderlich & Co,40.76374157,-73.97659531,Midtown-Midtown South,art_gallery
+792,Gian Enzo Sperone,40.72978029,-74.00803261,West Village,art_gallery
+793,Giraud Pissarro Segalot,40.76906697,-73.96355105,Upper East Side-Carnegie Hill,art_gallery
+794,Gleason Tim Gallery,40.7217016,-73.99427302,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+795,Global Passages Inc,40.76214537,-73.96551116,Lenox Hill-Roosevelt Island,art_gallery
+796,Godel & Co Inc,40.77181139,-73.96478601,Upper East Side-Carnegie Hill,art_gallery
+797,Goedhuis Contemporary Ltd,40.77396711,-73.96297173,Upper East Side-Carnegie Hill,art_gallery
+798,Goethe-Institut Wyoming Building,40.72634319,-73.99111875,East Village,art_gallery
+799,Golden Caren Fine Arts,40.75008938,-74.0045047,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+800,Goodman James Gallery,40.76227754,-73.97187972,Midtown-Midtown South,art_gallery
+801,Grant Gallery,40.72044661,-74.00244284,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+802,Great Modern Pictures,40.74843275,-73.98565422,Midtown-Midtown South,art_gallery
+803,Greeley Square Gallery,40.74704275,-73.98769078,Midtown-Midtown South,art_gallery
+804,Green Essie Galleries Inc,40.82638148,-73.94466951,Hamilton Heights,art_gallery
+805,Greene Naftali Inc,40.75003598,-74.0043835,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+806,Greene Space Gallery,40.72450899,-74.00004007,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+807,Littlejohn Contemporary Art,40.76233983,-73.97203416,Midtown-Midtown South,art_gallery
+808,Lizan Tops Associates,40.7849199,-73.95713277,Upper East Side-Carnegie Hill,art_gallery
+809,Lladro Museum & Collector's Society,40.76412964,-73.97625732,Midtown-Midtown South,art_gallery
+810,Lladro USA,40.76421069,-73.97619602,Midtown-Midtown South,art_gallery
+811,Location One,40.72098729,-74.00246503,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+812,Lombard-Fried Fine Arts Inc,40.75032119,-74.00376627,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+813,Long Fine Art,40.74172005,-74.00645063,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+814,Lower Manhattan Cultural Council,40.70660442,-74.00625208,Battery Park City-Lower Manhattan,art_gallery
+815,Lublin Mary Fine Arts,40.76897164,-73.96345944,Upper East Side-Carnegie Hill,art_gallery
+816,Lucas Schoormans Gallery,40.74976146,-74.00374214,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+817,Ludlow 38,40.71607367,-73.99014614,Chinatown,art_gallery
+818,Luhring Augustine Gallery Inc,40.74910894,-74.0051018,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+819,Lumbard Jean,40.78759697,-73.95437532,East Harlem South,art_gallery
+820,Lun Yee Assn,40.71679772,-73.99696834,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+821,Lunarbase Inc,40.71427465,-73.96034432,North Side-South Side,art_gallery
+822,Lurie Tamar & Ranan,40.762467,-73.97398762,Midtown-Midtown South,art_gallery
+823,M & R Sayer Fine Art Llc,40.77012253,-73.96305316,Upper East Side-Carnegie Hill,art_gallery
+824,M K J Art Gallery,40.73819666,-73.98242013,Gramercy,art_gallery
+825,MacCarone Inc,40.73093144,-74.0084803,West Village,art_gallery
+826,Malcolm Christian T Fine Arts Managemnt Svc,40.74846917,-73.99402296,Midtown-Midtown South,art_gallery
+827,Manhattan Art,40.75031251,-73.9844838,Midtown-Midtown South,art_gallery
+828,Mansion Gracie Gallery,40.72740796,-73.98886924,East Village,art_gallery
+829,Marbella Gallery,40.77144369,-73.965305,Upper East Side-Carnegie Hill,art_gallery
+830,Marc Jancou Contemporary,40.72749292,-73.99458298,West Village,art_gallery
+831,Marc Jancou Fine Art Ltd,40.76877056,-73.96727019,Upper East Side-Carnegie Hill,art_gallery
+832,Marcus Curt Gallery Inc,40.73199551,-73.99703426,West Village,art_gallery
+833,Margaret Thatcher Projects,40.74850268,-74.00548674,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+834,Margo Feiden Galleries Ltd,40.73257492,-73.99482129,West Village,art_gallery
+835,Marian Goodman Gallery,40.76338707,-73.97568502,Midtown-Midtown South,art_gallery
+836,Marianne Boesky Gallery,40.74883917,-74.00424042,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+837,Marie Walsh Sharpe Art Foundation Art,40.72321957,-74.00938295,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+838,Markey Lawrence Inc,40.77388979,-73.9630306,Upper East Side-Carnegie Hill,art_gallery
+839,Marlborough Gallery,40.7635578,-73.97630725,Midtown-Midtown South,art_gallery
+840,Martin Lawrence Galleries,40.726129,-74.00024343,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+841,Martinez Gallery,40.75078087,-74.0030963,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+842,Mary Boone Gallery,40.76335676,-73.97320639,Midtown-Midtown South,art_gallery
+843,Mary Ryan Gallery,40.76334399,-73.97559554,Midtown-Midtown South,art_gallery
+844,Master Drawing Assoc,40.68805924,-73.92992226,Stuyvesant Heights,art_gallery
+845,Master Framemakers,40.761933,-73.96508959,Lenox Hill-Roosevelt Island,art_gallery
+846,Mathes Barbara Gallery,40.77696659,-73.96216484,Upper East Side-Carnegie Hill,art_gallery
+847,Matthew Marks Gallery - 22nd St.,40.74729741,-74.00589658,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+848,Matthew Marks Gallery - 24th St.,40.74897108,-74.00474728,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+849,Max Protetech Gallery,40.74749803,-74.00529719,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+850,Maxwell Davidson Gallery,40.76264197,-73.97461594,Midtown-Midtown South,art_gallery
+851,Mc Dougal A,40.78655119,-73.98091304,Upper West Side,art_gallery
+852,McCarron Paul Fine Prints & Drawings,40.77592685,-73.96278657,Upper East Side-Carnegie Hill,art_gallery
+853,McGinnis Cheryl Gallery,40.75467997,-73.99214583,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+854,McKee Gallery,40.76323752,-73.97329467,Midtown-Midtown South,art_gallery
+855,McKenzie Fine Art Inc,40.74943639,-74.00377141,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+856,Medialia Corp,40.75559932,-73.99314536,Clinton,art_gallery
+857,Mehu Gallery,40.79479918,-73.96368099,Upper West Side,art_gallery
+858,Meisel Louis K Gallery,40.72569434,-74.00047928,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+859,Meisel Susan P Decorative Arts,40.72576887,-74.00042049,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+860,Merrin Gallery,40.76275397,-73.97468953,Midtown-Midtown South,art_gallery
+861,Merton Simpson Gallery Inc,40.7454474,-73.98965866,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+862,Messineo Atr Projects,40.74859961,-73.99393229,Midtown-Midtown South,art_gallery
+863,Metro Art,40.71335896,-73.87450325,Middle Village,art_gallery
+864,Metro Art and Frame,40.88604954,-73.91115651,Spuyten Duyvil-Kingsbridge,art_gallery
+865,Metro Pictures,40.74895493,-74.00459373,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+866,Miakey Art Gallery,40.64025482,-74.00855558,Sunset Park East,art_gallery
+867,Michael Werner Gallery,40.77524709,-73.96426209,Upper East Side-Carnegie Hill,art_gallery
+868,Michail- Lombardo Gallery,40.76984146,-73.96654242,Upper East Side-Carnegie Hill,art_gallery
+869,Michel Soskine Inc,40.77611498,-73.96069064,Upper East Side-Carnegie Hill,art_gallery
+870,Michelle Rosenfeld Gallery,40.77625969,-73.96278905,Upper East Side-Carnegie Hill,art_gallery
+871,Miele Frank J Gallery,40.77816985,-73.96106462,Upper East Side-Carnegie Hill,art_gallery
+872,Miller Geisler Gallery Llc,40.74952855,-74.00402626,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+873,Miller Laurence Gallery Inc,40.76323165,-73.97553262,Midtown-Midtown South,art_gallery
+874,Mimi Ferzt Inc,40.72369075,-74.00074603,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+875,Minetta Brook Inc,40.7194907,-74.00901738,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+876,Mip Art Realty Inc,40.72296988,-74.0002835,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+877,Mitchell Algus Gallery,40.74953975,-74.00378614,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+878,Mitchell-Innes & Nash,40.77599315,-73.96257961,Upper East Side-Carnegie Hill,art_gallery
+879,Mixed Greens Gallery,40.75030913,-74.0038784,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+880,Mobile Concept Inc,40.76192417,-73.83095587,Flushing,art_gallery
+881,Modern Art & Framing,40.76455537,-73.98032204,Midtown-Midtown South,art_gallery
+882,Moeller Achim Fine Art Ltd,40.76627437,-73.96863603,Upper East Side-Carnegie Hill,art_gallery
+883,Momenta Art Gallery,40.71150042,-73.96295355,North Side-South Side,art_gallery
+884,Monalisa Art Gallery,40.78010875,-73.94665138,Yorkville,art_gallery
+885,Montserrat Gallery Inc,40.7247167,-73.99692952,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+886,Mooney Robert J Arts Management,40.68908922,-73.99361475,Carroll Gardens-Columbia Street-Red Hook,art_gallery
+887,Morales David,40.75539588,-73.99280898,Clinton,art_gallery
+888,Morgan Art Consulting,40.7402545,-73.98578003,Gramercy,art_gallery
+889,Morning Star Gallery Ltd,40.72992529,-73.85783326,Forest Hills,art_gallery
+890,Naegele Amyas Bases & African Art,40.7544864,-73.99433591,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+891,Naiman Lee Fine Art,40.78834442,-73.96767395,Upper West Side,art_gallery
+892,Nancy Hoffman Gallery Inc,40.72518023,-74.0010241,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+893,Nancy Margolis Gallery Inc,40.74964656,-74.00418365,Hudson Yards-Chelsea-Flatiron-Union Square,art_gallery
+894,Natalie Karg Ltd,40.75533811,-73.99266563,Clinton,art_gallery
+895,Nathaniel Moore Llc,40.72031106,-74.00886383,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+896,Navarra Enrico,40.76250348,-73.97200032,Midtown-Midtown South,art_gallery
+897,Neal Meltzer Fine Arts,40.76294039,-73.97241955,Midtown-Midtown South,art_gallery
+898,Neikrug Marjorie Appraisals,40.76536882,-73.96625979,Upper East Side-Carnegie Hill,art_gallery
+899,Neuhoff Gallery Inc,40.7624329,-73.97205775,Midtown-Midtown South,art_gallery
+900,New Dorp Village Antiques Ltd,40.62843293,-74.11581755,New Brighton-Silver Lake,art_gallery
+901,New York Art Expo Inc,40.70500032,-74.00960786,Battery Park City-Lower Manhattan,art_gallery
+902,New York Art Gallery,40.77582842,-73.9497534,Yorkville,art_gallery
+903,New York Gallery Tours,40.73459524,-74.00394434,West Village,art_gallery
+904,Nexus Gallery Inc,40.73042494,-73.98394512,East Village,art_gallery
+905,Nohra Haime Gallery,40.76237002,-73.9721042,Midtown-Midtown South,art_gallery
+906,Nolan Eckman Gallery,40.72397829,-73.9977399,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+907,Northstar Research Associates Inc,40.78956299,-73.97484366,Upper West Side,art_gallery
+908,Nyabinghi Africian Gift Shop,40.71523507,-74.00815285,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+909,O J Art Gallery,40.73488847,-73.9982901,West Village,art_gallery
+910,O.K. Harris Gallery,40.72368862,-74.00207056,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery
+911,Object-Image,40.67984871,-73.97789833,Park Slope-Gowanus,art_gallery
+912,Oditi Inc,40.78636482,-73.95084961,East Harlem South,art_gallery
+913,Odyssia Gallery,40.76187475,-73.96269814,Lenox Hill-Roosevelt Island,art_gallery
+914,Old Print Shop Inc,40.74367322,-73.98194844,Murray Hill-Kips Bay,art_gallery
+915,Omniguard Art Guarantee,40.70893881,-74.01147224,Battery Park City-Lower Manhattan,art_gallery
+916,One Twenty Eight,40.71980652,-73.98691303,Chinatown,art_gallery
+917,Opera Gallery,40.72381494,-73.99994844,SoHo-TriBeCa-Civic Center-Little Italy,art_gallery

@@ -48,12 +48,12 @@ shinyServer(function(input,output){
         
         
         ##################################################################        
-        address <- "155 Claremont Ave, New York"
-        sightsRanked <- reactive({data.frame(40.81364, -73.96120, "StartPoint","")})
         
         sightsRanked <- eventReactive(input$recalc,{
                 if(isolate(input$location)!=""){
                         address <-isolate(input$location)
+                }else{
+                        address <- "Columbia University in the city of New York"
                 }
                 geocode <- geocode(address)
                 start_lat<-as.numeric(geocode$lat)

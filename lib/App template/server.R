@@ -28,21 +28,8 @@ shinyServer(function(input,output){
         # align data with map definitions by (partial) matching state,county
         # names, which include multiple polygons for some counties
         colorsmatched = crimeData$colorBuckets[match(mapNYC$NTAName,crimeData$nta)]
+        shapeData$crimeRate = crimeData$count[match(mapNYC$NTAName,crimeData$nta)]
         #plot(shapeData,col=colors[colorsmatched])
-        
-        #popup
-        content <- function(shapeData){
-                result <- paste("<br/>",shapeData[,1],"<br/>","felony: ",crimeData[crimeData$nta==shapeData[,1]])
-                return(result)
-        }
-        
-        
-
-        
-        
-        
-        
-        
         
         
         
@@ -102,12 +89,16 @@ shinyServer(function(input,output){
                 
         }, ignoreNULL = FALSE)
        
-        #plot 
+        
         
        
 
         
 #############################################################################################################
+        #Region popup
+        polygon_popup <- paste0("<strong>Name: </strong>", shapeData$NTAName, "<br>",
+                                "<strong>Crime Rate: </strong>", shapeData$crimeRate)
+        
         
         
         #output
@@ -115,10 +106,11 @@ shinyServer(function(input,output){
                 print("backgroup")
                 leaflet() %>%
                 hideGroup(c("Views","Routes"))%>%
-                addProviderTiles("Stamen.Toner")%>%
-                 # addTiles("Stamen.Toner") %>%  # Add default OpenStreetMap map tiles
+                addProviderTiles("CartoDB.Positron")%>%
+                #addProviderTiles("Stamen.Toner")%>%
+                #addTiles() %>%  # Add default OpenStreetMap map tiles
                 addPolygons(data=shapeData, fillColor = colors[colorsmatched],
-                            fillOpacity=0.8, stroke = FALSE,popup=content)%>%
+                            fillOpacity=0.8, stroke = FALSE,popup=polygon_popup)%>%
                 #addMarkers(lng=-73.985428, lat=40.748817, popup="The Starting Point")
                 addMarkers(data = sightsRanked(),popup = ~NAME,group = "Views")%>%
                 addPolylines(data = sightsRanked(), lng = ~lng, lat = ~lat, group = "Routes")%>%

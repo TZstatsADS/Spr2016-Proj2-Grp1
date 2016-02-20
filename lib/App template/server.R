@@ -45,12 +45,11 @@ shinyServer(function(input,output){
                 geocode <- geocode(address)
                 start_lat<-as.numeric(geocode$lat)
                 start_lng<-as.numeric(geocode$lon)
-                startpoint <- c(start_lat,start_lng,"startpoint","","")
-                
+                startpoint <- c(start_lat,start_lng,paste("start point"),"0")
                 
                 mustGo<-read.csv("Must-Go-Sights.csv")
                 randomSights <- read.csv("Must-Go-Sights.csv")#take out the mustGoSights
-                numberOfPlaces <- 5
+                numberOfPlaces <- input$number
                 
                 neighbor <- "b"
                 mustGo$neighbor <- c("a","b","a","a") #need to delete
@@ -105,7 +104,7 @@ shinyServer(function(input,output){
         output$backgroup <- renderLeaflet({
                 print("backgroup")
                 leaflet() %>%
-                hideGroup(c("Views","Routes"))%>%
+                #hideGroup(c("Views","Routes"))%>%
                 addProviderTiles("CartoDB.Positron")%>%
                 #addProviderTiles("Stamen.Toner")%>%
                 #addTiles() %>%  # Add default OpenStreetMap map tiles

@@ -39,13 +39,16 @@ shinyServer(function(input,output){
         sightsRanked <- eventReactive(input$recalc,{
                 if(isolate(input$location)!=""){
                         address <-isolate(input$location)
+                        geocode <- geocode(address)
+                        start_lat<-as.numeric(geocode$lat)
+                        start_lng<-as.numeric(geocode$lon)
                 }else{
                         address <- "Columbia University in the city of New York"
+                        start_lat <- 40.80772
+                        start_lng <- -73.96411
                 }
 
-                geocode <- geocode(address)
-                start_lat<-as.numeric(geocode$lat)
-                start_lng<-as.numeric(geocode$lon)
+                
                 startpoint <- c(start_lat,start_lng,paste("start point"),"0")
                 
                 #number of place input

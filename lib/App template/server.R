@@ -5,6 +5,7 @@ library(maptools)
 require(rgdal)
 library(ggmap)
 library(TSP)
+library(ggplot2)
 
 shinyServer(function(input,output){
        # mapzip <- map("county", fill = TRUE,
@@ -180,7 +181,14 @@ shinyServer(function(input,output){
         polygon_popup <- paste0("<strong>Name: </strong>", shapeData$NTAName, "<br>",
                                 "<strong>Crime Rate: </strong>", shapeData$crimeRate)
         
-        
+        output$hist_forall <- renderText({
+                regionPassed<-sightsRanked()
+                regionPassed<-as.vector(unique(isolate(regionPassed)$NTAName))
+                regionPassed<-na.omit(regionPassed)
+                print("text")
+                print(a)
+                a
+        })
         
         #output
         output$backgroup <- renderLeaflet({

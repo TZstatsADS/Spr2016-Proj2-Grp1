@@ -1,4 +1,3 @@
-
 result2= data.frame()
 for (i in 1:nrow(sample)){
   longlat = as.numeric(geocode(as.character(sample[i,2])))

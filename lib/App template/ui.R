@@ -45,7 +45,7 @@ bootstrapPage (
                       textInput(inputId = "location",label = "Where you are"),
                       sliderInput(inputId = "crime",label="Safety", value = 0, min=0, max = 10),
                       sliderInput(inputId = "wifi",label="Wifi", value = 0, min=0, max = 10),
-                      sliderInput(inputId = "restuarant",label="Resturant", value = 0, min=0, max = 10),
+                      sliderInput(inputId = "restaurant",label="Resturant", value = 0, min=0, max = 10),
                       selectInput("category1","Category1",type),
                       selectInput("category2","Category2",type),
                       #selectInput("number","number",vars,selected = "art"),

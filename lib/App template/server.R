@@ -19,18 +19,21 @@ shinyServer(function(input,output){
         shapeData <- spTransform(mapNYC, CRS("+proj=longlat +ellps=GRS80"))
         #process data
         
-        crimeData <- read.csv("crime.csv")[,2:3]
-        names(crimeData) <- c("nta","count")
+        neighborData <- read.csv("neighborhood_stat.csv")[,-1]
+        names(neighborData) <- c("nta","wifi","crime","restaurants")
         
+        neighbor_ranks <- weight(neighborData,input$wifi,input$crime,input$restaurant)
+        
+        neighborData$scores <- neighbor_ranks[,2]
         #color matching
         colors = c('#ffffd9','#edf8b1','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#0c2c84')
         # use cut() to convert numeric to factor
-        crimeData$colorBuckets  <- as.numeric(cut(crimeData$count, c(0, 200, 400, 600, 800, 1000,2000,3000)))
+        neighborData$colorBuckets  <- as.numeric(cut(neighborData$scores, c(0, 200, 400, 600, 800, 1000,2000,3000)))
          
         # align data with map definitions by (partial) matching state,county
         # names, which include multiple polygons for some counties
-        colorsmatched = crimeData$colorBuckets[match(mapNYC$NTAName,crimeData$nta)]
-        shapeData$crimeRate = crimeData$count[match(mapNYC$NTAName,crimeData$nta)]
+        colorsmatched = neighborData$colorBuckets[match(mapNYC$NTAName,neighborData$nta)]
+        shapeData$crimeRate = neighborData$scores[match(mapNYC$NTAName,neighborData$nta)]
         #plot(shapeData,col=colors[colorsmatched])
         
         selectedNeighbor <- sample(as.vector(shapeData$NTAName),4)

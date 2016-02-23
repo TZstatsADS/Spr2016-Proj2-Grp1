@@ -50,7 +50,7 @@ bootstrapPage (
                       selectInput("category1","Category1",type),
                       selectInput("category2","Category2",type),
                       #selectInput("number","number",vars,selected = "art"),
-                      sliderInput(inputId = "number",label="number", value = 0, min=1, max = 10),
+                      sliderInput(inputId = "number",label="number", value = 0, min=0, max = 10),
                     
                       #conditionalPanel(),
                       actionButton("recalc", "My Trip Plan")

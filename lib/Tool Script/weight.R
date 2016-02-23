@@ -30,11 +30,18 @@ weight_calculation <- function(first_preference, second_preference,w1,w2,w3) {
     tmp1= eval(parse(text = first_preference))
     neighborpool<-tmp1$Var1
   }
+  else{
+    neighborpool<-wifi$Var1
+  }
   
   if(second_preference!='all' &second_preference!='landmark'){
     tmp2= eval(parse(text = second_preference))
     neighborpool<-intersect(tmp2$Var1,neighborpool)
   }
+  else{
+    neighborpool<-intersect(wifi$Var1,neighborpool)
+  }
+  
   neighborpool
   wifi<-data.frame(wifi,row.names = 'Var1')
   wifi<-wifi[neighborpool,]

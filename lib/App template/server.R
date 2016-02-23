@@ -6,6 +6,7 @@ require(rgdal)
 library(ggmap)
 library(TSP)
 library(ggplot2)
+library(osrm)
 
 shinyServer(function(input,output){
        # mapzip <- map("county", fill = TRUE,
@@ -43,6 +44,7 @@ shinyServer(function(input,output){
                         geocode <- geocode(address)
                         start_lat<-as.numeric(geocode$lat)
                         start_lng<-as.numeric(geocode$lon)
+                        print(geocode)
                 }else{
                         address <- "Columbia University in the city of New York"
                         start_lat <- 40.80772
@@ -168,6 +170,8 @@ shinyServer(function(input,output){
                 sightsRanked[,2]<-as.numeric(sightsRanked[,2])
                 
                 sightsRanked
+                print(sightsRanked)
+                #osrmViarouteGeom(c(1,40.80772,-73.96411), c(2,40.75874, -73.97867),sp=TRUE)
                 
         }, ignoreNULL = FALSE)
        

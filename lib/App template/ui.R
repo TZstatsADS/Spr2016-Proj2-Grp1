@@ -33,7 +33,6 @@ bootstrapPage (
                       for (i in 1:4){
                       actionButton("recalc", "1")
                               },
-                      textInput(inputId = "location",label = "Where you are"),
                       plotOutput("hist_forall", height = 200)),
         
         #input

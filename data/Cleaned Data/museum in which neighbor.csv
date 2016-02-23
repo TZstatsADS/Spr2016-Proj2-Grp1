@@ -1,91 +1,91 @@
-"","NAME","lat","lng","NTAName","spot_type"
-"1","Alexander Hamilton U.S. Custom House",40.703816216918,-74.0137557951974,"Battery Park City-Lower Manhattan","theater"
-"2","Alice Austen House Museum",40.6151208377554,-74.0630317885511,"Stapleton-Rosebank","theater"
-"3","American Folk Art Museum",40.7616249713855,-73.9781030211,"Midtown-Midtown South","theater"
-"4","American Museum of Natural History",40.7808262345764,-73.9736481637782,"Upper West Side","theater"
-"5","Anne Frank Center USA",40.7211274494767,-73.9996303690309,"SoHo-TriBeCa-Civic Center-Little Italy","theater"
-"6","Bartow-Pell Mansion",40.8717783167827,-73.8055794999576,"park-cemetery-etc-Bronx","theater"
-"7","Bronx Museum of the Arts (BXMA)",40.8310297799285,-73.9197501772483,"East Concourse-Concourse Village","theater"
-"8","Brooklyn Children's Museum",40.6745069960993,-73.9440160138375,"Crown Heights North","theater"
-"9","Brooklyn Historical Society",40.6948029749104,-73.9924054039313,"Brooklyn Heights-Cobble Hill","theater"
-"10","Brooklyn Museum",40.6710832121263,-73.9635850679766,"park-cemetery-etc-Brooklyn","theater"
-"11","Center For Jewish History",40.7379867645884,-73.9938687722398,"Hudson Yards-Chelsea-Flatiron-Union Square","theater"
-"12","Children's Museum of Manhattan",40.7858709210676,-73.9772739196817,"Upper West Side","theater"
-"13","Children's Museum of the Arts",40.7207494688101,-73.9988383609048,"SoHo-TriBeCa-Civic Center-Little Italy","theater"
-"14","Cloisters",40.8649236357481,-73.9317340870604,"Washington Heights North","theater"
-"15","Coney Island Museum",40.5752632425206,-73.9798559841527,"Seagate-Coney Island","theater"
-"16","Cooper-Hewitt, National Design Museum",40.7843257399368,-73.9577816197546,"Upper East Side-Carnegie Hill","theater"
-"17","Dahesh Museum",40.7621069729626,-73.9730419014211,"Midtown-Midtown South","theater"
-"18","Discovery Times Square Exposition",40.7575010855119,-73.9873186395944,"Midtown-Midtown South","theater"
-"19","Drawing Center",40.7224511885278,-74.0029041720417,"SoHo-TriBeCa-Civic Center-Little Italy","theater"
-"20","Dyckman Farmhouse",40.8671309209355,-73.9238391474876,"Marble Hill-Inwood","theater"
-"21","El Museo del Barrio",40.7930989207894,-73.9513676011167,"East Harlem South","theater"
-"22","Ellis Island Museum",40.698207553303,-74.0413216179424,"park-cemetery-etc-Manhattan","theater"
-"23","Fraunces Tavern Museum",40.7033992759879,-74.0113392631792,"Battery Park City-Lower Manhattan","theater"
-"24","Frick Collection",40.7710546535055,-73.9670804053981,"Upper East Side-Carnegie Hill","theater"
-"25","Garibaldi-Meucci Museum",40.6151652240151,-74.0738777429074,"Stapleton-Rosebank","theater"
-"26","Goethe-Institut New York",40.7791656408525,-73.9617420401523,"Upper East Side-Carnegie Hill","theater"
-"27","Gracie Mansion",40.7761134500304,-73.9430684626868,"Yorkville","theater"
-"28","Guggenheim Museum, Solomon R.",40.783009476185,-73.9589110204059,"Upper East Side-Carnegie Hill","theater"
-"29","Hispanic Society of America Museum",40.8334521467581,-73.9468228223052,"Washington Heights South","theater"
-"30","Intrepid Sea-Air-Space Museum",40.7647832739417,-74.0008918064129,NA,"theater"
-"31","Isamu Noguchi Garden Museum",40.7669566130525,-73.9376551450383,"Astoria","theater"
-"32","Italian American Museum",40.7191946282105,-73.9974941068757,"SoHo-TriBeCa-Civic Center-Little Italy","theater"
-"33","Jacques Marchais Center Museum of Tibetan Art",40.5763128353056,-74.1381233658255,"Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill","theater"
-"34","Jewish Museum",40.7854022564254,-73.9571870593106,"Upper East Side-Carnegie Hill","theater"
-"35","King Manor Museum",40.7030420192598,-73.8037606206352,"Jamaica","theater"
-"36","Lee Young Hee Museum of Korean Culture",40.7471970949724,-73.9861883305829,"Midtown-Midtown South","theater"
-"37","Lower East Side Tenement Museum",40.718687698399,-73.9896790482491,"Chinatown","theater"
-"38","Madame Tussauds Wax Museum",40.756318163058,-73.9887022614006,"Midtown-Midtown South","theater"
-"39","Merchant's House Museum",40.7276574172455,-73.9923460479088,"West Village","theater"
-"40","Metropolitan Museum of Art (MET)",40.7794235419904,-73.9634511114527,"park-cemetery-etc-Manhattan","theater"
-"41","Morgan Library and Museum",40.7492950724967,-73.981321485616,"Murray Hill-Kips Bay","theater"
-"42","Morris-Jumel Mansion",40.8344476792655,-73.9385743879273,"Washington Heights South","theater"
-"43","Mount Vernon Hotel Museum & Garden",40.7605257844742,-73.9597108292812,"Lenox Hill-Roosevelt Island","theater"
-"44","Museum of American Finance",40.706484588628,-74.0091216039426,"Battery Park City-Lower Manhattan","theater"
-"45","Museum of American Illustration",40.7647156224439,-73.9669003099795,"Upper East Side-Carnegie Hill","theater"
-"46","Museum of Arts & Design (MAD)",40.7674060739574,-73.9820072514294,"Midtown-Midtown South","theater"
-"47","Museum Of Chinese In America",40.7194539463387,-73.9991919194223,"SoHo-TriBeCa-Civic Center-Little Italy","theater"
-"48","Museum of Contemporary African Diasporan Arts (MoCADA)",40.6852451438306,-73.9744247766478,"Fort Greene","theater"
-"49","Museum of Jewish Heritage",40.7059866473712,-74.0185857158861,"Battery Park City-Lower Manhattan","theater"
-"50","Museum of Modern Art (MoMA)",40.7611866410245,-73.9770036315209,"Midtown-Midtown South","theater"
-"51","Museum of the City of New York",40.79250903451,-73.9519169746288,"East Harlem South","theater"
-"52","Museum of the Moving Image",40.7569444874124,-73.9245101725219,"Astoria","theater"
-"53","National Academy Museum",40.7836131672041,-73.9584917736921,"Upper East Side-Carnegie Hill","theater"
-"54","National Lighthouse Museum",40.6409490155799,-74.073737130576,"West New Brighton-New Brighton-St. George","theater"
-"55","National Museum of the American Indian",40.704321256986,-74.013727045982,"Battery Park City-Lower Manhattan","theater"
-"56","National September 11 Memorial & Museum at the World Trade Center",40.7096544874779,-74.010915661311,"Battery Park City-Lower Manhattan","theater"
-"57","Neue Galerie New York",40.7812423358378,-73.9602481260631,"Upper East Side-Carnegie Hill","theater"
-"58","New Museum of Contemporary Art",40.7223467018455,-73.9928387925007,"Chinatown","theater"
-"59","New York City Fire Museum",40.72557180584,-74.0069342609417,"SoHo-TriBeCa-Civic Center-Little Italy","theater"
-"60","New York City Police Museum",40.7034782908274,-74.008117544019,"Battery Park City-Lower Manhattan","theater"
-"61","New York Hall of Science",40.7471477878582,-73.8516867956856,"park-cemetery-etc-Queens","theater"
-"62","New York Historical Society",40.7792732413935,-73.9742575384457,"Upper West Side","theater"
-"63","New York Transit Museum",40.6905236981263,-73.9900259713183,"Brooklyn Heights-Cobble Hill","theater"
-"64","Nicholas Roerich Museum",40.8029139996142,-73.9690224972334,"Morningside Heights","theater"
-"65","Noble Maritime Collection",40.6443119444239,-74.101772036306,"West New Brighton-New Brighton-St. George","theater"
-"66","P.S. 1 Contemporary Art Center",40.7458394686349,-73.946212417928,"Hunters Point-Sunnyside-West Maspeth","theater"
-"67","Paley Center For Media (formerly Museum Of Television & Radio)",40.760573638592,-73.9776016138105,"Midtown-Midtown South","theater"
-"68","Queens County Farm Museum",40.7455696042912,-73.7257366086167,"Bellerose","theater"
-"69","Queens Museum of Art",40.7458428647494,-73.8467627581779,"park-cemetery-etc-Queens","theater"
-"70","Rose Center for Earth and Space (Hayden Planetarium)",40.7828598322127,-73.9725749106765,"Upper West Side","theater"
-"71","Rubin Museum of Art",40.7400203801415,-73.9977915253492,"Hudson Yards-Chelsea-Flatiron-Union Square","theater"
-"72","Scandinavia House: The Nordic Center in America",40.7494468956797,-73.9800884353853,"Murray Hill-Kips Bay","theater"
-"73","Schomburg Center for Research in Black Culture",40.8146127262777,-73.9409907605316,"Central Harlem North-Polo Grounds","theater"
-"74","Seguine Mansion",40.5152143436434,-74.1975892984191,"Annadale-Huguenot-Prince's Bay-Eltingville","theater"
-"75","Skyscraper Museum",40.7056575297797,-74.0175680683307,"Battery Park City-Lower Manhattan","theater"
-"76","South Street Seaport Museum",40.706603357569,-74.0037209405758,"Battery Park City-Lower Manhattan","theater"
-"77","Staten Island Children's Museum",40.6427088822481,-74.1018921051813,"West New Brighton-New Brighton-St. George","theater"
-"78","Staten Island Museum / Staten Island Institute of Arts & Sciences",40.6443691786009,-74.0776650626922,"West New Brighton-New Brighton-St. George","theater"
-"79","Statue of Liberty National Monument | Ellis Island Immigration Museum",40.6990562624439,-74.0396848374904,"park-cemetery-etc-Manhattan","theater"
-"80","Studio Museum in Harlem",40.8082454761681,-73.9477261547019,"Central Harlem South","theater"
-"81","Tenement Museum",40.718687698399,-73.9896790482491,"Chinatown","theater"
-"82","The Jazz Museum in Harlem",40.8052763843579,-73.9380587417615,"East Harlem North","theater"
-"83","The Jewish Children's Museum",40.668911577325,-73.9419617700632,"Crown Heights North","theater"
-"84","The Noguchi Museum",40.7669566130525,-73.9376551450383,"Astoria","theater"
-"85","Ukrainian Museum",40.7276767876997,-73.9897570307878,"East Village","theater"
-"86","Van Cortlandt House Museum",40.8911111672914,-73.8948225702531,"park-cemetery-etc-Bronx","theater"
-"87","Wave Hill",40.8978847147604,-73.9116537657472,"North Riverdale-Fieldston-Riverdale","theater"
-"88","Whitney Museum of American Art",40.7734072929022,-73.963834347362,"Upper East Side-Carnegie Hill","theater"
-"89","Wyckoff Farmhouse Museum",40.6443406813934,-73.9207962990631,"Rugby-Remsen Village","theater"
-"90","Yeshiva University Museum",40.738045683847,-73.9938173704963,"Hudson Yards-Chelsea-Flatiron-Union Square","theater"
+,NAME,lat,lng,NTAName,spot_type
+1,Alexander Hamilton U.S. Custom House,40.70381622,-74.0137558,Battery Park City-Lower Manhattan,museum
+2,Alice Austen House Museum,40.61512084,-74.06303179,Stapleton-Rosebank,museum
+3,American Folk Art Museum,40.76162497,-73.97810302,Midtown-Midtown South,museum
+4,American Museum of Natural History,40.78082623,-73.97364816,Upper West Side,museum
+5,Anne Frank Center USA,40.72112745,-73.99963037,SoHo-TriBeCa-Civic Center-Little Italy,museum
+6,Bartow-Pell Mansion,40.87177832,-73.8055795,park-cemetery-etc-Bronx,museum
+7,Bronx Museum of the Arts (BXMA),40.83102978,-73.91975018,East Concourse-Concourse Village,museum
+8,Brooklyn Children's Museum,40.674507,-73.94401601,Crown Heights North,museum
+9,Brooklyn Historical Society,40.69480297,-73.9924054,Brooklyn Heights-Cobble Hill,museum
+10,Brooklyn Museum,40.67108321,-73.96358507,park-cemetery-etc-Brooklyn,museum
+11,Center For Jewish History,40.73798676,-73.99386877,Hudson Yards-Chelsea-Flatiron-Union Square,museum
+12,Children's Museum of Manhattan,40.78587092,-73.97727392,Upper West Side,museum
+13,Children's Museum of the Arts,40.72074947,-73.99883836,SoHo-TriBeCa-Civic Center-Little Italy,museum
+14,Cloisters,40.86492364,-73.93173409,Washington Heights North,museum
+15,Coney Island Museum,40.57526324,-73.97985598,Seagate-Coney Island,museum
+16,"Cooper-Hewitt, National Design Museum",40.78432574,-73.95778162,Upper East Side-Carnegie Hill,museum
+17,Dahesh Museum,40.76210697,-73.9730419,Midtown-Midtown South,museum
+18,Discovery Times Square Exposition,40.75750109,-73.98731864,Midtown-Midtown South,museum
+19,Drawing Center,40.72245119,-74.00290417,SoHo-TriBeCa-Civic Center-Little Italy,museum
+20,Dyckman Farmhouse,40.86713092,-73.92383915,Marble Hill-Inwood,museum
+21,El Museo del Barrio,40.79309892,-73.9513676,East Harlem South,museum
+22,Ellis Island Museum,40.69820755,-74.04132162,park-cemetery-etc-Manhattan,museum
+23,Fraunces Tavern Museum,40.70339928,-74.01133926,Battery Park City-Lower Manhattan,museum
+24,Frick Collection,40.77105465,-73.96708041,Upper East Side-Carnegie Hill,museum
+25,Garibaldi-Meucci Museum,40.61516522,-74.07387774,Stapleton-Rosebank,museum
+26,Goethe-Institut New York,40.77916564,-73.96174204,Upper East Side-Carnegie Hill,museum
+27,Gracie Mansion,40.77611345,-73.94306846,Yorkville,museum
+28,"Guggenheim Museum, Solomon R.",40.78300948,-73.95891102,Upper East Side-Carnegie Hill,museum
+29,Hispanic Society of America Museum,40.83345215,-73.94682282,Washington Heights South,museum
+30,Intrepid Sea-Air-Space Museum,40.76478327,-74.00089181,NA,museum
+31,Isamu Noguchi Garden Museum,40.76695661,-73.93765515,Astoria,museum
+32,Italian American Museum,40.71919463,-73.99749411,SoHo-TriBeCa-Civic Center-Little Italy,museum
+33,Jacques Marchais Center Museum of Tibetan Art,40.57631284,-74.13812337,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,museum
+34,Jewish Museum,40.78540226,-73.95718706,Upper East Side-Carnegie Hill,museum
+35,King Manor Museum,40.70304202,-73.80376062,Jamaica,museum
+36,Lee Young Hee Museum of Korean Culture,40.74719709,-73.98618833,Midtown-Midtown South,museum
+37,Lower East Side Tenement Museum,40.7186877,-73.98967905,Chinatown,museum
+38,Madame Tussauds Wax Museum,40.75631816,-73.98870226,Midtown-Midtown South,museum
+39,Merchant's House Museum,40.72765742,-73.99234605,West Village,museum
+40,Metropolitan Museum of Art (MET),40.77942354,-73.96345111,park-cemetery-etc-Manhattan,museum
+41,Morgan Library and Museum,40.74929507,-73.98132149,Murray Hill-Kips Bay,museum
+42,Morris-Jumel Mansion,40.83444768,-73.93857439,Washington Heights South,museum
+43,Mount Vernon Hotel Museum & Garden,40.76052578,-73.95971083,Lenox Hill-Roosevelt Island,museum
+44,Museum of American Finance,40.70648459,-74.0091216,Battery Park City-Lower Manhattan,museum
+45,Museum of American Illustration,40.76471562,-73.96690031,Upper East Side-Carnegie Hill,museum
+46,Museum of Arts & Design (MAD),40.76740607,-73.98200725,Midtown-Midtown South,museum
+47,Museum Of Chinese In America,40.71945395,-73.99919192,SoHo-TriBeCa-Civic Center-Little Italy,museum
+48,Museum of Contemporary African Diasporan Arts (MoCADA),40.68524514,-73.97442478,Fort Greene,museum
+49,Museum of Jewish Heritage,40.70598665,-74.01858572,Battery Park City-Lower Manhattan,museum
+50,Museum of Modern Art (MoMA),40.76118664,-73.97700363,Midtown-Midtown South,museum
+51,Museum of the City of New York,40.79250903,-73.95191697,East Harlem South,museum
+52,Museum of the Moving Image,40.75694449,-73.92451017,Astoria,museum
+53,National Academy Museum,40.78361317,-73.95849177,Upper East Side-Carnegie Hill,museum
+54,National Lighthouse Museum,40.64094902,-74.07373713,West New Brighton-New Brighton-St. George,museum
+55,National Museum of the American Indian,40.70432126,-74.01372705,Battery Park City-Lower Manhattan,museum
+56,National September 11 Memorial & Museum at the World Trade Center,40.70965449,-74.01091566,Battery Park City-Lower Manhattan,museum
+57,Neue Galerie New York,40.78124234,-73.96024813,Upper East Side-Carnegie Hill,museum
+58,New Museum of Contemporary Art,40.7223467,-73.99283879,Chinatown,museum
+59,New York City Fire Museum,40.72557181,-74.00693426,SoHo-TriBeCa-Civic Center-Little Italy,museum
+60,New York City Police Museum,40.70347829,-74.00811754,Battery Park City-Lower Manhattan,museum
+61,New York Hall of Science,40.74714779,-73.8516868,park-cemetery-etc-Queens,museum
+62,New York Historical Society,40.77927324,-73.97425754,Upper West Side,museum
+63,New York Transit Museum,40.6905237,-73.99002597,Brooklyn Heights-Cobble Hill,museum
+64,Nicholas Roerich Museum,40.802914,-73.9690225,Morningside Heights,museum
+65,Noble Maritime Collection,40.64431194,-74.10177204,West New Brighton-New Brighton-St. George,museum
+66,P.S. 1 Contemporary Art Center,40.74583947,-73.94621242,Hunters Point-Sunnyside-West Maspeth,museum
+67,Paley Center For Media (formerly Museum Of Television & Radio),40.76057364,-73.97760161,Midtown-Midtown South,museum
+68,Queens County Farm Museum,40.7455696,-73.72573661,Bellerose,museum
+69,Queens Museum of Art,40.74584286,-73.84676276,park-cemetery-etc-Queens,museum
+70,Rose Center for Earth and Space (Hayden Planetarium),40.78285983,-73.97257491,Upper West Side,museum
+71,Rubin Museum of Art,40.74002038,-73.99779153,Hudson Yards-Chelsea-Flatiron-Union Square,museum
+72,Scandinavia House: The Nordic Center in America,40.7494469,-73.98008844,Murray Hill-Kips Bay,museum
+73,Schomburg Center for Research in Black Culture,40.81461273,-73.94099076,Central Harlem North-Polo Grounds,museum
+74,Seguine Mansion,40.51521434,-74.1975893,Annadale-Huguenot-Prince's Bay-Eltingville,museum
+75,Skyscraper Museum,40.70565753,-74.01756807,Battery Park City-Lower Manhattan,museum
+76,South Street Seaport Museum,40.70660336,-74.00372094,Battery Park City-Lower Manhattan,museum
+77,Staten Island Children's Museum,40.64270888,-74.10189211,West New Brighton-New Brighton-St. George,museum
+78,Staten Island Museum / Staten Island Institute of Arts & Sciences,40.64436918,-74.07766506,West New Brighton-New Brighton-St. George,museum
+79,Statue of Liberty National Monument | Ellis Island Immigration Museum,40.69905626,-74.03968484,park-cemetery-etc-Manhattan,museum
+80,Studio Museum in Harlem,40.80824548,-73.94772615,Central Harlem South,museum
+81,Tenement Museum,40.7186877,-73.98967905,Chinatown,museum
+82,The Jazz Museum in Harlem,40.80527638,-73.93805874,East Harlem North,museum
+83,The Jewish Children's Museum,40.66891158,-73.94196177,Crown Heights North,museum
+84,The Noguchi Museum,40.76695661,-73.93765515,Astoria,museum
+85,Ukrainian Museum,40.72767679,-73.98975703,East Village,museum
+86,Van Cortlandt House Museum,40.89111117,-73.89482257,park-cemetery-etc-Bronx,museum
+87,Wave Hill,40.89788471,-73.91165377,North Riverdale-Fieldston-Riverdale,museum
+88,Whitney Museum of American Art,40.77340729,-73.96383435,Upper East Side-Carnegie Hill,museum
+89,Wyckoff Farmhouse Museum,40.64434068,-73.9207963,Rugby-Remsen Village,museum
+90,Yeshiva University Museum,40.73804568,-73.99381737,Hudson Yards-Chelsea-Flatiron-Union Square,museum

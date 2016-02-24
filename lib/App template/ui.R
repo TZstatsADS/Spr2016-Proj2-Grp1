@@ -53,7 +53,7 @@ dashboardPage(
         leafletOutput("backgroup",width = "100%",height= "100%"),
         
         absolutePanel(id = "graphs",fixed = T,draggable = TRUE, top = "5%", left = "auto", right = "5%", bottom = "10%",
-                      width = 250, height = "auto",
+                      width = "auto", height = "auto",
                       h1("Information"),
                       uiOutput("place"),
                       plotOutput("distplot")

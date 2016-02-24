@@ -270,13 +270,14 @@ shinyServer(function(input,output){
                 #addProviderTiles("Stamen.Toner")%>%
                 #addTiles() %>%  # Add default OpenStreetMap map tiles color = colors[color()]
                 addPolygons(data=shapeData, fillColor = colors[colorsmatched_re()],
-                            fillOpacity=0.8, stroke = FALSE,popup=polygon_popup,group="ColoredMap")%>%
+                            fillOpacity=0.6, stroke = FALSE,popup=polygon_popup,group="ColoredMap")%>%
                 #addMarkers(lng=-73.985428, lat=40.748817, popup="The Starting Point")
                 addMarkers(data = sightsRanked(),popup = ~NAME,group = "Views")%>%
                 addPolylines(data = route_re(), fillOpacity = 0.5,lng = ~lon, lat = ~lat, group = "Routes")%>%
                 addPolylines(data = sightsRanked(), lng = ~lng, lat = ~lat, group = "Ranks") %>%
                 
                 addLayersControl(
+                        position = "bottomright",
                         overlayGroups = c("Views", "Routes","Ranks","ColoredMap"),
                         options = layersControlOptions(collapsed = FALSE)
                 )

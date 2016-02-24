@@ -23,6 +23,7 @@ shinyServer(function(input,output){
         shapeData$wifi = neighborData$wifi[match(mapNYC$NTAName,neighborData$nta)]
         shapeData$restaurants = neighborData$restaurants[match(mapNYC$NTAName,neighborData$nta)]
         
+                
         colors = c('#ffffd9','#edf8b1','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#0c2c84')
         
         #process data
@@ -54,6 +55,10 @@ shinyServer(function(input,output){
                 #print(head(neighbor_ranks))
                 neighborData$scores[match(neighbor_ranks$neighborpool,neighborData$nta)] <- neighbor_ranks[,2]
                 neighborData$scores[is.na(neighborData$scores)]<-0
+                
+                shapeData$scores = neighborData$scores[match(mapNYC$NTAName,neighborData$nta)]
+                
+                
                 print(head(neighborData))
                 #color matching
                      # use cut() to convert numeric to factor
@@ -64,7 +69,8 @@ shinyServer(function(input,output){
                 colorsmatched = neighborData$colorBuckets[match(mapNYC$NTAName,neighborData$nta)]
                
                 #plot(shapeData,col=colors[colorsmatched])
-                
+                colorsmatched[is.na(colorsmatched)] = 1
+                print(cbind(colorsmatched,neighborData$scores,neighborData$colorBuckets))
                 
                 colorsmatched
         ##################       ##################

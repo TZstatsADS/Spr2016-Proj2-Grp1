@@ -7,13 +7,10 @@ library(ggmap)
 library(TSP)
 library(ggplot2)
 library(osrm)
+source("weight.R")
 
 shinyServer(function(input,output){
-        # mapzip <- map("county", fill = TRUE,
-        #              plot = FALSE,
-        #             region = c("New York"))
-        
-        #load data shapefile
+       
         mapNYC <- readOGR("nynta_15d/nynta.shp",
                           layer = "nynta", verbose = FALSE)
         shapeData <- spTransform(mapNYC, CRS("+proj=longlat +ellps=GRS80"))
@@ -22,13 +19,20 @@ shinyServer(function(input,output){
         neighborData <- read.csv("neighborhood_stat.csv")[,-1]
         names(neighborData) <- c("nta","wifi","crime","restaurants")
         
-        neighbor_ranks <- weight(neighborData,input$wifi,input$crime,input$restaurant)
+        w1<-isolate(input$wifi)
+        w2 <- isolate(input$crime)
+        w3<-isolate(input$restaurant)
+        cat1<-isolate(input$category1)
+        cat2<-isolate(input$category2)
         
-        neighborData$scores <- neighbor_ranks[,2]
+        neighbor_ranks <- weight_calculation(cat1,cat2,w1,w2,w3)
+        neighborData$scores <- req(0,195)
+        neighborData$scores[match(neighbor_ranks$neighborpool,neighborData$nta)] <- neighbor_ranks[,2]
+        print(head(neighborData$scores))
         #color matching
         colors = c('#ffffd9','#edf8b1','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#0c2c84')
         # use cut() to convert numeric to factor
-        neighborData$colorBuckets  <- as.numeric(cut(neighborData$scores, c(0, 200, 400, 600, 800, 1000,2000,3000)))
+        neighborData$colorBuckets  <- as.numeric(cut(neighborData$scores, c(0, 0.15, 0.30, 0.45, 0.60, 0.75,0.90,1)))
         
         # align data with map definitions by (partial) matching state,county
         # names, which include multiple polygons for some counties
@@ -36,8 +40,9 @@ shinyServer(function(input,output){
         shapeData$crimeRate = neighborData$scores[match(mapNYC$NTAName,neighborData$nta)]
         #plot(shapeData,col=colors[colorsmatched])
         
-        selectedNeighbor <- sample(as.vector(shapeData$NTAName),4)
-        selectedNeighbor<-c(selectedNeighbor,"Midtown-Midtown South")
+        selectedNeighbor <- as.vector(neighbor_ranks[1:5,1])
+        
+        
         sightsRanked <- eventReactive(input$recalc,{
                 if(isolate(input$location)!=""){
                         address <-isolate(input$location)

@@ -9,9 +9,9 @@ library(ggplot2)
 library(osrm)
 
 shinyServer(function(input,output){
-       # mapzip <- map("county", fill = TRUE,
+        # mapzip <- map("county", fill = TRUE,
         #              plot = FALSE,
-         #             region = c("New York"))
+        #             region = c("New York"))
         
         #load data shapefile
         mapNYC <- readOGR("nynta_15d/nynta.shp",
@@ -29,7 +29,7 @@ shinyServer(function(input,output){
         colors = c('#ffffd9','#edf8b1','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#0c2c84')
         # use cut() to convert numeric to factor
         neighborData$colorBuckets  <- as.numeric(cut(neighborData$scores, c(0, 200, 400, 600, 800, 1000,2000,3000)))
-         
+        
         # align data with map definitions by (partial) matching state,county
         # names, which include multiple polygons for some counties
         colorsmatched = neighborData$colorBuckets[match(mapNYC$NTAName,neighborData$nta)]
@@ -38,9 +38,6 @@ shinyServer(function(input,output){
         
         selectedNeighbor <- sample(as.vector(shapeData$NTAName),4)
         selectedNeighbor<-c(selectedNeighbor,"Midtown-Midtown South")
-        
-        ##################################################################        
-        
         sightsRanked <- eventReactive(input$recalc,{
                 if(isolate(input$location)!=""){
                         address <-isolate(input$location)
@@ -161,8 +158,21 @@ shinyServer(function(input,output){
                 
                 #distance
                 distance <- dist(mustGoSelected[,1:2]) #approximation
+                #nr <- nrow(mustGoSelected)
+                #distance2 <- matrix(nrow = nr,ncol=nr)
+                #for(i in 1:nr){
+                #        for(j in 1:nr){
+                #               distance2[i,j] <- osrmViaroute(c(1,
+                #                                mustGoSelected[i,1],
+                #                                mustGoSelected[i,2]), 
+                #                                c(2,mustGoSelected[j,1],
+                #                                  mustGoSelected[j,2]))[1]
+                #        }
+                #}
+                
                 
                 #tsp
+                #tsp <- ATSP(as.matrix(distance2))
                 tsp <- TSP(distance)
                 tour <- solve_TSP(tsp, method = "farthest_insertion")
                 path <- c(1,as.vector(cut_tour(tour, 1)))
@@ -171,15 +181,24 @@ shinyServer(function(input,output){
                 sightsRanked <- rbind(sightsRanked,sightsRanked[1,])
                 sightsRanked[,1]<-as.numeric(sightsRanked[,1])
                 sightsRanked[,2]<-as.numeric(sightsRanked[,2])
-                
                 sightsRanked
-                print(sightsRanked)
+                
                 #osrmViarouteGeom(c(1,40.80772,-73.96411), c(2,40.75874, -73.97867),sp=TRUE)
                 
         }, ignoreNULL = FALSE)
-       
         
-        
+        route_re<- eventReactive(input$recalc,{
+                
+                sightsRanked2 <- isolate(sightsRanked())
+                print(head(sightsRanked2))
+                routes<-data.frame()
+                for(j in 2:nrow(sightsRanked2)){
+                        routes1 <- osrmViarouteGeom(c(1,sightsRanked2[j-1,1],sightsRanked2[j-1,2]), c(2,sightsRanked2[j,1],sightsRanked2[j,2]),sp=FALSE)
+                        routes<-rbind(routes,routes1)
+                        #plot(routes)
+                }
+                routes
+        }, ignoreNULL = FALSE)
        
 
         
@@ -200,18 +219,21 @@ shinyServer(function(input,output){
         #output
         output$backgroup <- renderLeaflet({
                 print("backgroup")
+             
                 leaflet() %>%
-                #hideGroup(c("Views","Routes"))%>%
+                hideGroup(c("Routes"))%>%
                 addProviderTiles("CartoDB.Positron")%>%
                 #addProviderTiles("Stamen.Toner")%>%
                 #addTiles() %>%  # Add default OpenStreetMap map tiles
                 addPolygons(data=shapeData, fillColor = colors[colorsmatched],
-                            fillOpacity=0.8, stroke = FALSE,popup=polygon_popup)%>%
+                            fillOpacity=0.8, stroke = FALSE,popup=polygon_popup,group="ColoredMap")%>%
                 #addMarkers(lng=-73.985428, lat=40.748817, popup="The Starting Point")
                 addMarkers(data = sightsRanked(),popup = ~NAME,group = "Views")%>%
-                addPolylines(data = sightsRanked(), lng = ~lng, lat = ~lat, group = "Routes")%>%
+                addPolylines(data = route_re(), fillOpacity = 0.5,lng = ~lon, lat = ~lat, group = "Routes")%>%
+                addPolylines(data = sightsRanked(), lng = ~lng, lat = ~lat, group = "Ranks") %>%
+                
                 addLayersControl(
-                        overlayGroups = c("Views", "Routes"),
+                        overlayGroups = c("Views", "Routes","Ranks","ColoredMap"),
                         options = layersControlOptions(collapsed = FALSE)
                 )
         })

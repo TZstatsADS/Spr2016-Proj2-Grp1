@@ -10,40 +10,71 @@ library(osrm)
 source("weight.R")
 
 shinyServer(function(input,output){
-       
+        #read data
+        neighborData <- read.csv("neighborhood_stat.csv")[,-1]
+        names(neighborData) <- c("nta","wifi","crime","restaurants")
+        #basemap&shape
         mapNYC <- readOGR("nynta_15d/nynta.shp",
                           layer = "nynta", verbose = FALSE)
         shapeData <- spTransform(mapNYC, CRS("+proj=longlat +ellps=GRS80"))
-        #process data
-        
         neighborData <- read.csv("neighborhood_stat.csv")[,-1]
         names(neighborData) <- c("nta","wifi","crime","restaurants")
+        shapeData$crimeRate = neighborData$crime[match(mapNYC$NTAName,neighborData$nta)]
+        shapeData$wifi = neighborData$wifi[match(mapNYC$NTAName,neighborData$nta)]
+        shapeData$restaurants = neighborData$restaurants[match(mapNYC$NTAName,neighborData$nta)]
         
-        w1<-isolate(input$wifi)
-        w2 <- isolate(input$crime)
-        w3<-isolate(input$restaurant)
-        cat1<-isolate(input$category1)
-        cat2<-isolate(input$category2)
-        
-        neighbor_ranks <- weight_calculation(cat1,cat2,w1,w2,w3)
-        neighborData$scores <- req(0,195)
-        neighborData$scores[match(neighbor_ranks$neighborpool,neighborData$nta)] <- neighbor_ranks[,2]
-        print(head(neighborData$scores))
-        #color matching
         colors = c('#ffffd9','#edf8b1','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#0c2c84')
-        # use cut() to convert numeric to factor
-        neighborData$colorBuckets  <- as.numeric(cut(neighborData$scores, c(0, 0.15, 0.30, 0.45, 0.60, 0.75,0.90,1)))
         
-        # align data with map definitions by (partial) matching state,county
-        # names, which include multiple polygons for some counties
-        colorsmatched = neighborData$colorBuckets[match(mapNYC$NTAName,neighborData$nta)]
-        shapeData$crimeRate = neighborData$scores[match(mapNYC$NTAName,neighborData$nta)]
-        #plot(shapeData,col=colors[colorsmatched])
+        #process data
+
+        selectedNeighbor_rec <- reactive({
+                w1<-input$wifi
+                w2 <- input$crime
+                w3<-input$restaurant
+                cat1<-input$category1
+                cat2<-input$category2
+                neighbor_ranks <- weight_calculation(cat1,cat2,w1,w2,w3)
+                selectedNeighbor_r<-as.vector(neighbor_ranks[1:5,1])
+                selectedNeighbor_r
+        })
         
-        selectedNeighbor <- as.vector(neighbor_ranks[1:5,1])
+        colorsmatched_re<-reactive({
+                print("colorsmatched_re called")
+                w1<-input$wifi
+                w2 <- input$crime
+                w3<-input$restaurant
+                cat1<-input$category1
+                cat2<-input$category2
+                
+                neighbor_ranks <- weight_calculation(cat1,cat2,w1,w2,w3)
+                
+                
+                neighborData$scores <- rep(0,195)
+                #print(head(neighborData$scores))
+                #print(head(neighbor_ranks))
+                neighborData$scores[match(neighbor_ranks$neighborpool,neighborData$nta)] <- neighbor_ranks[,2]
+                neighborData$scores[is.na(neighborData$scores)]<-0
+                print(head(neighborData))
+                #color matching
+                     # use cut() to convert numeric to factor
+                neighborData$colorBuckets  <- as.numeric(cut(neighborData$scores, c(0, 0.15, 0.30, 0.45, 0.60, 0.75,0.90,1)))
+                
+                # align data with map definitions by (partial) matching state,county
+                # names, which include multiple polygons for some counties
+                colorsmatched = neighborData$colorBuckets[match(mapNYC$NTAName,neighborData$nta)]
+               
+                #plot(shapeData,col=colors[colorsmatched])
+                
+                
+                colorsmatched
+        ##################       ##################
+        })
+        
         
         
         sightsRanked <- eventReactive(input$recalc,{
+                temp<-selectedNeighbor_rec()
+                selectedNeighbor<-isolate(temp)
                 if(isolate(input$location)!=""){
                         address <-isolate(input$location)
                         geocode <- geocode(address)
@@ -210,7 +241,9 @@ shinyServer(function(input,output){
 #############################################################################################################
         #Region popup
         polygon_popup <- paste0("<strong>Name: </strong>", shapeData$NTAName, "<br>",
-                                "<strong>Crime Rate: </strong>", shapeData$crimeRate)
+                                "<strong>Crime Rate: </strong>", shapeData$crimeRate,"<br>",
+                                "<strong>Wifi: </strong>", shapeData$wifi, "<br>",
+                                "<strong>Restaurants: </strong>", shapeData$restaurants)
         
         output$hist_forall <- renderText({
                 regionPassed<-sightsRanked()
@@ -229,8 +262,8 @@ shinyServer(function(input,output){
                 hideGroup(c("Routes"))%>%
                 addProviderTiles("CartoDB.Positron")%>%
                 #addProviderTiles("Stamen.Toner")%>%
-                #addTiles() %>%  # Add default OpenStreetMap map tiles
-                addPolygons(data=shapeData, fillColor = colors[colorsmatched],
+                #addTiles() %>%  # Add default OpenStreetMap map tiles color = colors[color()]
+                addPolygons(data=shapeData, fillColor = colors[colorsmatched_re()],
                             fillOpacity=0.8, stroke = FALSE,popup=polygon_popup,group="ColoredMap")%>%
                 #addMarkers(lng=-73.985428, lat=40.748817, popup="The Starting Point")
                 addMarkers(data = sightsRanked(),popup = ~NAME,group = "Views")%>%

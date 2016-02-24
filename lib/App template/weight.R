@@ -10,6 +10,9 @@ weight_calculation <- function(first_preference="all",second_preference="all",w1
         opera<- read.csv('opera.csv')
         gallery<-read.csv('gallery.csv')
         
+        w1=isolate(w1)
+        w2=isolate(w2)
+        w3=isolate(w3)
         
         #user input type: landmark, museum, natural, theater, opera, gallery, all
         #first_preference='museum' 

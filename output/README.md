@@ -21,7 +21,7 @@ Yi Liu, Yuchen Shi, Ziyue (Zac) Wu, Jingying Zhou, Yibo Zhu
 ## The Tireless Endeavor to Make You Lazy
 In this section we (become serious and) mainly talk about the data and methods we used in making this app.   
 ### Data
-Here is a table of the data we used,
+Here is a table of the data we used,  
 | Tables        | Source        | Treatments|
 | ------------- |:-------------:| :----:|
 | Museums | [NYCOD](https://data.cityofnewyork.us/Recreation/New-York-City-Museums/ekax-ky3z)|Grouped by 

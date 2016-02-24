@@ -308,7 +308,11 @@ shinyServer(function(input,output){
              
                 leaflet() %>%
                 hideGroup(c("Routes"))%>%
-                addProviderTiles("CartoDB.Positron")%>%
+                  addTiles(
+                    urlTemplate = "//{s}.tiles.mapbox.com/v3/jcheng.map-5ebohr46/{z}/{x}/{y}.png",
+                    attribution = 'Maps by <a href="http://www.mapbox.com/">Mapbox</a>'
+                  ) %>%
+                #addProviderTiles("CartoDB.Positron")%>%
                 #addProviderTiles("Stamen.Toner")%>%
                 #addTiles() %>%  # Add default OpenStreetMap map tiles color = colors[color()]
                 addPolygons(data=shapeData, fillColor = colors[colorsmatched_re()],

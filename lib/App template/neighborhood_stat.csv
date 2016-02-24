@@ -1,196 +1,1 @@
-,NTAName,wifi,crimes,Restaurants
-1,Airport,0,7,1
-2,Allerton-Pelham Gardens,0,174,1
-3,Annadale-Huguenot-Prince's Bay-Eltingville,5,70,1
-4,Arden Heights,0,38,1
-5,Astoria,3,504,1
-6,Auburndale,1,97,1
-7,Baisley Park,17,410,1
-8,Bath Beach,8,168,1
-9,Battery Park City-Lower Manhattan,41,470,1
-10,Bay Ridge,5,457,1
-11,Bayside-Bayside Hills,1,234,1
-12,Bedford,3,824,1
-13,Bedford Park-Fordham North,12,633,1
-14,Bellerose,7,141,1
-15,Belmont,1,389,1
-16,Bensonhurst East,2,337,1
-17,Bensonhurst West,0,369,1
-18,Borough Park,8,381,1
-19,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,17,149,1
-20,Briarwood-Jamaica Hills,3,263,1
-21,Brighton Beach,1,207,1
-22,Bronxdale,1,239,1
-23,Brooklyn Heights-Cobble Hill,20,200,1
-24,Brownsville,11,848,1
-25,Bushwick North,5,638,1
-26,Bushwick South,4,937,1
-27,Cambria Heights,1,158,1
-28,Canarsie,2,743,1
-29,Carroll Gardens-Columbia Street-Red Hook,19,410,1
-30,Central Harlem North-Polo Grounds,73,878,1
-31,Central Harlem South,53,629,1
-32,Charleston-Richmond Valley-Tottenville,1,65,1
-33,Chinatown,11,495,1
-34,Claremont-Bathgate,2,452,1
-35,Clinton,2,815,1
-36,Clinton Hill,2,396,1
-37,Co-op City,1,321,1
-38,College Point,1,105,1
-39,Corona,1,273,1
-40,Crotona Park East,0,234,1
-41,Crown Heights North,13,1485,1
-42,Crown Heights South,0,364,1
-43,Cypress Hills-City Line,1,552,1
-44,Douglas Manor-Douglaston-Little Neck,2,110,1
-45,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,75,709,1
-46,Dyker Heights,7,184,1
-47,East Concourse-Concourse Village,3,707,1
-48,East Elmhurst,2,168,1
-49,East Flatbush-Farragut,1,401,1
-50,East Flushing,4,136,1
-51,East Harlem North,42,882,1
-52,East Harlem South,6,567,1
-53,East New York,7,1483,1
-54,East New York (Pennsylvania Ave),0,472,1
-55,East Tremont,7,618,1
-56,East Village,5,585,1
-57,East Williamsburg,1,520,1
-58,Eastchester-Edenwald-Baychester,9,314,1
-59,Elmhurst,10,601,1
-60,Elmhurst-Maspeth,0,131,1
-61,Erasmus,0,388,1
-62,Far Rockaway-Bayswater,11,518,1
-63,Flatbush,2,760,1
-64,Flatlands,2,486,1
-65,Flushing,6,546,1
-66,Fordham South,1,343,1
-67,Forest Hills,6,345,1
-68,Fort Greene,16,413,1
-69,Fresh Meadows-Utopia,5,67,1
-70,Ft. Totten-Bay Terrace-Clearview,2,86,1
-71,Georgetown-Marine Park-Bergen Beach-Mill Basin,2,321,1
-72,Glen Oaks-Floral Park-New Hyde Park,1,105,1
-73,Glendale,1,183,1
-74,Gramercy,6,437,1
-75,Grasmere-Arrochar-Ft. Wadsworth,1,72,1
-76,Gravesend,1,254,1
-77,Great Kills,2,100,1
-78,Greenpoint,1,310,1
-79,Grymes Hill-Clifton-Fox Hills,0,123,1
-80,Hamilton Heights,12,486,1
-81,Hammels-Arverne-Edgemere,9,408,1
-82,Highbridge,1,392,1
-83,Hollis,1,155,1
-84,Homecrest,1,288,1
-85,Hudson Yards-Chelsea-Flatiron-Union Square,56,1752,1
-86,Hunters Point-Sunnyside-West Maspeth,11,528,1
-87,Hunts Point,4,500,1
-88,Jackson Heights,1,845,1
-89,Jamaica,6,729,1
-90,Jamaica Estates-Holliswood,1,207,1
-91,Kensington-Ocean Parkway,1,176,1
-92,Kew Gardens,6,121,1
-93,Kew Gardens Hills,1,166,1
-94,Kingsbridge Heights,1,340,1
-95,Laurelton,1,209,1
-96,Lenox Hill-Roosevelt Island,4,327,1
-97,Lincoln Square,15,424,1
-98,Lindenwood-Howard Beach,1,185,1
-99,Longwood,4,351,1
-100,Lower East Side,7,518,1
-101,Madison,1,211,1
-102,Manhattanville,2,277,1
-103,Marble Hill-Inwood,2,403,1
-104,Mariner's Harbor-Arlington-Port Ivory-Graniteville,0,289,1
-105,Maspeth,1,164,1
-106,Melrose South-Mott Haven North,2,666,1
-107,Middle Village,9,152,1
-108,Midtown-Midtown South,31,2651,1
-109,Midwood,1,290,1
-110,Morningside Heights,5,426,1
-111,Morrisania-Melrose,3,474,1
-112,Mott Haven-Port Morris,15,725,1
-113,Mount Hope,3,612,1
-114,Murray Hill,6,191,1
-115,Murray Hill-Kips Bay,4,470,1
-116,New Brighton-Silver Lake,1,110,1
-117,New Dorp-Midland Beach,5,106,1
-118,New Springville-Bloomfield-Travis,5,224,1
-119,North Corona,1,442,1
-120,North Riverdale-Fieldston-Riverdale,2,155,1
-121,North Side-South Side,8,734,1
-122,Norwood,12,492,1
-123,Oakland Gardens,1,112,1
-124,Oakwood-Oakwood Beach,0,62,1
-125,Ocean Hill,1,517,1
-126,Ocean Parkway South,0,95,1
-127,Old Astoria,1,202,1
-128,Old Town-Dongan Hills-South Beach,12,92,1
-129,Ozone Park,1,204,1
-130,park-cemetery-etc-Bronx,34,214,1
-131,park-cemetery-etc-Brooklyn,26,141,1
-132,park-cemetery-etc-Manhattan,12,215,1
-133,park-cemetery-etc-Queens,11,113,1
-134,park-cemetery-etc-Staten Island,0,0,1
-135,Park Slope-Gowanus,2,575,1
-136,Parkchester,1,159,1
-137,Pelham Bay-Country Club-City Island,7,135,1
-138,Pelham Parkway,1,247,1
-139,Pomonok-Flushing Heights-Hillcrest,1,169,1
-140,Port Richmond,1,183,1
-141,Prospect Heights,0,180,1
-142,Prospect Lefferts Gardens-Wingate,8,789,1
-143,Queens Village,1,389,1
-144,Queensboro Hill,7,106,1
-145,Queensbridge-Ravenswood-Long Island City,4,225,1
-146,Rego Park,7,113,1
-147,Richmond Hill,6,575,1
-148,Ridgewood,1,527,1
-149,Rikers Island,0,246,1
-150,Rosedale,1,193,1
-151,Rossville-Woodrow,1,58,1
-152,Rugby-Remsen Village,1,548,1
-153,Schuylerville-Throgs Neck-Edgewater Park,10,337,1
-154,Seagate-Coney Island,32,423,1
-155,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,18,452,1
-156,SoHo-TriBeCa-Civic Center-Little Italy,6,903,1
-157,Soundview-Bruckner,0,423,1
-158,Soundview-Castle Hill-Clason Point-Harding Park,3,610,1
-159,South Jamaica,7,362,1
-160,South Ozone Park,2,710,1
-161,Springfield Gardens North,5,258,1
-162,Springfield Gardens South-Brookville,0,218,1
-163,Spuyten Duyvil-Kingsbridge,1,288,1
-164,St. Albans,20,373,1
-165,Stapleton-Rosebank,5,248,1
-166,Starrett City,0,83,1
-167,Steinway,1,271,1
-168,Stuyvesant Heights,3,931,1
-169,Stuyvesant Town-Cooper Village,0,68,1
-170,Sunset Park East,0,411,1
-171,Sunset Park West,1,447,1
-172,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,1,100,1
-173,Turtle Bay-East Midtown,8,516,1
-174,University Heights-Morris Heights,2,433,1
-175,Upper East Side-Carnegie Hill,7,671,1
-176,Upper West Side,8,905,1
-177,Van Cortlandt Village,3,360,1
-178,Van Nest-Morris Park-Westchester Square,7,289,1
-179,Washington Heights North,4,537,1
-180,Washington Heights South,12,649,1
-181,West Brighton,0,277,1
-182,West Concourse,24,637,1
-183,West Farms-Bronx River,1,423,1
-184,West New Brighton-New Brighton-St. George,18,345,1
-185,West Village,18,1205,1
-186,Westchester-Unionport,1,266,1
-187,Westerleigh,8,95,1
-188,Whitestone,1,155,1
-189,Williamsbridge-Olinville,3,700,1
-190,Williamsburg,1,114,1
-191,Windsor Terrace,1,112,1
-192,Woodhaven,5,410,1
-193,Woodlawn-Wakefield,3,379,1
-194,Woodside,9,253,1
-195,Yorkville,0,344,1
+,NTAName,wifi,crimes,Restaurants,wifi,crime,restaurant1,Airport,0,7,1,0.00%,1.78%,100.00%2,Allerton-Pelham Gardens,0,174,1,0.00%,44.21%,100.00%3,Annadale-Huguenot-Prince's Bay-Eltingville,5,70,1,76.35%,17.79%,100.00%4,Arden Heights,0,38,1,0.00%,9.65%,100.00%5,Astoria,3,504,1,45.81%,128.05%,100.00%6,Auburndale,1,97,1,15.27%,24.64%,100.00%7,Baisley Park,17,410,1,259.59%,104.17%,100.00%8,Bath Beach,8,168,1,122.16%,42.68%,100.00%9,Battery Park City-Lower Manhattan,41,470,1,626.08%,119.41%,100.00%10,Bay Ridge,5,457,1,76.35%,116.11%,100.00%11,Bayside-Bayside Hills,1,234,1,15.27%,59.45%,100.00%12,Bedford,3,824,1,45.81%,209.36%,100.00%13,Bedford Park-Fordham North,12,633,1,183.24%,160.83%,100.00%14,Bellerose,7,141,1,106.89%,35.82%,100.00%15,Belmont,1,389,1,15.27%,98.83%,100.00%16,Bensonhurst East,2,337,1,30.54%,85.62%,100.00%17,Bensonhurst West,0,369,1,0.00%,93.75%,100.00%18,Borough Park,8,381,1,122.16%,96.80%,100.00%19,Breezy Point-Belle Harbor-Rockaway Park-Broad Channel,17,149,1,259.59%,37.86%,100.00%20,Briarwood-Jamaica Hills,3,263,1,45.81%,66.82%,100.00%21,Brighton Beach,1,207,1,15.27%,52.59%,100.00%22,Bronxdale,1,239,1,15.27%,60.72%,100.00%23,Brooklyn Heights-Cobble Hill,20,200,1,305.40%,50.81%,100.00%24,Brownsville,11,848,1,167.97%,215.45%,100.00%25,Bushwick North,5,638,1,76.35%,162.10%,100.00%26,Bushwick South,4,937,1,61.08%,238.07%,100.00%27,Cambria Heights,1,158,1,15.27%,40.14%,100.00%28,Canarsie,2,743,1,30.54%,188.78%,100.00%29,Carroll Gardens-Columbia Street-Red Hook,19,410,1,290.13%,104.17%,100.00%30,Central Harlem North-Polo Grounds,73,878,1,1114.72%,223.07%,100.00%31,Central Harlem South,53,629,1,809.32%,159.81%,100.00%32,Charleston-Richmond Valley-Tottenville,1,65,1,15.27%,16.51%,100.00%33,Chinatown,11,495,1,167.97%,125.77%,100.00%34,Claremont-Bathgate,2,452,1,30.54%,114.84%,100.00%35,Clinton,2,815,1,30.54%,207.07%,100.00%36,Clinton Hill,2,396,1,30.54%,100.61%,100.00%37,Co-op City,1,321,1,15.27%,81.56%,100.00%38,College Point,1,105,1,15.27%,26.68%,100.00%39,Corona,1,273,1,15.27%,69.36%,100.00%40,Crotona Park East,0,234,1,0.00%,59.45%,100.00%41,Crown Heights North,13,1485,1,198.51%,377.30%,100.00%42,Crown Heights South,0,364,1,0.00%,92.48%,100.00%43,Cypress Hills-City Line,1,552,1,15.27%,140.25%,100.00%44,Douglas Manor-Douglaston-Little Neck,2,110,1,30.54%,27.95%,100.00%45,DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill,75,709,1,1145.26%,180.14%,100.00%46,Dyker Heights,7,184,1,106.89%,46.75%,100.00%47,East Concourse-Concourse Village,3,707,1,45.81%,179.63%,100.00%48,East Elmhurst,2,168,1,30.54%,42.68%,100.00%49,East Flatbush-Farragut,1,401,1,15.27%,101.88%,100.00%50,East Flushing,4,136,1,61.08%,34.55%,100.00%51,East Harlem North,42,882,1,641.35%,224.09%,100.00%52,East Harlem South,6,567,1,91.62%,144.06%,100.00%53,East New York,7,1483,1,106.89%,376.79%,100.00%54,East New York (Pennsylvania Ave),0,472,1,0.00%,119.92%,100.00%55,East Tremont,7,618,1,106.89%,157.02%,100.00%56,East Village,5,585,1,76.35%,148.63%,100.00%57,East Williamsburg,1,520,1,15.27%,132.12%,100.00%58,Eastchester-Edenwald-Baychester,9,314,1,137.43%,79.78%,100.00%59,Elmhurst,10,601,1,152.70%,152.70%,100.00%60,Elmhurst-Maspeth,0,131,1,0.00%,33.28%,100.00%61,Erasmus,0,388,1,0.00%,98.58%,100.00%62,Far Rockaway-Bayswater,11,518,1,167.97%,131.61%,100.00%63,Flatbush,2,760,1,30.54%,193.09%,100.00%64,Flatlands,2,486,1,30.54%,123.48%,100.00%65,Flushing,6,546,1,91.62%,138.72%,100.00%66,Fordham South,1,343,1,15.27%,87.15%,100.00%67,Forest Hills,6,345,1,91.62%,87.65%,100.00%68,Fort Greene,16,413,1,244.32%,104.93%,100.00%69,Fresh Meadows-Utopia,5,67,1,76.35%,17.02%,100.00%70,Ft. Totten-Bay Terrace-Clearview,2,86,1,30.54%,21.85%,100.00%71,Georgetown-Marine Park-Bergen Beach-Mill Basin,2,321,1,30.54%,81.56%,100.00%72,Glen Oaks-Floral Park-New Hyde Park,1,105,1,15.27%,26.68%,100.00%73,Glendale,1,183,1,15.27%,46.50%,100.00%74,Gramercy,6,437,1,91.62%,111.03%,100.00%75,Grasmere-Arrochar-Ft. Wadsworth,1,72,1,15.27%,18.29%,100.00%76,Gravesend,1,254,1,15.27%,64.53%,100.00%77,Great Kills,2,100,1,30.54%,25.41%,100.00%78,Greenpoint,1,310,1,15.27%,78.76%,100.00%79,Grymes Hill-Clifton-Fox Hills,0,123,1,0.00%,31.25%,100.00%80,Hamilton Heights,12,486,1,183.24%,123.48%,100.00%81,Hammels-Arverne-Edgemere,9,408,1,137.43%,103.66%,100.00%82,Highbridge,1,392,1,15.27%,99.60%,100.00%83,Hollis,1,155,1,15.27%,39.38%,100.00%84,Homecrest,1,288,1,15.27%,73.17%,100.00%85,Hudson Yards-Chelsea-Flatiron-Union Square,56,1752,1,855.13%,445.13%,100.00%86,Hunters Point-Sunnyside-West Maspeth,11,528,1,167.97%,134.15%,100.00%87,Hunts Point,4,500,1,61.08%,127.04%,100.00%88,Jackson Heights,1,845,1,15.27%,214.69%,100.00%89,Jamaica,6,729,1,91.62%,185.22%,100.00%90,Jamaica Estates-Holliswood,1,207,1,15.27%,52.59%,100.00%91,Kensington-Ocean Parkway,1,176,1,15.27%,44.72%,100.00%92,Kew Gardens,6,121,1,91.62%,30.74%,100.00%93,Kew Gardens Hills,1,166,1,15.27%,42.18%,100.00%94,Kingsbridge Heights,1,340,1,15.27%,86.38%,100.00%95,Laurelton,1,209,1,15.27%,53.10%,100.00%96,Lenox Hill-Roosevelt Island,4,327,1,61.08%,83.08%,100.00%97,Lincoln Square,15,424,1,229.05%,107.73%,100.00%98,Lindenwood-Howard Beach,1,185,1,15.27%,47.00%,100.00%99,Longwood,4,351,1,61.08%,89.18%,100.00%100,Lower East Side,7,518,1,106.89%,131.61%,100.00%101,Madison,1,211,1,15.27%,53.61%,100.00%102,Manhattanville,2,277,1,30.54%,70.38%,100.00%103,Marble Hill-Inwood,2,403,1,30.54%,102.39%,100.00%104,Mariner's Harbor-Arlington-Port Ivory-Graniteville,0,289,1,0.00%,73.43%,100.00%105,Maspeth,1,164,1,15.27%,41.67%,100.00%106,Melrose South-Mott Haven North,2,666,1,30.54%,169.21%,100.00%107,Middle Village,9,152,1,137.43%,38.62%,100.00%108,Midtown-Midtown South,31,2651,1,473.38%,673.54%,100.00%109,Midwood,1,290,1,15.27%,73.68%,100.00%110,Morningside Heights,5,426,1,76.35%,108.23%,100.00%111,Morrisania-Melrose,3,474,1,45.81%,120.43%,100.00%112,Mott Haven-Port Morris,15,725,1,229.05%,184.20%,100.00%113,Mount Hope,3,612,1,45.81%,155.49%,100.00%114,Murray Hill,6,191,1,91.62%,48.53%,100.00%115,Murray Hill-Kips Bay,4,470,1,61.08%,119.41%,100.00%116,New Brighton-Silver Lake,1,110,1,15.27%,27.95%,100.00%117,New Dorp-Midland Beach,5,106,1,76.35%,26.93%,100.00%118,New Springville-Bloomfield-Travis,5,224,1,76.35%,56.91%,100.00%119,North Corona,1,442,1,15.27%,112.30%,100.00%120,North Riverdale-Fieldston-Riverdale,2,155,1,30.54%,39.38%,100.00%121,North Side-South Side,8,734,1,122.16%,186.49%,100.00%122,Norwood,12,492,1,183.24%,125.00%,100.00%123,Oakland Gardens,1,112,1,15.27%,28.46%,100.00%124,Oakwood-Oakwood Beach,0,62,1,0.00%,15.75%,100.00%125,Ocean Hill,1,517,1,15.27%,131.36%,100.00%126,Ocean Parkway South,0,95,1,0.00%,24.14%,100.00%127,Old Astoria,1,202,1,15.27%,51.32%,100.00%128,Old Town-Dongan Hills-South Beach,12,92,1,183.24%,23.37%,100.00%129,Ozone Park,1,204,1,15.27%,51.83%,100.00%130,park-cemetery-etc-Bronx,34,214,1,519.19%,54.37%,100.00%131,park-cemetery-etc-Brooklyn,26,141,1,397.02%,35.82%,100.00%132,park-cemetery-etc-Manhattan,12,215,1,183.24%,54.63%,100.00%133,park-cemetery-etc-Queens,11,113,1,167.97%,28.71%,100.00%134,park-cemetery-etc-Staten Island,0,0,1,0.00%,0.00%,100.00%135,Park Slope-Gowanus,2,575,1,30.54%,146.09%,100.00%136,Parkchester,1,159,1,15.27%,40.40%,100.00%137,Pelham Bay-Country Club-City Island,7,135,1,106.89%,34.30%,100.00%138,Pelham Parkway,1,247,1,15.27%,62.76%,100.00%139,Pomonok-Flushing Heights-Hillcrest,1,169,1,15.27%,42.94%,100.00%140,Port Richmond,1,183,1,15.27%,46.50%,100.00%141,Prospect Heights,0,180,1,0.00%,45.73%,100.00%142,Prospect Lefferts Gardens-Wingate,8,789,1,122.16%,200.46%,100.00%143,Queens Village,1,389,1,15.27%,98.83%,100.00%144,Queensboro Hill,7,106,1,106.89%,26.93%,100.00%145,Queensbridge-Ravenswood-Long Island City,4,225,1,61.08%,57.17%,100.00%146,Rego Park,7,113,1,106.89%,28.71%,100.00%147,Richmond Hill,6,575,1,91.62%,146.09%,100.00%148,Ridgewood,1,527,1,15.27%,133.90%,100.00%149,Rikers Island,0,246,1,0.00%,62.50%,100.00%150,Rosedale,1,193,1,15.27%,49.04%,100.00%151,Rossville-Woodrow,1,58,1,15.27%,14.74%,100.00%152,Rugby-Remsen Village,1,548,1,15.27%,139.23%,100.00%153,Schuylerville-Throgs Neck-Edgewater Park,10,337,1,152.70%,85.62%,100.00%154,Seagate-Coney Island,32,423,1,488.65%,107.47%,100.00%155,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,18,452,1,274.86%,114.84%,100.00%156,SoHo-TriBeCa-Civic Center-Little Italy,6,903,1,91.62%,229.43%,100.00%157,Soundview-Bruckner,0,423,1,0.00%,107.47%,100.00%158,Soundview-Castle Hill-Clason Point-Harding Park,3,610,1,45.81%,154.98%,100.00%159,South Jamaica,7,362,1,106.89%,91.97%,100.00%160,South Ozone Park,2,710,1,30.54%,180.39%,100.00%161,Springfield Gardens North,5,258,1,76.35%,65.55%,100.00%162,Springfield Gardens South-Brookville,0,218,1,0.00%,55.39%,100.00%163,Spuyten Duyvil-Kingsbridge,1,288,1,15.27%,73.17%,100.00%164,St. Albans,20,373,1,305.40%,94.77%,100.00%165,Stapleton-Rosebank,5,248,1,76.35%,63.01%,100.00%166,Starrett City,0,83,1,0.00%,21.09%,100.00%167,Steinway,1,271,1,15.27%,68.85%,100.00%168,Stuyvesant Heights,3,931,1,45.81%,236.54%,100.00%169,Stuyvesant Town-Cooper Village,0,68,1,0.00%,17.28%,100.00%170,Sunset Park East,0,411,1,0.00%,104.42%,100.00%171,Sunset Park West,1,447,1,15.27%,113.57%,100.00%172,Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill,1,100,1,15.27%,25.41%,100.00%173,Turtle Bay-East Midtown,8,516,1,122.16%,131.10%,100.00%174,University Heights-Morris Heights,2,433,1,30.54%,110.01%,100.00%175,Upper East Side-Carnegie Hill,7,671,1,106.89%,170.48%,100.00%176,Upper West Side,8,905,1,122.16%,229.93%,100.00%177,Van Cortlandt Village,3,360,1,45.81%,91.47%,100.00%178,Van Nest-Morris Park-Westchester Square,7,289,1,106.89%,73.43%,100.00%179,Washington Heights North,4,537,1,61.08%,136.44%,100.00%180,Washington Heights South,12,649,1,183.24%,164.89%,100.00%181,West Brighton,0,277,1,0.00%,70.38%,100.00%182,West Concourse,24,637,1,366.48%,161.84%,100.00%183,West Farms-Bronx River,1,423,1,15.27%,107.47%,100.00%184,West New Brighton-New Brighton-St. George,18,345,1,274.86%,87.65%,100.00%185,West Village,18,1205,1,274.86%,306.16%,100.00%186,Westchester-Unionport,1,266,1,15.27%,67.58%,100.00%187,Westerleigh,8,95,1,122.16%,24.14%,100.00%188,Whitestone,1,155,1,15.27%,39.38%,100.00%189,Williamsbridge-Olinville,3,700,1,45.81%,177.85%,100.00%190,Williamsburg,1,114,1,15.27%,28.96%,100.00%191,Windsor Terrace,1,112,1,15.27%,28.46%,100.00%192,Woodhaven,5,410,1,76.35%,104.17%,100.00%193,Woodlawn-Wakefield,3,379,1,45.81%,96.29%,100.00%194,Woodside,9,253,1,137.43%,64.28%,100.00%195,Yorkville,0,344,1,0.00%,87.40%,100.00%

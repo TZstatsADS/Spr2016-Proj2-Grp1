@@ -5,6 +5,8 @@ weight_calculation <- function(first_preference="all",second_preference="all",w1
         crime <- read.csv("crime.csv")
         restaurants <- read.csv("restaurants.csv")
         
+        
+        
         museum <- read.csv('museum.csv')
         natural <- read.csv('natural.csv')
         theater <- read.csv('theater.csv')
@@ -62,6 +64,10 @@ weight_calculation <- function(first_preference="all",second_preference="all",w1
         maxs <- max(neighbor_score$neighbor_score)
         mins <- min(neighbor_score$neighbor_score)
         neighbor_score$neighbor_score<-scale(neighbor_score$neighbor_score, center = mins, scale = maxs - mins)
+        print("weight")
+        print(neighbor_score)
+        
+        
         return (neighbor_score)
 }
 

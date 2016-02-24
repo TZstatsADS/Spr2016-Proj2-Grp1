@@ -56,7 +56,7 @@ shinyServer(function(input,output){
                 neighborData$scores[match(neighbor_ranks$neighborpool,neighborData$nta)] <- neighbor_ranks[,2]
                 neighborData$scores[is.na(neighborData$scores)]<-0
                 
-                shapeData$scores = neighborData$scores[match(mapNYC$NTAName,neighborData$nta)]
+                
                 
                 
                 print(head(neighborData))
@@ -106,8 +106,8 @@ shinyServer(function(input,output){
                 } else if (input$category1 == "museum"){
                         c1<-read.csv("museum.csv")
                 }
-                else if (input$category1 == "nartural"){
-                        c1<-read.csv("nartural.csv")
+                else if (input$category1 == "natural"){
+                        c1<-read.csv("natural.csv")
                 }
                 else if (input$category1 == "theater"){
                         c1<-read.csv("theater.csv")
@@ -132,8 +132,8 @@ shinyServer(function(input,output){
                 }else if (input$category2 == "museum"){
                         c2<-read.csv("museum.csv")
                 }
-                else if (input$category2 == "nartural"){
-                        c2<-read.csv("nartural.csv")
+                else if (input$category2 == "natural"){
+                        c2<-read.csv("natural.csv")
                 }
                 else if (input$category2 == "theater"){
                         c2<-read.csv("theater.csv")
@@ -180,19 +180,23 @@ shinyServer(function(input,output){
                 }
                 
                 mustGoPool <- rbind(c1_s1,c2_s1)
+                mustGoPool <- unique(mustGoPool)
                 #fills with landmarks
                 if (nrow(mustGoPool)<15){
                         n<-15-nrow(mustGoPool)
                         landmarks <- read.csv("landmarks.csv")
                         landmarksSelected<-landmarks[sample(1:nrow(landmarks),
                                          n,replace=FALSE),]
+                        
                         mustGoPool <- rbind(mustGoPool,landmarksSelected)
+                        mustGoPool <- unique(mustGoPool)
                 }
                 
                 #2nd sampling
                 mustGoPoolSelected<-mustGoPool[sample(1:nrow(mustGoPool),
                                         numberOfPlaces,replace=FALSE),]
-                
+                print("must")
+                print(mustGoPoolSelected)
                 mustGoSelected <- mustGoPoolSelected[,c(3,4,2,5)]
                         
                 #add start-end point
@@ -295,7 +299,7 @@ shinyServer(function(input,output){
 #############################################################################################################
         #Region popup
         polygon_popup <- paste0("<strong>Name: </strong>", shapeData$NTAName, "<br>",
-                                "<strong>Crime Rate: </strong>", shapeData$crimeRate,"<br>",
+                                "<strong>Crime Rate: </strong>", round(shapeData$crimeRate,3),"% felonies/population","<br>",
                                 "<strong>Wifi: </strong>", shapeData$wifi, "<br>",
                                 "<strong>Restaurants: </strong>", shapeData$restaurants)
         

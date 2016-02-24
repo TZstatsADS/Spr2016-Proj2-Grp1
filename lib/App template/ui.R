@@ -60,7 +60,7 @@ dashboardPage(
         tags$head( includeCSS("styles.css")),
         leafletOutput("backgroup",width = "100%",height= "100%"),
         
-        absolutePanel(id = "graphs",fixed = T,draggable = F, top = "10%", left = "auto", right = "5%", bottom = "15%",
+        absolutePanel(id = "graphs",fixed = T,draggable = F, top = "10%", left = "auto", right = "2%", bottom = "15%",
                       width = "auto", height = "70%",
                       h1("Information"),
                       uiOutput("place"),

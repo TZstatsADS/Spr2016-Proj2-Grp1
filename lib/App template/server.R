@@ -12,7 +12,7 @@ source("weight.R")
 shinyServer(function(input,output){
         #read data
         neighborData <- read.csv("neighborhood_stat.csv")[,-1]
-        names(neighborData) <- c("nta","wifi","crime","restaurants")
+        names(neighborData) <- c("nta","wifi","crime","restaurants","wifi%","crime%","restaurants%")
         #basemap&shape
         mapNYC <- readOGR("nynta_15d/nynta.shp",
                           layer = "nynta", verbose = FALSE)
@@ -234,17 +234,24 @@ shinyServer(function(input,output){
                         if(input$attraction>0){
 
                                 neighbor_select<- na.omit(sightsRanked[sightsRanked[,3] == input$attraction ,])
-                                #neighbor_select<-neighbor_select)
+
+                                
+                                 #neighbor_select<-neighbor_select)
                                 print("display")
                                 print(sightsRanked[, 3])
                                 print(neighbor_select)
                                 count <- neighborData[which(neighborData$nta == as.character(neighbor_select[,4])),]
+                                names(count) <- c("nta","wifi","crime","restaurants","wifi%","crime%","restaurants%")
                                 print(count)
-                                new_count <- cbind(t(count[,2:4]),c("wifi","crime","restaurants"))
+                                new_count <- cbind(t(count[,5:7]),c("wifi","crime","restaurants"))
                                 print("1")
+                                
+                                
                                 print(new_count)
                                 colnames(new_count) <- c("number","type")
                                 new_count <- data.frame(new_count)
+                                
+                              
                                 print("2")
                                 print(new_count)
                                 ggplot(data=new_count, aes(x=type, y=number, fill=type)) +geom_bar(stat="identity")+

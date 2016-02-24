@@ -3,6 +3,7 @@ weight_calculation <- function(first_preference="all",second_preference="all",w1
         #file input
         wifi <- read.csv("wifi.csv")
         crime <- read.csv("crime.csv")
+        restaurants <- read.csv("restaurants.csv")
         
         museum <- read.csv('museum.csv')
         natural <- read.csv('natural.csv')
@@ -50,7 +51,7 @@ weight_calculation <- function(first_preference="all",second_preference="all",w1
         crime<-data.frame(crime,row.names = 'Var1')
         crime<-crime[neighborpool,]
         
-        neighbor_score = w1 * wifi$Freq/sum(wifi$Freq)-w2*crime$Freq/sum(crime$Freq)
+        neighbor_score = w1 * wifi$Freq/sum(wifi$Freq)-w2*crime$Freq/sum(crime$Freq) + w3 * restaurants$Freq/sum(restaurants$Freq)
         neighbor_score=data.frame(neighborpool,neighbor_score)  
         
         

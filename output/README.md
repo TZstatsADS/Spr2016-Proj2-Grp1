@@ -1,5 +1,5 @@
-# Project: NYC Trip Planner
-by Group 1   
+# Project: [NYC Lazy Plannet](https://ziyuewu.shinyapps.io/LazyTraveler/)
+By Group 1   
 Yi Liu, Yuchen Shi, Ziyue (Zac) Wu, Jingying Zhou, Yibo Zhu
 
 ## An Overview of Our Product

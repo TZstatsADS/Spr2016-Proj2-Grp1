@@ -2,16 +2,17 @@ library(shiny)
 library(maptools)
 library(fields)
 library(leaflet)
+library(shinydashboard)
 
 type <- c(
         "all" = "all",
         "landmark" = "landmark",
         "museum" = "museum",
-        "nartural" = "nartural",
+        "natural" = "natural",
         "theater" = "theater",
         "opera house" = "opera",
-        "gallery" = "gallery",
-        "film" = "film")
+        "gallery" = "gallery"
+)
 
 number <- c(
         
@@ -54,10 +55,9 @@ dashboardPage(
         absolutePanel(id = "graphs",fixed = T,draggable = TRUE, top = "5%", left = "auto", right = "5%", bottom = "10%",
                       width = 250, height = "auto",
                       h1("Information"),
-                      for (i in 1:4){
-                      actionButton("recalc", "1")
-                              },
-                      plotOutput("hist_forall", height = 200))
+                      uiOutput("place"),
+                      plotOutput("distplot")
+                      )
         
         #input
 

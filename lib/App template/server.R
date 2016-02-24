@@ -211,7 +211,27 @@ shinyServer(function(input,output){
                 #                                  mustGoSelected[j,2]))[1]
                 #        }
                 #}
+##########################################################################################
+                output$place <- renderUI({
+                        if(is.null(sightsRanked[,3]))
+                                return()
+                        selectInput("attraction", "attractions",sightsRanked[,3])
+                })
                 
+                output$distplot <- renderPlot({
+                        if(input$attraction>0){
+                                neighbor_select<- sightsRanked[sightsRanked[, 3] == input$attraction,]
+                                print(sightsRanked[, 3])
+                                count_stat[which(count_stat$NTAName == as.character(neighbor_select[,4])),]
+                                
+                                new_count <- cbind(t(count[,3:5]),c("wifi","crime","restaurant"))
+                                colnames(new_count) <- c("number","type")
+                                new_count <- data.frame(new_count)
+                                ggplot(data=new_count, aes(x=type, y=number, fill=type)) +geom_bar(stat="identity")+scale_fill_manual(values=c("#edf8b1", "#7fcdbb", "#2c7fb8"))
+                        }
+                })
+                
+   ############################################################################################            
                 
                 #tsp
                 #tsp <- ATSP(as.matrix(distance2))

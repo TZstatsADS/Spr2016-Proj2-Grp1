@@ -70,7 +70,7 @@ shinyServer(function(input,output){
                
                 #plot(shapeData,col=colors[colorsmatched])
                 colorsmatched[is.na(colorsmatched)] = 1
-                print(cbind(colorsmatched,neighborData$scores,neighborData$colorBuckets))
+                #print(cbind(colorsmatched,neighborData$scores,neighborData$colorBuckets))
                 
                 colorsmatched
         ##################       ##################
@@ -86,7 +86,7 @@ shinyServer(function(input,output){
                         geocode <- geocode(address)
                         start_lat<-as.numeric(geocode$lat)
                         start_lng<-as.numeric(geocode$lon)
-                        print(geocode)
+                        #print(geocode)
                 }else{
                         address <- "Columbia University in the city of New York"
                         start_lat <- 40.80772
@@ -211,28 +211,7 @@ shinyServer(function(input,output){
                 #                                  mustGoSelected[j,2]))[1]
                 #        }
                 #}
-##########################################################################################
-                output$place <- renderUI({
-                        if(is.null(sightsRanked[,3]))
-                                return()
-                        selectInput("attraction", "attractions",sightsRanked[,3])
-                })
-                
-                output$distplot <- renderPlot({
-                        if(input$attraction>0){
-                                neighbor_select<- sightsRanked[sightsRanked[, 3] == input$attraction,]
-                                print(sightsRanked[, 3])
-                                count_stat[which(count_stat$NTAName == as.character(neighbor_select[,4])),]
-                                
-                                new_count <- cbind(t(count[,3:5]),c("wifi","crime","restaurant"))
-                                colnames(new_count) <- c("number","type")
-                                new_count <- data.frame(new_count)
-                                ggplot(data=new_count, aes(x=type, y=number, fill=type)) +geom_bar(stat="identity")+scale_fill_manual(values=c("#edf8b1", "#7fcdbb", "#2c7fb8"))
-                        }
-                })
-                
-   ############################################################################################            
-                
+     
                 #tsp
                 #tsp <- ATSP(as.matrix(distance2))
                 tsp <- TSP(distance)
@@ -243,6 +222,34 @@ shinyServer(function(input,output){
                 sightsRanked <- rbind(sightsRanked,sightsRanked[1,])
                 sightsRanked[,1]<-as.numeric(sightsRanked[,1])
                 sightsRanked[,2]<-as.numeric(sightsRanked[,2])
+                
+                ##########################################################################################
+                output$place <- renderUI({
+                        if(is.null(sightsRanked[,3]))
+                                return()
+                        selectInput("attraction", "attractions",as.character(sightsRanked[-c(1,nrow(sightsRanked)),3]))
+                })
+                
+                output$distplot <- renderPlot({
+                        if(input$attraction>0){
+                                neighbor_select<- sightsRanked[sightsRanked[,3] == input$attraction,]
+                                print("display")
+                                print(sightsRanked[, 3])
+                                count_stat[which(count_stat$NTAName == as.character(neighbor_select[,4])),]
+                                
+                                new_count <- cbind(t(count[,3:5]),c("wifi","crime","restaurant"))
+                                colnames(new_count) <- c("number","type")
+                                new_count <- data.frame(new_count)
+                                ggplot(data=new_count, aes(x=type, y=number, fill=type)) +geom_bar(stat="identity")+scale_fill_manual(values=c("#edf8b1", "#7fcdbb", "#2c7fb8"))
+                        }
+                })
+                
+                ############################################################################################            
+                
+                
+                
+                
+                
                 sightsRanked
                 
                 #osrmViarouteGeom(c(1,40.80772,-73.96411), c(2,40.75874, -73.97867),sp=TRUE)

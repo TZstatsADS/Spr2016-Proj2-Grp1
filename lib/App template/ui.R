@@ -24,10 +24,16 @@ dashboardPage(
         dashboardHeader(title = "Trip Planner"),
         
         
-        
-        
-        
-        dashboardSidebar(
+        dashboardSidebar(  #CSS Customize Header   
+          tags$head(tags$style(HTML('.main-header .logo {
+                                    font-family: "Britannic Bold",Britannic Bold, "Britannic Bold", serif;
+                                    font-weight: bold;
+                                    font-size: 30px;
+                                    }
+                                    '))),
+          
+          
+          
         sidebarSearchForm(textId = "location", buttonId = "searchButton",
                           label = "Where you are..."),
         sliderInput(inputId = "crime",label="Safety", value = 0, min=0, max = 10,width = "90%"),
@@ -37,7 +43,9 @@ dashboardPage(
         selectInput("category2","Category2",type,width = "90%"),
         #selectInput("number","number",vars,selected = "art"),
         sliderInput(inputId = "number",label="number", value = 0, min=1, max = 10,width = "90%"),
-        actionButton("recalc", "My Trip Plan")
+        actionButton("recalc", "My Trip Plan"),
+        tags$style(type='text/css', "#recalc{horizontal-align:middle; position: absolute;left:35px; 
+                            height: 43px; width:62%; font-size: 15px}")
         
         ),
         

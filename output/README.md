@@ -21,7 +21,8 @@ Yi Liu, Yuchen Shi, Ziyue (Zac) Wu, Jingying Zhou, Yibo Zhu
 ## The Tireless Endeavor to Make You Lazy
 In this section we (become serious and) mainly talk about the data and methods we used in making this app.   
 ### Data
-Here is a table of the data we used,  
+Here is a table of the data we used,    
+
 | Tables        | Source        | 
 | ------------- |:-------------:| 
 | Museums | [NYCOD](https://data.cityofnewyork.us/Recreation/New-York-City-Museums/ekax-ky3z)| 
@@ -31,7 +32,8 @@ Here is a table of the data we used,
 | Natural Preserves| [NYCOD](http://www.nyc.gov/html/dpr/nycbigapps/DPR_naturepreserves_001.csv) |
 | Wifi Hoptspot|[NYCOD](https://data.cityofnewyork.us/City-Government/NYC-Wi-Fi-Hotspot-Locations/yjub-udmw)|
 | Restaurant|[NYCOD](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j)|
-| Crime|[NYCOD](https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incident-Map/dvh8-u7es)|
+| Crime|[NYCOD](https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incident-Map/dvh8-u7es)|  
+
 ### Methodology
 ###### Making Your Life Easier is not Actually Easy
 

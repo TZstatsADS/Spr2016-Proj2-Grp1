@@ -252,16 +252,16 @@ shinyServer(function(input,output){
                     colnames(new_count) <- c("number","type")
                     new_count <- data.frame(new_count)
                     
-                    
+                    frequency <- new_count$number
                     print("2")
                     print(new_count)
                     ggplot(data=new_count, aes(x=type, y=number, fill=type)) +geom_bar(stat="identity")+
                       scale_fill_manual(values=c("#edf8b1", "#7fcdbb", "#2c7fb8"))+
-                      theme(legend.position="bottom")+ 
-                      theme(title=element_blank())+
-                      theme(text = element_text(size=15))+
-                      geom_text(aes(label = frequency), size = 5, hjust = 0.5, vjust = 3, position ="stack")
-                        
+                    theme(legend.position="bottom")+ 
+                    theme(title=element_blank())+
+                    theme(text = element_text(size=15))+
+                    geom_text(aes(label = number), size = 5, hjust = 0.5,vjust = 2.5, position ="stack")
+                    #     
                         }
                 })
                 
@@ -299,14 +299,14 @@ shinyServer(function(input,output){
                                 "<strong>Wifi: </strong>", shapeData$wifi, "<br>",
                                 "<strong>Restaurants: </strong>", shapeData$restaurants)
         
-        output$hist_forall <- renderText({
-                regionPassed<-sightsRanked()
-                regionPassed<-as.vector(unique(isolate(regionPassed)$NTAName))
-                regionPassed<-na.omit(regionPassed)
-                print("text")
-                print(a)
-                a
-        })
+        # output$hist_forall <- renderText({
+        #         regionPassed<-sightsRanked()
+        #         regionPassed<-as.vector(unique(isolate(regionPassed)$NTAName))
+        #         regionPassed<-na.omit(regionPassed)
+        #         print("text")
+        #         print(a)
+        #         a
+        # })
         #Customize Icon
         destiIcon<- makeIcon(iconUrl ="run.png",
                              iconWidth = 60, iconHeight =80,

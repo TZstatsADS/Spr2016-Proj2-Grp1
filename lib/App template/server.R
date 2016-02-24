@@ -8,6 +8,7 @@ library(TSP)
 library(ggplot2)
 library(osrm)
 source("weight.R")
+library(ggthemes)
 
 shinyServer(function(input,output){
         #read data
@@ -262,10 +263,13 @@ shinyServer(function(input,output){
                     ggplot(data=new_count, aes(x=type, y=number, fill=type)) +geom_bar(stat="identity")+
                       scale_fill_manual(values=c("#edf8b1", "#7fcdbb", "#2c7fb8"))+
                     theme(legend.position="bottom")+ 
-                    theme(title=element_blank())+
+                    theme(title=element_blank(),panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
                     theme(text = element_text(size=15))+
+                  
+                            #theme_economist() + 
+                            #scale_color_economist()+
                     geom_text(aes(label = number), size = 5, hjust = 0.5,vjust = 2.5, position ="stack")
-                    #     
+                       
                         }
                 })
                 

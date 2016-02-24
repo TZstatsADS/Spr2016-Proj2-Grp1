@@ -7,11 +7,7 @@ library(shinydashboard)
 type <- c(
         "all" = "all",
         "landmark" = "landmark",
-        "museum" = "museum",
-        "natural" = "natural",
-        "theater" = "theater",
-        "opera house" = "opera",
-        "gallery" = "gallery"
+        "museum" = "museum"
 )
 
 
@@ -62,7 +58,6 @@ dashboardPage(
 
         absolutePanel(id = "graphs",fixed = T,draggable = F, top = "10%", left = "auto", right = "2%", bottom = "15%",
                       width = "auto", height = "70%",
-
                       h1("Information"),
                       uiOutput("place"),
                       plotOutput("distplot")

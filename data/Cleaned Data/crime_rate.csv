@@ -1,0 +1,196 @@
+"","Var1","Freq"
+"175","Airport",7
+"69","Allerton-Pelham Gardens",0.00520895701113639
+"177","Annadale-Huguenot-Prince's Bay-Eltingville",0.00243673199429108
+"193","Arden Heights",0.00153231985160692
+"171","Astoria",0.00670667607020719
+"155","Auburndale",0.00468961516147747
+"174","Baisley Park",0.0119557927273788
+"8","Bath Beach",0.00573163658694688
+"107","Battery Park City-Lower Manhattan",0.012531328320802
+"12","Bay Ridge",0.0054520943438995
+"153","Bayside-Bayside Hills",0.00514037168841439
+"36","Bedford",0.0117554747128897
+"54","Bedford Park-Fordham North",0.0120362799718583
+"150","Bellerose",0.00543059621013711
+"55","Belmont",0.0150874607299383
+"10","Bensonhurst East",0.00551861919889955
+"9","Bensonhurst West",0.00426136363636364
+"45","Borough Park",0.0035874692805288
+"126","Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",0.00504349592119961
+"145","Briarwood-Jamaica Hills",0.00684022991495227
+"3","Brighton Beach",0.00655395136778116
+"56","Bronxdale",0.00708610056925996
+"1","Brooklyn Heights-Cobble Hill",0.00851136266916333
+"41","Brownsville",0.0153035443586227
+"38","Bushwick North",0.0103207855444295
+"39","Bushwick South",0.013151430937443
+"143","Cambria Heights",0.00781713833366317
+"26","Canarsie",0.00862349117920149
+"14","Carroll Gardens-Columbia Street-Red Hook",0.0104002841053219
+"91","Central Harlem North-Polo Grounds",0.0112286266034044
+"95","Central Harlem South",0.0134706814580032
+"181","Charleston-Richmond Valley-Tottenville",0.00269787905200681
+"108","Chinatown",0.0106337271750806
+"52","Claremont-Bathgate",0.0147159368386782
+"99","Clinton",0.0189839509911253
+"33","Clinton Hill",0.0108752368659545
+"60","Co-op City",0.0072453954496208
+"135","College Point",0.00433902227364767
+"136","Corona",0.00504705034109186
+"87","Crotona Park East",0.011497641509434
+"29","Crown Heights North",0.0148307200639169
+"30","Crown Heights South",0.00882574012559707
+"43","Cypress Hills-City Line",0.0116146951142533
+"152","Douglas Manor-Douglaston-Little Neck",0.004293688278231
+"18","DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",0.0200435360303056
+"11","Dyker Heights",0.00406935598018401
+"61","East Concourse-Concourse Village",0.0111331569664903
+"138","East Elmhurst",0.00728218465539662
+"47","East Flatbush-Farragut",0.00761532179957081
+"159","East Flushing",0.00486705078194897
+"113","East Harlem North",0.0145869511287522
+"112","East Harlem South",0.00948255677827207
+"42","East New York",0.0161272782635173
+"44","East New York (Pennsylvania Ave)",0.0158102766798419
+"62","East Tremont",0.0147596188292613
+"104","East Village",0.0133699005827905
+"46","East Williamsburg",0.0156839089126829
+"53","Eastchester-Edenwald-Baychester",0.00856145708365143
+"140","Elmhurst",0.00707858287006501
+"157","Elmhurst-Maspeth",0.00522161989795918
+"49","Erasmus",0.012962282430762
+"128","Far Rockaway-Bayswater",0.010299439296934
+"21","Flatbush",0.00723162121529298
+"27","Flatlands",0.00685743311886217
+"134","Flushing",0.00786947623302874
+"76","Fordham South",0.0130239975698663
+"129","Forest Hills",0.00407348808652325
+"32","Fort Greene",0.0153065006300497
+"148","Fresh Meadows-Utopia",0.00368597678384772
+"154","Ft. Totten-Bay Terrace-Clearview",0.00374841999738482
+"24","Georgetown-Marine Park-Bergen Beach-Mill Basin",0.00663895265868338
+"151","Glen Oaks-Floral Park-New Hyde Park",0.00468185669059616
+"131","Glendale",0.00576377952755905
+"103","Gramercy",0.0167593480345158
+"183","Grasmere-Arrochar-Ft. Wadsworth",0.00487309644670051
+"7","Gravesend",0.00915018552541518
+"194","Great Kills",0.00230271490086812
+"37","Greenpoint",0.00983440137047142
+"180","Grymes Hill-Clifton-Fox Hills",0.0051555033950876
+"92","Hamilton Heights",0.00943194829895007
+"127","Hammels-Arverne-Edgemere",0.0114929577464789
+"64","Highbridge",0.010576015108593
+"124","Hollis",0.00720260223048327
+"6","Homecrest",0.00687367240268264
+"97","Hudson Yards-Chelsea-Flatiron-Union Square",0.025281750097404
+"142","Hunters Point-Sunnyside-West Maspeth",0.00871646718943458
+"65","Hunts Point",0.0181409186561207
+"139","Jackson Heights",0.00803323573031144
+"166","Jamaica",0.0143160127253446
+"123","Jamaica Estates-Holliswood",0.00825786891131767
+"20","Kensington-Ocean Parkway",0.0048620127627835
+"165","Kew Gardens",0.00528892385698051
+"146","Kew Gardens Hills",0.00452525693100346
+"68","Kingsbridge Heights",0.011111474231184
+"169","Laurelton",0.00831311403683227
+"110","Lenox Hill-Roosevelt Island",0.00401828504018285
+"98","Lincoln Square",0.0070426044348476
+"164","Lindenwood-Howard Beach",0.00643053286523689
+"70","Longwood",0.0137420718816068
+"109","Lower East Side",0.00697708874910766
+"23","Madison",0.00527486812829679
+"93","Manhattanville",0.011616691130216
+"90","Marble Hill-Inwood",0.00800270066325112
+"182","Mariner's Harbor-Arlington-Port Ivory-Graniteville",0.0094838053358711
+"141","Maspeth",0.00592549770567619
+"71","Melrose South-Mott Haven North",0.017068170169144
+"133","Middle Village",0.00389124980799754
+"100","Midtown-Midtown South",0.0939138444098059
+"22","Midwood",0.00562953760142874
+"94","Morningside Heights",0.00784154916614512
+"72","Morrisania-Melrose",0.0125158428390368
+"75","Mott Haven-Port Morris",0.0139070052942531
+"77","Mount Hope",0.0117158336045332
+"158","Murray Hill",0.00370808984837601
+"102","Murray Hill-Kips Bay",0.00949207310915884
+"189","New Brighton-Silver Lake",0.00600764609503004
+"192","New Dorp-Midland Beach",0.00499811391927575
+"178","New Springville-Bloomfield-Travis",0.00566844649138346
+"137","North Corona",0.00878814991549856
+"63","North Riverdale-Fieldston-Riverdale",0.00577517791273892
+"35","North Side-South Side",0.0159322769698285
+"78","Norwood",0.0119368221850207
+"149","Oakland Gardens",0.00398619069651564
+"186","Oakwood-Oakwood Beach",0.00281332244305291
+"40","Ocean Hill",0.0162420282114919
+"25","Ocean Parkway South",0.00486157310270713
+"172","Old Astoria",0.00763128069512656
+"190","Old Town-Dongan Hills-South Beach",0.00368014720588824
+"163","Ozone Park",0.00921575713769425
+"89","park-cemetery-etc-Bronx",0.155410312273057
+"51","park-cemetery-etc-Brooklyn",0.338942307692308
+"118","park-cemetery-etc-Manhattan",0.144976399190829
+"176","park-cemetery-etc-Queens",0.257990867579909
+"195","park-cemetery-etc-Staten Island",0
+"17","Park Slope-Gowanus",0.00789141414141414
+"80","Parkchester",0.00523439557545431
+"59","Pelham Bay-Country Club-City Island",0.00516469643062091
+"81","Pelham Parkway",0.00818124606670862
+"147","Pomonok-Flushing Heights-Hillcrest",0.00503996182750805
+"187","Port Richmond",0.00951143451143451
+"31","Prospect Heights",0.00880238642476405
+"28","Prospect Lefferts Gardens-Wingate",0.0113693675519115
+"144","Queens Village",0.00675945715824775
+"167","Queensboro Hill",0.00505026442422221
+"170","Queensbridge-Ravenswood-Long Island City",0.0121365769458978
+"130","Rego Park",0.00410909090909091
+"161","Richmond Hill",0.00881915366800104
+"132","Ridgewood",0.00751076019724653
+"88","Rikers Island",0.0252540806898676
+"122","Rosedale",0.00684372894578206
+"188","Rossville-Woodrow",0.00290901795566255
+"50","Rugby-Remsen Village",0.00973754819908666
+"82","Schuylerville-Throgs Neck-Edgewater Park",0.00730956099253861
+"4","Seagate-Coney Island",0.0140915450729562
+"2","Sheepshead Bay-Gerritsen Beach-Manhattan Beach",0.00733956871914783
+"106","SoHo-TriBeCa-Civic Center-Little Italy",0.0225417509173968
+"83","Soundview-Bruckner",0.0117873265340244
+"58","Soundview-Castle Hill-Clason Point-Harding Park",0.0113382899628253
+"119","South Jamaica",0.00981987847222222
+"162","South Ozone Park",0.00886989980761062
+"120","Springfield Gardens North",0.00957008791127267
+"121","Springfield Gardens South-Brookville",0.010954223405859
+"67","Spuyten Duyvil-Kingsbridge",0.00964888769766819
+"125","St. Albans",0.00729969861834123
+"191","Stapleton-Rosebank",0.00967427345426175
+"48","Starrett City",0.00647324910310404
+"173","Steinway",0.00553049937756372
+"16","Stuyvesant Heights",0.0144720274828621
+"117","Stuyvesant Town-Cooper Village",0.0031101353823637
+"15","Sunset Park East",0.00575146935348447
+"13","Sunset Park West",0.00813733343042307
+"185","Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",0.0031317528420657
+"101","Turtle Bay-East Midtown",0.0106626991507036
+"73","University Heights-Morris Heights",0.00802684265163874
+"116","Upper East Side-Carnegie Hill",0.0114049699153551
+"96","Upper West Side",0.00666823855347117
+"66","Van Cortlandt Village",0.00724127526903349
+"74","Van Nest-Morris Park-Westchester Square",0.00960196690810021
+"114","Washington Heights North",0.00755433635788141
+"115","Washington Heights South",0.00724726692052573
+"5","West Brighton",0.0179033092037229
+"86","West Concourse",0.0160534274193548
+"57","West Farms-Bronx River",0.0119745222929936
+"184","West New Brighton-New Brighton-St. George",0.0110527327481258
+"105","West Village",0.0179355510902731
+"84","Westchester-Unionport",0.00967871047556671
+"179","Westerleigh",0.00392529543012974
+"156","Whitestone",0.00479416040332808
+"79","Williamsbridge-Olinville",0.0113815586231566
+"34","Williamsburg",0.0034726453027903
+"19","Windsor Terrace",0.0049621195339152
+"160","Woodhaven",0.00688497061293031
+"85","Woodlawn-Wakefield",0.00827420587272132
+"168","Woodside",0.00559004838816589
+"111","Yorkville",0.00442865235079046

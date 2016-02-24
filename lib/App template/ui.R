@@ -15,7 +15,7 @@ type <- c(
 dashboardPage(
         #input
         #output
-        dashboardHeader(title = "Trip Planner"),
+        dashboardHeader(title = "Lazy Planet"),
         
         
         dashboardSidebar(  #CSS Customize Header   

@@ -301,7 +301,10 @@ shinyServer(function(input,output){
                 print(a)
                 a
         })
-        
+        #Customize Icon
+        destiIcon<- makeIcon(iconUrl ="run.png",
+                             iconWidth = 60, iconHeight =80,
+                             iconAnchorX = 18, iconAnchorY = 60)
         #output
         output$backgroup <- renderLeaflet({
                 print("backgroup")
@@ -318,7 +321,7 @@ shinyServer(function(input,output){
                 addPolygons(data=shapeData, fillColor = colors[colorsmatched_re()],
                             fillOpacity=0.6, stroke = FALSE,popup=polygon_popup,group="ColoredMap")%>%
                 #addMarkers(lng=-73.985428, lat=40.748817, popup="The Starting Point")
-                addMarkers(data = sightsRanked(),popup = ~NAME,group = "Views")%>%
+                addMarkers(data = sightsRanked(),icon=destiIcon,popup = ~NAME,group = "Views")%>%
                 addPolylines(data = route_re(), fillOpacity = 0.5,lng = ~lon, lat = ~lat, group = "Routes")%>%
                 addPolylines(data = sightsRanked(), lng = ~lng, lat = ~lat, group = "Ranks") %>%
                 

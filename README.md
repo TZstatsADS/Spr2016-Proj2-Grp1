@@ -3,6 +3,7 @@ by Group 1
 Yi Liu, Yuchen Shi, Ziyue (Zac) Wu, Jingying Zhou, Yibo Zhu
 
 ## An Overview of Our Product
+![click here](https://ziyuewu.shinyapps.io/LazyPlanet/)
 ### Whats and Whys
    Planning a trip can sometimes be as exhausting as developing a R Shiny App. And this is specially true when you are visiting New York, a city that has so much to offer that Even New Yorkers can sometimes have a hard time deciding where to go for a weekend. Therefore, we developed a Shiny App that brings your destinations only a few clicks way from you.   
 ### A Snap Shot
